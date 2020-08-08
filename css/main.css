@@ -3,6 +3,10 @@
 }
 
 
+nav {
+    margin-bottom: 10px;
+}
+
 ul.navbar-nav li a, ul.navbar-nav li a:visited {
     color: #FACF46 !important;
     font-weight: bold;
@@ -19,8 +23,8 @@ ul.navbar-nav li.active a {
     font-weight: bold;
 }
 
-img.change {
-	width: 90%;
+.carousel {
+    margin-bottom: 75px;
 }
 
 img.smaller {
@@ -34,3 +38,16 @@ img.smaller {
 	width: 50%;
 }
 
+.logo {
+    margin-top: 10px;
+    width: 400px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #1f1f2e;
+    text-align: center;
+  }
