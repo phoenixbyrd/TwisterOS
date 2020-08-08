@@ -1,0 +1,36 @@
+.twister {
+	background-color: #2D2C8A;
+}
+
+
+ul.navbar-nav li a, ul.navbar-nav li a:visited {
+    color: #FACF46 !important;
+    font-weight: bold;
+}
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
+    color: #FACF46 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ul.navbar-nav li.active a {
+    color: #FACF46 !important;
+    font-weight: bold;
+}
+
+img.change {
+	width: 90%;
+}
+
+img.smaller {
+	width: 90%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
