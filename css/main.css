@@ -2,7 +2,6 @@
 	background-color: #2D2C8A;
 }
 
-
 nav {
     margin-bottom: 10px;
 }
@@ -22,6 +21,10 @@ ul.navbar-nav li.active a {
     color: #FACF46 !important;
     font-weight: bold;
 }
+
+a, a:hover, a:visited {
+    color: #FACF46;
+} 
 
 .carousel {
     margin-bottom: 75px;
@@ -51,3 +54,54 @@ img.smaller {
     color: #1f1f2e;
     text-align: center;
   }
+
+  .footer, .span {
+      color: #1f1f2e;
+  }
+
+  /* CSS for FAQ page */
+
+.top {
+    margin-top: 100px;
+}
+
+  h2 {
+    font-family: Arial, Verdana;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #2D2C8A;
+    padding: 0;
+    color: antiquewhite !important;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: bold;
+    font-size: 1.5rem;
+    color:  antiquewhite !important;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f1f2e;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+    color: antiquewhite !important;
+}

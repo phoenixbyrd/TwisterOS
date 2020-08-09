@@ -3,7 +3,8 @@
 	<head>
 		<!-- Required Meta Tags -->
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<!-- Main CSS -->
@@ -37,10 +38,81 @@
             </ul>
             </div>
           </nav>
-          
+
+
+          <section class="accordion-section clearfix mt-3 faq" aria-label="Question Accordions">
+            <div class="container faq top">
+            
+              <h2>Frequently Asked Questions </h2>
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                  What Is The Default Password?
+                  </a>
+                </h3>
+                </div>
+                <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                <div class="panel-body px-3 mb-4">
+                  <p>The default password is raspberry</p>
+                </div>
+                </div>
+              </div>
+              
+              <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  Will This Run My Pi 3B+ ?
+                  </a>
+                </h3>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                <div class="panel-body px-3 mb-4">
+                  <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and build around the Pi4 and you may experience issues installing on the 3B+.</p>
+                </div>
+                </div>
+              </div>
+              
+              <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                  How Do I Change The Password
+                  </a>
+                </h3>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                <div class="panel-body px-3 mb-4">
+                  <p>Open Terminal and type passwd - follow the prompts to change your password.</p>
+                </div>
+                </div>
+              </div>
+              
+              <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  Is Twister OS 64bit?
+                  </a>
+                </h3>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                <div class="panel-body px-3 mb-4">
+                  <p>Twister OS is a 32bit Operating System.</p>
+                </div>
+                </div>
+              </div>
+              </div>
+            
+            </div>
+          </section>
+
+
 		<footer class="footer center">
 			<div class="container">
-			  <span>Twister OS &copy 2020</span>
+			  <span>Twister OS &copy 2020 | <a href="https://discord.gg/Fh8sjmu">Join us on Discord!</a></span>
 			</div>
 		</footer>
 
@@ -48,5 +120,7 @@
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
 </html>
