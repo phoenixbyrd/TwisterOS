@@ -89,6 +89,7 @@ img.smaller {
     font-style: bold;
     font-size: 1.5rem;
     color:  antiquewhite !important;
+    text-decoration: none;
 }
 .accordion-section .panel-default .panel-title a:after {
     font-family: 'FontAwesome';
@@ -155,10 +156,6 @@ h6 {
     float: left;
 }
 
-.version {
-    font-weight: bold;
-}
-
 .downloads ul {
     margin-left: -200px;
     float: left;
@@ -166,6 +163,7 @@ h6 {
 
 .version {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .notes {
@@ -187,7 +185,6 @@ h6 {
 }
 
 .patch .btn {
-    display: inline;
     width: 250px !important; 
     margin-right: 10px;
     margin-bottom: 25px;
@@ -204,4 +201,13 @@ h6 {
     margin-left: 30%;
     margin-bottom: 40px;
     width: 80%;
+}
+
+.empty {
+    text-decoration: none;
+}
+
+.patch-notes {
+    margin-top:  15%;
+    margin-left: -600px;
 }
