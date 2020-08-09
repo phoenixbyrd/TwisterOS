@@ -152,9 +152,7 @@ h6 {
 }
 
 .downloads p {
-    display: inline;
     float: left;
-
 }
 
 .version {
@@ -166,9 +164,8 @@ h6 {
     float: left;
 }
 
-.patch {
+.version {
     margin-top: 10px;
-    text-decoration: underline;
 }
 
 .notes {
@@ -181,4 +178,30 @@ h6 {
 
 .moveup {
     margin-top: -50px;
+}
+
+.patch {
+    padding-top: 25%;
+    margin-left: 15%;
+    width: 80%;
+}
+
+.patch .btn {
+    display: inline;
+    width: 250px !important; 
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.center-patch {
+    margin-left: 32%;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.upgrade {
+    margin-top: -25px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    width: 80%;
 }
