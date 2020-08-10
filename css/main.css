@@ -54,7 +54,11 @@ footer a, a:hover {
 }
 
 .footer-download {
-    margin-top: 20%;
+    margin-top: 25%;
+}
+
+.footer-index {
+    margin-top: 1.5%;
 }
 
 .btn {
@@ -74,7 +78,7 @@ footer a, a:hover {
 }
 
 .downloads {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .right {
