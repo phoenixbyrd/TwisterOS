@@ -1,12 +1,25 @@
+@media screen and (max-width: 600px) {
+    .mobilehidden {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
 body {
     background-color: #2D2C8A;
-    color: #FACF46 !important;
+    color: antiquewhite !important;
 }
 
 ul.navbar-nav li a, ul.navbar-nav li a:visited {
     color: #FACF46 !important;
     font-weight: bold;
     font-size: 20px;
+    color: #FACF46 !important;
+    display: inline;
 }
 
 ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
@@ -30,13 +43,117 @@ ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
     margin-bottom: 1%;
 }
 
+.logo > img {
+    width: 90%;
+}
 
+
+
+footer a, a:hover {
+    font-weight: bold;
+    color: #FACF46;
+    text-decoration: none;
+}
 
 .footer {
-    position: fixed;
+
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     color: #1f1f2e;
     text-align: center;
   }
+
+  .btn {
+    background-color: #FACF46;
+    border: none; 
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+
+  }
+
+.btn a {
+    color: #1f1f2e;
+    text-decoration: none;
+}
+
+.downloads {
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+
+.right {
+    float: right;
+    list-style-type: none;
+}
+
+.center-patch {
+	margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.center-patch > h3 {
+    margin-left: 28%;
+}
+
+.center-patch > p {
+    margin-left: 25%;
+}
+
+.hideme {
+    display: none;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #2D2C8A;
+    padding: 0;
+    color: antiquewhite !important;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: bold;
+    font-size: 1.5rem;
+    color:  antiquewhite !important;
+    text-decoration: none;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f1f2e;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+    color: antiquewhite !important;
+}
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.faq {
+    margin-bottom: 10%;
+}
