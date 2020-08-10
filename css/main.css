@@ -53,15 +53,9 @@ footer a, a:hover {
     text-decoration: none;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 10px;
-    width: 100%;
-    color: #1f1f2e;
-    text-align: center;
-
-  }
+.footer-download {
+    margin-top: 20%;
+}
 
 .btn {
     background-color: #FACF46;
@@ -81,7 +75,6 @@ footer a, a:hover {
 
 .downloads {
     margin-top: 10%;
-    margin-bottom: 5%;
 }
 
 .right {
