@@ -1,0 +1,42 @@
+body {
+    background-color: #2D2C8A;
+    color: #FACF46 !important;
+}
+
+ul.navbar-nav li a, ul.navbar-nav li a:visited {
+    color: #FACF46 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
+    color: #FACF46 !important;
+    font-weight: bold;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.carousel {
+    margin-top: 5%;
+}
+
+.howpi {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #1f1f2e;
+    text-align: center;
+  }
