@@ -47,9 +47,6 @@ ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
     width: 90%;
 }
 
-
-
-
 footer a, a:hover {
     font-weight: bold;
     color: #FACF46;
@@ -57,16 +54,16 @@ footer a, a:hover {
 }
 
 .footer {
-
+    position: fixed;
     left: 0;
     bottom: 10px;
     width: 100%;
     color: #1f1f2e;
     text-align: center;
-    margin-top: 20px;
+
   }
 
-  .btn {
+.btn {
     background-color: #FACF46;
     border: none; 
     padding: 12px 30px;
@@ -83,7 +80,7 @@ footer a, a:hover {
 }
 
 .downloads {
-    margin-top: 50px;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
