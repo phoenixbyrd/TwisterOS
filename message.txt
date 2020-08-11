@@ -1,0 +1,54 @@
+Version 1.5.2 patch notes:
+- Yet more Wine x86 fixes
+- Added Twister OS version identifier script
+
+Version 1.5 patch notes:
+- Added Raspbian XP theme
+- Added new default Twister OS theme
+- Fixed an issue where DynamicWallpaper would not display correct wallpaper on boot
+- Improved Wine x86 compatibility
+- Added PlayOnLinux
+- Updated README
+
+Version 1.4.1 patch notes:
+- Improved ThemeTwister to support additional themes
+- Added Raspbian 95 theme
+- Added iRaspbian Dark theme
+- Made improvements to Raspbian X/Nighthawk themes, added Raspbian X (light) theme to ThemeTwister
+- Made improvements to Discord web "app"
+- Fixed Steam menu shortcut
+- Upgraded LightPad to current version
+- Improved Kodi support
+- Added DynamicWallpaper application
+- Upgraded CommanderPi to current version
+- Added support and binaries for Wine x86 (beta)
+- Added "SkiFree" Windows game
+- Added Audacious music player app with WinAmp theme
+- Added updated Mesa and Vulkan driver (beta)
+- Added PiKISS application
+- Updated README
+
+Version 1.3 patch notes:
+- Modified login screen themes to accommodate long user names
+- Fixed a font issue on the iRaspbian login screen theme
+- Added Discord web "app" for Twister OS support
+- Updated application icons for Box86
+- Updated README
+- Fixed "libc.so.6" error message when launching Steam and added support for certain Valve games
+- Added an "Exit Steam" app to close Steam if it is still running after exiting the program
+- Replaced Gimpshop Reloaded with PhotoGIMP v.2020
+- Added Neofetch application and associated icon/shortcut to quickly view system information
+
+Version 1.2 patch notes:
+- Fixed an issue where the "Contacts" app would not appear in the application menu
+- Replaced the login screen for the Nighthawk theme with a new one that can scale to different display resolutions
+- Updated the login screen for the iRaspbian theme
+- Replaced the Slingscold application launcher with LightPad, which fixes an issue with launching terminal-based apps
+- Updated the README
+
+Version 1.1 patch notes:
+- Fixed an issue where certain application icons would change or become hidden after Raspberry Pi OS updates
+- Updated Commander Pi to version 0.4.1
+- Fixed an issue where the display would not reinitialize after screen blanking was invoked
+- Made minor improvements to the default theme restoration mechanism
+- Fixed an issue where the bluetooth icon would occasionally not appear in the system tray upon boot
