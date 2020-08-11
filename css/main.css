@@ -9,6 +9,33 @@
     }
   }
 
+  @media screen and (max-width: 600px) {
+    .btn.current {
+        margin-left: 30%;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    h4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .ver-info {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+  }
+
 body {
     background-color: #2D2C8A;
     color: antiquewhite !important;
