@@ -50,6 +50,7 @@ body {
     color: antiquewhite !important;
 }
 
+
 ul.navbar-nav li a, ul.navbar-nav li a:visited {
     color: #FACF46 !important;
     font-weight: bold;
@@ -133,8 +134,8 @@ td a {
     color: #FACF46;
 }
 
-.downloads {
-    margin-top: 5%;
+.footer-download {
+    margin-top: 1.5%;
 }
 
 .ver-info {
