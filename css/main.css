@@ -27,6 +27,20 @@ ul.navbar-nav li a:hover, ul.navbar-nav li a:active {
     font-weight: bold;
 }
 
+h4 {
+    font-weight: bold;
+}
+
+.btn.current {
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+button {
+    margin-right: 40px;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
@@ -53,9 +67,7 @@ footer a, a:hover {
     text-decoration: none;
 }
 
-.footer-download {
-    margin-top: 25%;
-}
+
 
 .footer-index {
     margin-top: 1.5%;
@@ -65,10 +77,9 @@ footer a, a:hover {
     background-color: #FACF46;
     border: none; 
     padding: 12px 30px;
-    margin-bottom: 20px;
     cursor: pointer;
     font-size: 20px;
-    width: 200px;
+    width: 80%;
 
   }
 
@@ -77,8 +88,34 @@ footer a, a:hover {
     text-decoration: none;
 }
 
+td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td a {
+    color: #FACF46;
+}
+
 .downloads {
     margin-top: 5%;
+}
+
+.ver-info {
+    margin-top: 1%;
+    width: 50%;
+}
+
+main {
+    margin-top: 2%;
+}
+
+table {
+    margin-top: 5%;
+}
+
+.current-release {
+    margin-top: 4%;
 }
 
 .right {
@@ -157,4 +194,18 @@ h2 {
 .panel-body a {
     color: #FACF46;
     font-weight: bold;
+}
+
+.modal-content {
+    margin-top: 10%;
+    background-color: #2D2C8A !important;
+}
+
+.pop-title {
+    margin-bottom: 50px;
+}
+
+.pop-footer button {
+    width: 50%;
+    margin-bottom: 10px;
 }
