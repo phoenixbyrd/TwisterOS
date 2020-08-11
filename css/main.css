@@ -153,3 +153,8 @@ h2 {
 .faq {
     margin-bottom: 5%;
 }
+
+.panel-body a {
+    color: #FACF46;
+    font-weight: bold;
+}
