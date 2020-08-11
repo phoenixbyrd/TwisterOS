@@ -5,37 +5,53 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--CSS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
-        <!--Title-->
-        <title>Twister OS</title>
-        <!--Favicon-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">        
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.png">
+        <title>Twister OS</title>
     </head>
     <body>
-        <!--Navigation-->
+
+        <!--Navbar-->
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <span class="navbar-brand"><img src="images/TwisterOSLogo.png" width="60%"></span>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link disabled" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="downloads.html">Downloads</a>
-                    </li>
-                    <li class="nav-item hideme">
-                        <a class="nav-link mobilehidden" href="#">Tutorials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mobilehidden" href="faq.html">FAQ</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <!-- Navbar brand -->
+            <img src="images/TwisterOSLogo.png" class="img-fluid" width="40%">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="downloads.html">DOWNLOADS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link mobilehidden" href="faq.html">FAQ</a>
+                </li>
+            </ul>
+            <!-- Collapsible content -->  
+        </nav>
         </div>
+        <!--/.Navbar-->
+
         <!--Content-->
-        <div class="container center">
+        <!--Mobile Only-->
+        <div class="mobileShow">
+            <img src="images/twisteros.png" class="img-fluid">
+                <div class="dltoday">
+                    <div class="center mobile">Download Twister OS</div>
+                    <div class="center mobile">Available for Raspberry Pi 4</div>
+                </div>
+        </div>
+        <!--Carousel-->
+        <div class="container center mobilehidden">
             <div class="row">
                 <div class="col-lg-12">
                     <!--Carousel-->
@@ -85,33 +101,38 @@
                 </div>
             </div>
         </div>
+
         <!--How Do You Pi?-->
         <div class="container">
             <img src="images/HowDoYouPi.png" alt="How Do You Pi?" class="center howpi">
         </div>
+
         <!--Partner Logo's-->
 		<div class="container mobilehidden">
 			<div class="row">
-				<div class="col-sm-3 logo center">
+				<div class="col-sm-4 logo center">
 					<img src="images/Box86Logo.png" alt="Box86 Logo">
 				</div>
-				<div class="col-sm-3 logo center">
+				<div class="col-sm-4 logo center">
 					<img src="images/PiLabs.png" alt="Pi Labs Logo">
 				</div>
-				<div class="col-sm-3 logo center">
+				<div class="col-sm-4 logo center">
 					<img src="images/CPiTitle.png" alt="Commander PI Logo">
 				</div>
 			</div>
         </div>
+
+        <!--/.Content-->
+
         <!-- Footer -->
-        <footer class="page-footer font-small footer-index">
-			<div class="footer-copyright text-center py-3">Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu">Join us on Discord!</a>
-			</div>
-		  </footer>
-		  <!-- Footer -->
+        <footer class="page-footer">
+            <div class="text-center py-3">
+                <p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu">Join us on Discord!</a></p>
+            </div>
+        </footer>
+        <!--/.Footer -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
     </body>
-    <!--JavaScript-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>

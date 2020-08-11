@@ -1,0 +1,259 @@
+/* Target Mobile */
+
+@media screen and (max-width: 600px) {
+    
+    .mobilehidden {
+      visibility: hidden;
+      clear: both;
+      display: none;
+    }
+
+    nav > img {
+        width: 80% !important;
+        margin-bottom: 20px;
+        margin-right: unset !important;
+    }
+
+}
+
+
+.mobileShow {display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ 
+    .mobileShow {
+        display: inline;
+    }
+    .mobileshow, img {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 5% !important;
+        width: 90% !important;
+        margin-bottom: 10% !important;
+    }
+    .mobile {
+        margin-left: 20% !important;
+        width: 100% !important;
+    }
+
+    .howpi {
+        margin-top: -15% !important;
+    }
+
+    nav > img {
+        width: 60% !important;
+        margin-left: 5% !important;
+        margin-right: 1% !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .btn.current {
+        margin-left: 30%;
+        margin-bottom: 20px;
+    }
+
+    .navbar-toggler {
+        width: unset !important;
+    }
+
+    h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    h4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .ver-info {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+    button {
+        margin-left: unset !important;
+        width: 100% !important;
+    }
+
+    li .nav-item {
+        font-size: 50px;
+    }
+
+  }
+
+/***************************************************************************/
+
+/* CSS - All Pages*/
+
+html, body {
+    height: 100% !important;
+    background-color: #2D2C8A !important;
+    color: antiquewhite !important;
+    line-height: 1.8 !important;
+}
+
+nav > img {
+    margin-right: 45%;
+    margin-left: -5%;
+}
+
+a {
+    color:  #FACF46 !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+
+
+/* CSS - Index Page */
+
+.center { /* Properly Display Carousel on the Page */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.logo > img {
+    width: 80%;
+}
+
+/* CSS - Downloads Page */
+
+.btn {
+    background-color: #FACF46;
+    border: none; 
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 80%;
+
+  }
+
+.btn a {
+    color: #1f1f2e;
+    text-decoration: none;
+}
+
+button {
+    margin-right: 40px;
+}
+
+td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td a {
+    color: #FACF46;
+}
+
+.ver-info {
+    margin-top: 1%;
+    width: 50%;
+}
+
+main {
+    margin-top: 1.5%;
+    margin-left: 4%;
+}
+
+table {
+    margin-top: 2%;
+}
+
+.current-release {
+    margin-top: 4% !important;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.btn.current {
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+button {
+    margin-right: 40px;
+}
+
+.modal-content {
+    margin-top: 10%;
+    background-color: #2D2C8A !important;
+}
+
+.pop-title {
+    margin-bottom: 50px;
+}
+
+.pop-footer button {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* CSS - FAQ Page */
+
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    text-transform: uppercase;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #2D2C8A;
+    padding: 0;
+    color: antiquewhite !important;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: bold;
+    font-size: 1.5rem;
+    color:  antiquewhite !important;
+    text-decoration: none;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f1f2e;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+    color: antiquewhite !important;
+}
+
+.footer-faq {
+    margin-top: 9.5%;
+}
+
