@@ -19,19 +19,28 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 100%;
     }
 
     h4 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
 
     .ver-info {
         width: 100% !important;
         margin-top: 50px !important;
+    }
+
+    button {
+        margin-left: unset !important;
+        width: 100% !important;
+    }
+
+    li .nav-item {
+        font-size: 50px;
     }
 
   }
