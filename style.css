@@ -91,6 +91,20 @@
 
   }
 
+  @media screen and (min-width: 2560px) {
+    .center { /* Properly Display Carousel on ultrawide monitor */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80% !important;
+        margin-top: 2%;
+    }
+
+    .center, img {
+        margin-left: 7%;
+    }
+  }
+
 /***************************************************************************/
 
 /* CSS - All Pages*/
