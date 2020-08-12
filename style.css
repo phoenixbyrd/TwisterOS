@@ -1,6 +1,6 @@
 /* Target Mobile */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 761px) {
     
     .mobilehidden {
       visibility: hidden;
@@ -22,7 +22,7 @@
 /* Smartphone Portrait and Landscape */
 @media only screen
   and (min-device-width : 320px)
-  and (max-device-width : 480px){ 
+  and (max-device-width : 761px){ 
     .mobileShow {
         display: inline;
     }
