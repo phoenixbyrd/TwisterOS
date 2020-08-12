@@ -1,79 +1,95 @@
 /* Target Mobile */
 
-.mobileShow {display: none;}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-    /* Styles */
-
+@media screen and (max-width: 812px){
+    
     .mobilehidden {
-        visibility: hidden;
-        clear: both;
-        display: none;
-      }
-  
-      nav > img {
-          width: 50% !important;
-          margin-bottom: 20px;
-          margin-right: 10% !important;
-      }
-
-          .mobileShow {
-            display: inline;
-        }
-
-        .mobileshow, img {
-            display: block;
-            margin-left: auto !important;
-            margin-right: auto !important;
-            margin-top: 5% !important;
-            width: 90% !important;
-            margin-bottom: 5% !important;
-        }
-
-        .howpi {
-            margin-bottom: 5% !important;
-        }
-
-        button {
-            margin-left: unset !important;
-            width: 100% !important;
-        }
-
-        .btn.current {
-            margin-left: 30%;
-            margin-bottom: 20px;
-        }
-    
-        .navbar-toggler {
-            width: unset !important;
-        }
-
-        .ver-info {
-            width: 100% !important;
-            margin-top: 50px !important;
-        }
-    
+      visibility: hidden;
+      clear: both;
+      display: none;
     }
 
-    /* Target Landscap Mode */
+    nav > img {
+        width: 80% !important;
+        margin-bottom: 20px;
+        margin-right: unset !important;
+    }
 
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
 
-        /* Styles */
 
-        nav > img {
-            width: 50% !important;
-            margin-bottom: 20px;
-            margin-right: 10% !important;
-            margin-left: 10% !important;
-        }
+.mobileShow {display: none;}
 
-        .landscape {
-            margin-right: 20%;
-        }
-        
-        }
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 812px){ 
+    .mobileShow {
+        display: inline;
+    }
+    .mobileshow, img {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 5% !important;
+        width: 90% !important;
+        margin-bottom: 10% !important;
+    }
+    .mobile {
+        margin-left: 20% !important;
+        width: 100% !important;
+    }
+
+    .howpi {
+        margin-top: -15% !important;
+    }
+
+    nav > img {
+        width: 60% !important;
+        margin-left: 5% !important;
+        margin-right: 1% !important;
+    }
+
+}
+
+@media screen and (max-width: 812px){
+    .btn.current {
+        margin-left: 30%;
+        margin-bottom: 20px;
+    }
+
+    .navbar-toggler {
+        width: unset !important;
+    }
+
+    h3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    h4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .ver-info {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+    button {
+        margin-left: unset !important;
+        width: 100% !important;
+    }
+
+    li .nav-item {
+        font-size: 50px;
+    }
+
+  }
 
   @media screen and (min-width: 2560px) {
     .center { /* Properly Display Carousel on ultrawide monitor */
