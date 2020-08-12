@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Required Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--CSS-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">        
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.png">
+        <title>Twister OS</title>
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <!-- Navbar brand -->
+            <img src="images/TwisterOSLogo.png" class="img-fluid" width="40%">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="downloads.html">DOWNLOADS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+            <!-- Collapsible content -->  
+        </nav>
+        </div>
+        <!--/.Navbar-->
+
+        <!--Content-->
+        <div class="mobilehidden faq">
+            <section class="accordion-section clearfix mt-3 faq" aria-label="Question Accordions">
+                <div class="container faq">
+                
+                  <h2>Frequently Asked Questions </h2>
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                      What Is The Default Password?
+                      </a>
+                    </h3>
+                    </div>
+                    <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                    <div class="panel-body px-3 mb-4">
+                      <p>The default password is raspberry</p>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                      Will This Run My Pi 3B+ ?
+                      </a>
+                    </h3>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                    <div class="panel-body px-3 mb-4">
+                      <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and build around the Pi4 and you may experience issues installing on the 3B+.</p>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                      How Do I Change The Password
+                      </a>
+                    </h3>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body px-3 mb-4">
+                      <p>Open Terminal and type passwd - follow the prompts to change your password.</p>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                      Is Twister OS 64bit?
+                      </a>
+                    </h3>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body px-3 mb-4">
+                      <p>Twister OS is a 32bit Operating System.</p>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+
+
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
+                    <h3 class="panel-title">
+                      <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                      How do I patch Twister OS?
+                      </a>
+                    </h3>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                    <div class="panel-body px-3 mb-4">
+                      <ul>
+                        <li>Download the patch you need</li>
+                        <li>Open File Manager and navigate to Downloads</li>
+                        <li>Right click on the patch zip file and choose extract here</li>
+                        <li>Open the patch folder that was just created</li>
+                        <li>Now right click a blank spot inside the folder and choose open terminal here</li>
+                        <li>Once terminal opens type ./ followed by the .sh file name inside the current directory</li>
+                        <li>Quick trick, you can type the first character and hit the tab key to autocomplete the filename.</li>
+                        <li>Hit the ENTER key to begin the patch process</li>
+                      </ul>
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+    
+
+                
+                </div>
+              </section>
+            </div>
+        <!--/.Content-->
+
+        <!-- Footer -->
+        <footer class="page-footer footer-faq">
+            <div class="text-center py-3">
+                <p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu">Join us on Discord!</a></p>
+            </div>
+        </footer>
+        <!--/.Footer -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    </body>
+</html>
