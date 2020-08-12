@@ -22,6 +22,11 @@
             display: inline;
         }
 
+        .mobile {
+            margin-top: 10%;
+            margin-bottom: -30%;
+        }
+
         .mobileshow, img {
             display: block;
             margin-left: auto !important;
