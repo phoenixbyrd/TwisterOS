@@ -106,9 +106,15 @@ html, body {
     line-height: 1.8 !important;
 }
 
-nav > img {
-    margin-right: 50%;
-    margin-left: -15%;
+nav {
+    width: 90%;
+    margin: auto;
+    text-align: right !important;
+}
+
+nav img {
+    float: left;
+    width: 25%;
 }
 
 a {
@@ -122,6 +128,23 @@ a:hover {
     opacity: 0.8;
 }
 
+main {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer p{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #2D2C8B;
+}
 
 /* CSS - Index Page */
 
@@ -276,6 +299,6 @@ h2 {
 
     width: 100%;
     margin-bottom: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
