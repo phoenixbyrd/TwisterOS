@@ -1,1 +1,1 @@
-Twister OS version 1.5.test
+Twister OS version 1.5.2
