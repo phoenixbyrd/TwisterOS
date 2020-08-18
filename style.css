@@ -1,97 +1,94 @@
 /* Target Mobile */
 
-.mobileShow {display: none;}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-    /* Styles */
-
+@media screen and (max-width: 600px) {
+    
     .mobilehidden {
-        visibility: hidden;
-        clear: both;
-        display: none;
-      }
-  
-      nav > img {
-          width: 50% !important;
-          margin-bottom: 20px;
-          margin-right: 10% !important;
-      }
-
-          .mobileShow {
-            display: inline;
-        }
-
-        .mobile {
-            margin-top: 10%;
-            margin-bottom: -30%;
-        }
-
-        .mobileshow, img {
-            display: block;
-            margin-left: auto !important;
-            margin-right: auto !important;
-            margin-top: 5% !important;
-            width: 90% !important;
-            margin-bottom: 5% !important;
-        }
-
-        .howpi {
-            margin-bottom: 5% !important;
-        }
-
-        button {
-            margin-left: unset !important;
-            width: 100% !important;
-        }
-
-        .btn.current {
-            margin-left: 30%;
-            margin-bottom: 20px;
-        }
-    
-        .navbar-toggler {
-            width: unset !important;
-        }
-
-        .ver-info {
-            width: 100% !important;
-            margin-top: 50px !important;
-        }
-    
+      visibility: hidden;
+      clear: both;
+      display: none;
     }
 
-    /* Target Landscap Mode */
+    nav > img {
+        width: 80% !important;
+        margin-bottom: 20px;
+        margin-right: unset !important;
+    }
 
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
 
-        /* Styles */
 
-        nav > img {
-            width: 50% !important;
-            margin-bottom: 20px;
-            margin-right: 10% !important;
-            margin-left: 10% !important;
-        }
+.mobileShow {display: none;}
 
-        .landscape {
-            margin-right: 20%;
-        }
-        
-        }
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ 
+    .mobileShow {
+        display: inline;
+    }
+    .mobileshow, img {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 5% !important;
+        width: 90% !important;
+        margin-bottom: 10% !important;
+    }
+    .mobile {
+        margin-left: 20% !important;
+        width: 100% !important;
+    }
 
-  @media screen and (min-width: 2560px) {
-    .center { /* Properly Display Carousel on ultrawide monitor */
+    .howpi {
+        margin-top: -15% !important;
+    }
+
+    nav > img {
+        width: 60% !important;
+        margin-left: 5% !important;
+        margin-right: 1% !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .btn.current {
+        margin-left: 30%;
+        margin-bottom: 20px;
+    }
+
+    .navbar-toggler {
+        width: unset !important;
+    }
+
+    h3 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80% !important;
-        margin-top: 2%;
+        width: 100%;
     }
 
-    .center, img {
-        margin-left: 7%;
+    h4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
+
+    .ver-info {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+    button {
+        margin-left: unset !important;
+        width: 100% !important;
+    }
+
+    li .nav-item {
+        font-size: 50px;
+    }
+
   }
 
 /***************************************************************************/
@@ -99,27 +96,15 @@
 /* CSS - All Pages*/
 
 html, body {
-    
-    
+    height: 100% !important;
     background-color: #2D2C8A !important;
     color: antiquewhite !important;
     line-height: 1.8 !important;
 }
 
-nav {
-    width: 90%;
-    margin: auto;
-}
-
-ul li {
-   
-
-}
-
-nav img {
-    float: left;
-    width: 25%;
-    margin-right: 50%;
+nav > img {
+    margin-right: 35%;
+    margin-left: -5%;
 }
 
 a {
@@ -127,16 +112,6 @@ a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none !important;
-}
-
-a:hover {
-    opacity: 0.8;
-}
-
-main {
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
 }
 
 footer p{
@@ -150,6 +125,7 @@ footer p{
     text-align: center;
     background-color: #2D2C8B;
 }
+
 
 /* CSS - Index Page */
 
@@ -292,18 +268,19 @@ h2 {
     margin-top: 9.5%;
 }
 
-/* CSS - About Page */
+/* About CSS */
 
 .about {
     font-family: Arial, Verdana;
     font-weight: 600;
-    
     color: antiquewhite;
     text-transform: uppercase;
     display: block;
-
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
+div p {
+    text-align: justify;
+}
