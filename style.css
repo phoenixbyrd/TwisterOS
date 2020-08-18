@@ -99,8 +99,8 @@
 /* CSS - All Pages*/
 
 html, body {
-    height: 100% !important;
-    width: 100% !important;
+    
+    
     background-color: #2D2C8A !important;
     color: antiquewhite !important;
     line-height: 1.8 !important;
@@ -109,12 +109,17 @@ html, body {
 nav {
     width: 90%;
     margin: auto;
-    text-align: right !important;
+}
+
+ul li {
+   
+
 }
 
 nav img {
     float: left;
     width: 25%;
+    margin-right: 50%;
 }
 
 a {
