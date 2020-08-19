@@ -81,7 +81,7 @@ fi
 VERSIONCURRENT=$(twistver)
 
 if [ "$VERSIONCURRENT" = "Twister OS version 1.5.2" ]; then
-    read -p "You appear to be running Twister OS version 1.5.2. Is this correct? Press [Enter] if yes, or [CTRL+C] if no"
+    read -p "You appear to be running Twister OS version 1.5.2. Is this correct? Press [Enter] if yes, or [CTRL+C] if no\nThis version has a new feature, twistver, run twistver in terminal to check your version if you are unsure."
        	#echo 'Downloading 1.6.0 Patch...'
 	#wget
 	#echo 'Extracting .zip...'
