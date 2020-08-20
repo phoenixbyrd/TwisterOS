@@ -96,10 +96,14 @@
 /* CSS - All Pages*/
 
 html, body {
-    height: 100% !important;
+    
     background-color: #2D2C8A !important;
     color: antiquewhite !important;
     line-height: 1.8 !important;
+}
+
+main {
+    height: 100%;
 }
 
 nav > img {
@@ -116,7 +120,7 @@ a {
 
 footer p{
     display: block;
-    position: fixed;
+    position: relative;
     bottom: 0;
     margin: auto;
     width: 100%;
