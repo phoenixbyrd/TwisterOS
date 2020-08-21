@@ -8,9 +8,11 @@ if [ ! -f "/usr/bin/xscreensaver" ]; then
 	unzip *.zip
 	rm *.zip
 	clear
-	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
-	chmod +x *patchinstall.sh
-	./*patchinstall.sh
+    	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    	echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    	sleep 10
+    	chmod +x *patchinstall.sh
+    	./*patchinstall.sh
 fi
 
 if [ ! -f "/usr/bin/com.github.libredeb.lightpad" ]; then
@@ -20,10 +22,12 @@ if [ ! -f "/usr/bin/com.github.libredeb.lightpad" ]; then
 	echo 'Extracting .zip...'
 	unzip *.zip
 	rm *.zip
-	clear
-	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
-	chmod +x *patchinstall.sh
-	./*patchinstall.sh
+    	clear
+    	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    	echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    	sleep 10
+    	chmod +x *patchinstall.sh
+    	./*patchinstall.sh
 fi
 
 if [ ! -f "/home/pi/WebApps/Discord/discord.sh" ]; then
@@ -33,10 +37,12 @@ if [ ! -f "/home/pi/WebApps/Discord/discord.sh" ]; then
 	echo 'Extracting .zip...'
 	unzip *.zip
 	rm *.zip
-	clear
-	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
-	chmod +x *patchinstall.sh
-	./*patchinstall.sh
+    	clear
+    	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    	echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    	sleep 10
+    	chmod +x *patchinstall.sh
+    	./*patchinstall.sh
 fi
 
 if [ ! -f "/usr/share/ThemeSwitcher/Raspbian95/splash.png" ]; then
@@ -59,10 +65,12 @@ if [ ! -f "/usr/share/ThemeSwitcher/RaspbianXP/splash.png" ]; then
 	echo 'Extracting .zip...'
 	unzip *.zip
 	rm *.zip
-	clear
-	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
-	chmod +x *patchinstall.sh
-	./*patchinstall.sh
+    	clear
+    	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    	echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    	sleep 10
+    	chmod +x *patchinstall.sh
+    	./*patchinstall.sh
 fi
 
 if [ ! -f "/usr/local/bin/twistver" ]; then
@@ -72,10 +80,12 @@ if [ ! -f "/usr/local/bin/twistver" ]; then
 	echo 'Extracting .zip...'
 	unzip *.zip
 	rm *.zip
-	clear
-	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
-	chmod +x *patchinstall.sh
-	./*patchinstall.sh
+    	clear
+    	echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    	echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    	sleep 10
+    	chmod +x *patchinstall.sh
+    	./*patchinstall.sh
 fi
 
 VERSIONCURRENT=$(twistver)
@@ -87,9 +97,11 @@ if [ "$VERSIONCURRENT" = "Twister OS version 1.5.2" ]; then
 	#echo 'Extracting .zip...'
 	#unzip *.zip
 	#rm *.zip
-	#clear
-	#echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
-	#chmod +x *patchinstall.sh
-	#./*patchinstall.sh
+    	#clear
+    	#echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    	#echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    	#sleep 10
+    	#chmod +x *patchinstall.sh
+    	#./*patchinstall.sh
 fi
 }
