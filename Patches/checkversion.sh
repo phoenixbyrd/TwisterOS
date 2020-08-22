@@ -98,7 +98,6 @@ if [ "$VERSIONCURRENT" = "Twister OS version 1.5.2" ]; then
 	unzip *.zip
 	rm *.zip
     clear
-    echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
     echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
     sleep 10
     chmod +x *patchinstall.sh
