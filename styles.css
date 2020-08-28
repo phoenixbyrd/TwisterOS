@@ -64,16 +64,13 @@ main {
 }
 
 .download {
-  margin-right: -150px !important;
+  margin-right: -200px !important;
 }
 
 h2 {
-  margin-left: 150px;
+  margin-left: 80px;
 }
 
-.x1024 {
-  margin-left: 250px !important;
-}
 
 }
 
