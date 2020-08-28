@@ -1,90 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!--Required Meta Tags-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--CSS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">        
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="favicon.png">
-        <title>Twister OS</title>
-    </head>
-    <body>
-
-        <!--Navbar-->
-        <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <!-- Navbar brand -->
-            <img src="images/TwisterOSLogo.png" class="img-fluid" width="40%">
-            <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="downloads.html">DOWNLOADS</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="about.html">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link mobilehidden" href="faq.html">FAQ</a>
-                </li>
-            <!-- Collapsible content -->  
-        </nav>
-        </div>
-        <!--/.Navbar-->
-
-        <!--Content-->
-        <main>
-            <div class="container">
-                <div class="row">
-                  <div class="col-lg current-release">
-                    <p><h3>Current Release</h3></p>
-                    <p><h4>Twister OS 1.6</h4></p>
-                  </div>
-                  <div class="col-lg current-release">
-                    <div class="container">          
-                        <a href="https://archive.org/download/twister-osv-1-6.img/TwisterOSv1-6.img.xz"><button class="btn current"><i class="fa fa-download"></i> Download</button></a>
-                    </div>
-                    <div class="container">            
-                        <a href="https://archive.org/download/twister-osv-1-6.img/twister-osv-1-6.img_archive.torrent"><button class="btn current"><i class="fa fa-download"></i> Torrent</button></a>            
-                        <p style="text-align: right; margin-right: 12%;"><a href="https://archive.org/details/@phoenixbyrd"><span style="font-size: 15px;">ARCHIVE</span></a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-                <div class="container mobilehidden">
-                    <table width="100% border=0 align=center">
-                        <tr>
-                         <td align=left colspan=3 style="padding: 10px; border-top: none; border-left: none; border-right: none; border-bottom: 1px #FF0000; border-collapse: collapse;">Upgrades</td>
-                         </tr>
-                         <!--UPDATES BELOW THIS LINE-->
-                         <tr>
-                         <td align=left style="padding: 10px;">Version 1.5.2 to 1.6</td>
-                         <td align=center style="padding: 10px;"><a href="#" data-toggle="modal" data-target="#myModal7">Changelog</a>
-                            <!-- Modal -->
-                            <div id="myModal7" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- Modal content -->
-                                <div class="modal-content">
-                                    <div class="pop-title">
-                                    <h4 class="modal-title">Version 1.5.2 to 1.6</h4>
-                                    </div>
-                                    <div class="pop-body">
-                                    <p>Version 1.6 patch notes:</p>
-                                    <p>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/913306d3d3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Twister OS</title>
+</head>
+<body>
+	<nav class="nav_background">
+		<div class="logo"><img src="images/TwisterOSLogo.png"></div>
+		<div class="menu">
+			<a href="index.html">HOME</a>
+			<a href="downloads.html">DOWNLOAD</a>
+			<a href="about.html">ABOUT</a>
+			<a href="faq.html">FAQ</a>
+		</div>
+	</nav>
+	<br><br>
+	<main style="margin-top: 85px; width: 70%;">
+		<div style="margin: auto; ">
+			<div class="current-release">
+				<h1>Current Release</h1>
+				<h3>Twister OS 1.6</h3>
+			</div>
+			<div class="current-links">
+		      <a href="https://archive.org/download/twister-osv-1-6.img/TwisterOSv1-6.img.xz"><button>DOWNLOAD</button></a>
+		      <a href="https://archive.org/download/twister-osv-1-6.img/twister-osv-1-6.img_archive.torrent"><button>TORRENT</button></a>
+		    </div>
+		</div><br><br>
+			<h2 style="text-align: center; ">Patches</h2><br><br>
+				<div class="releases">
+					<div class="lists">
+					<div class="release">
+						<p>Version 1.5.2 to 1.6</p>
+					</div>
+					<div class="changelog">
+							<div class="popup" id="popup7">
+ 								 <p>Version 1.6 patch notes:</p>
                                         <ul align=left>
-                                            <li>Added custom Twister OS Neofetch theme</li>
+                                         <li>Added custom Twister OS Neofetch theme</li>
                                             <li>Added Notification Center app</li>
                                             <li>Added Twister OS Onboarding app</li>
                                             <li>Added Spotlight app</li>
@@ -93,100 +46,71 @@
                                             <li>Added Raspbian X Nighthawk-styled Twister OS wallpaper</li>
                                             <li>Removed PlayOnLinux</li>
                                             <li>Updated README</li>
-                                            <p>Thanks to kreal, Natsurii, FlameKat53, and MobileGamesMotionYT for their contributions to this release</p>
                                         </ul>
-                                    </p>
-                                    </div>
-                                    <div align=center class="pop-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://twisteros.com/Patches/TwisterOSv1-6Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-6Patch.zip</button></a></td>
-                        </tr> 
-                        <!--***************************************************************************************************************************************-->
-                        <tr>
-                         <td align=left style="padding: 10px;">Version 1.5 (or 1.5.1) to 1.5.2</td>
-                         <td align=center style="padding: 10px;"><a href="#" data-toggle="modal" data-target="#myModal6">Changelog</a>
-                            <!-- Modal -->
-                            <div id="myModal6" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="pop-title">
-                                    <h4 class="modal-title">Version 1.5 (or 1.5.1) to 1.5.2</h4>
-                                    </div>
-                                    <div class="pop-body">
-                                    <p>Version 1.5.2 patch notes:</p>
-                                    <p>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup7">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://twisteros.com/Patches/TwisterOSv1-6Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+				<br>
+				<div class="releases">
+					<div class="lists">
+					<div class="release">
+						<p>Version 1.5 (or 1.5.1) to 1.5.2</p>
+					</div>
+					<div class="changelog">
+							<div class="popup" id="popup6">
+ 								 <p>Version 1.5.2 patch notes:</p>
                                         <ul align=left>
                                          <li>Yet more Wine x86 fixes</li>
                                          <li>Added Twister OS version identifier script</li>
                                         </ul>
-                                    </p>
-                                    </div>
-                                    <div align=center class="pop-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://twisteros.com/Patches/TwisterOSv1-5-2Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-5-2Patch.zip</button></a></td>
-                        </tr>
-                        <!--************************************************************************-->
-                        <tr>
-                         <td align=left style="padding: 10px;">Version 1.4.1 to 1.5</td>
-                         <td align=center style="padding: 10px;"><a href="#" data-toggle="modal" data-target="#myModal5">Changelog</a>
-                            <!-- Modal -->
-                            <div id="myModal5" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="pop-title">
-                                        <h4 class="modal-title">Version 1.4.1 to 1.5</h4>
-                                    </div>
-                                    <div class="pop-body">
-                                        <p>Version 1.5 patch notes:</p>
-                                        <p>
-                                            <ul align=left>
-                                                <li>Added Raspbian XP theme</li>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup6">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://twisteros.com/Patches/TwisterOSv1-5-2Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+				<br>
+				<div class="lists">
+					<div class="release">
+						<p>Version 1.4.1 to 1.5</p>
+					</div>
+					<div class="changelog">
+						<div class="popup" id="popup5">
+ 								 <p>Version 1.5 patch notes:</p>
+                                        <ul align=left>
+                                         <li>Added Raspbian XP theme</li>
                                                 <li>Added new default Twister OS theme</li>
                                                 <li>Fixed an issue where DynamicWallpaper would not display correct wallpaper on boot</li>
                                                 <li>Improved Wine x86 compatibility</li>
                                                 <li>Added PlayOnLinux</li>
                                                 <li>Updated README</li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                    <div align=center class="pop-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                 </div>
-                            </div>
-                         </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://twisteros.com/Patches/TwisterOS1-5Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-5Patch.zip</button></a></td>
-                        </tr>
-                        <!--*******************************************************************************-->
-                        <tr>
-                         <td align=left style="padding: 10px;">Version 1.3 to 1.4.1</td>
-                         <td align=center style="padding: 10px;"><a href="#" data-toggle="modal" data-target="#myModal4">Changelog</a>
-                            <!-- Modal -->
-                            <div id="myModal4" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                <!-- Modal content-->
-                                <div class="modal-content">
-                                    <div class="pop-title">
-                                        <h4 class="modal-title">Version 1.3 to 1.4.1</h4>
-                                    </div>
-                                    <div class="pop-body">
-                                        <p>Version 1.4.1 patch notes:</p>
-                                        <p>
-                                            <ul align=left>
-                                                <li>Improved ThemeTwister to support additional themes</li>
+                                        </ul>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup5">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://twisteros.com/Patches/TwisterOS1-5Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+				<br>
+				<div class="releases">
+					<div class="lists">
+					<div class="release">
+						<p>Version 1.3 to 1.4.1</p>
+					</div>
+					<div class="changelog">
+						<div class="popup" id="popup4">
+ 								 <p>Version 1.4.1 patch notes:</p>
+                                        <ul align=left>
+                                         <li>Improved ThemeTwister to support additional themes</li>
                                                 <li>Added Raspbian 95 theme</li>
                                                 <li>Added iRaspbian Dark theme</li>
                                                 <li>Made improvements to Raspbian X/Nighthawk themes, added Raspbian X (light) theme to ThemeTwister</li>
@@ -202,35 +126,26 @@
                                                 <li>Added updated Mesa and Vulkan driver (beta)</li>
                                                 <li>Added PiKISS application</li>
                                                 <li>Updated README</li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                <div align=center class="pop-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://archive.org/download/twister-osv-1-4-1-patch/TwisterOSv1-4-1Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-4-1Patch.zip</button></a></td>
-                        </tr>
-                        <!--**************************************************************************-->
-                        <tr>
-                         <td align=left style="padding: 10px;">Version 1.2 to 1.3</td>
-                         <td align=center style="padding: 10px;"><a href="#" data-toggle="modal" data-target="#myModal3">Changelog</a>
-                        <!-- Modal -->
-                        <div id="myModal3" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="pop-title">
-                                    <h4 class="modal-title">Version 1.2 to 1.3</h4>
-                                </div>
-                                <div class="pop-body">
-                                    <p>Version 1.3 patch notes:</p>
-                                    <p>
+                                        </ul>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup4">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://archive.org/download/twister-osv-1-4-1-patch/TwisterOSv1-4-1Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+				<br>
+				<div class="lists">
+					<div class="release">
+						<p>Version 1.2 to 1.3</p>
+					</div>
+					<div class="changelog">
+						<div class="popup" id="popup3">
+ 								 <p>Version 1.3 patch notes:</p>
                                         <ul align=left>
-                                            <li>Modified login screen themes to accommodate long user names</li>
+                                         <li>Improved ThemeTwister to support additional themes</li>
+                                                <li>Modified login screen themes to accommodate long user names</li>
                                             <li>Fixed a font issue on the iRaspbian login screen theme</li>
                                             <li>Added Discord web "app" for Twister OS support</li>
                                             <li>Updated application icons for Box86</li>
@@ -240,103 +155,76 @@
                                             <li>Replaced Gimpshop Reloaded with PhotoGIMP v.2020</li>
                                             <li>Added Neofetch application and associated icon/shortcut to quickly view system information</li>
                                         </ul>
-                                    </p>
-                                </div>
-                            <div align=center class="pop-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://twisteros.com/Patches/TwisterOSv1-3Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-3Patch.zip</button></a></td>
-                        </tr>
-                        <!--*********************************************************************************-->
-                        <tr>
-                         <td align=left style="padding: 10px;">Version 1.1 to 1.2</td>
-                         <td align=center style="padding: 10px;"><a href="#"  data-toggle="modal" data-target="#myModal2">Changelog</a>
-                        <!-- Modal -->
-                        <div id="myModal2" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="pop-title">
-                                    <h4 class="modal-title">Version 1.1 to 1.2</h4>
-                                </div>
-                                <div class="pop-body">
-                                    <p>Version 1.2 patch notes:</p>
-                                    <p>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup3">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://twisteros.com/Patches/TwisterOSv1-3Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+				<br>
+				<div class="releases">
+					<div class="lists">
+					<div class="release">
+						<p>Version 1.1 to 1.2</p>
+					</div>
+					<div class="changelog">
+						<div class="popup" id="popup2">
+ 								 <p>Version 1.2 patch notes:</p>
                                         <ul align=left>
-                                            <li>Fixed an issue where the "Contacts" app would not appear in the application menu</li>
+                                         <li>Fixed an issue where the "Contacts" app would not appear in the application menu</li>
                                             <li>Replaced the login screen for the Nighthawk theme with a new one that can scale to different display resolutions</li>
                                             <li>Updated the login screen for the iRaspbian theme</li>
                                             <li>Replaced the Slingscold application launcher with LightPad, which fixes an issue with launching terminal-based apps</li>
                                             <li>Updated README</li>
                                         </ul>
-                                    </p>
-                                </div>
-                            <div align=center class="pop-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://twisteros.com/Patches/TwisterOSv1-2Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-2Patch.zip</button></a></td>
-                        </tr>
-                        <!--**************************************************************************************-->
-                        <tr>
-                         <td align=left style="padding: 10px;">Version 1.0 to 1.1</td>
-                         <td align=center style="padding: 10px;"><a href="#" data-toggle="modal" data-target="#myModal1">Changelog</a>
-                        <!-- Modal -->
-                        <div id="myModal1" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="pop-title">
-                                    <h4 class="modal-title">Version 1.0 to 1.1</h4>
-                                </div>
-                                <div class="pop-body">
-                                    <p>Version 1.1 patch notes:</p>
-                                    <p>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup2">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://twisteros.com/Patches/TwisterOSv1-2Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+				<br>
+				<div class="releases">
+					<div class="lists">
+					<div class="release">
+						<p>Version 1.0 to 1.1</p>
+					</div>
+					<div class="changelog">
+						<div class="popup" id="popup1">
+ 								 <p>Version 1.1 patch notes:</p>
                                         <ul align=left>
-                                            <li>Fixed an issue where certain application icons would change or become hidden after Raspberry Pi OS updates</li>
+                                         <li>Fixed an issue where certain application icons would change or become hidden after Raspberry Pi OS updates</li>
                                             <li>Updated Commander Pi to version 0.4.1</li>
                                             <li>Fixed an issue where the display would not reinitialize after screen blanking was invoked</li>
                                             <li>Made minor improvements to the default theme restoration mechanism</li>
                                             <li>Fixed an issue where the bluetooth icon would occasionally not appear in the system tray upon boot</li>
                                         </ul>
-                                    </p>
-                                </div>
-                            <div align=center class="pop-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                        </td>
-                         <td align=center style="padding: 10px;"><a href="https://twisteros.com/Patches/TwisterOSv1-1Patch.zip"><button class="btn"><i class="fa fa-download"></i> TwisterOSv1-1Patch.zip</button></a></td>
-                        </tr>
-                        <!--*****************************************************************************************-->
-    
-                       </table>
-                </div>
-            </div>
-            </main>
-                <div class="container ver-info">
-                    <p>To determine which version of Twister OS you're currently using, check the README file on the Desktop. For version 1.5.2 and newer, simply open a terminal and type "twistver"</p>
-                </div> 
-        <!--/.Content-->
-
-        <!-- Footer -->
-        <footer >
-
-                <p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu">Join us on Discord!</a></p>
-       
-        </footer>
-        <!--/.Footer -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
-    </body>
+ 								 <p class="close">close</p>
+  							</div>
+  							<p class="btn" data-popup="popup1">Changelog</p>
+					</div>
+					<div class="download">
+						<a href="https://twisteros.com/Patches/TwisterOSv1-1Patch.zip"><button>DOWNLOAD</button></a>
+					</div>
+				</div>
+		</div>
+	</main>
+	<footer><p>Twister OS 2020 | <a href="#" target="_blank">Join our Discord!</a></p><p style="font-size: smaller; margin-top: -10px;">Site by: James Gundlach <a href="https://github.com/phoenixbyrd" style="color: antiquewhite; margin-left: 2px; margin-right: 2px;"><i class="fab fa-github"></i></a> | Email: <a href="mailto: james.gundlach79@gmail.com" style="font-size: small;">james.gundlach79@gmail.com</a></p></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+			$('.btn').click(function(){
+			  $('.popup').hide();
+			  $('#' + $(this).attr('data-popup')).show();
+			});
+	</script>
+	<script type="text/javascript">
+		$('.close').click(function(){
+			  $('.popup').hide();
+			});
+	</script>
+</body>
 </html>
