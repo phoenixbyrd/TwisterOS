@@ -29,7 +29,7 @@ ul#horizontal-list {
 }
 
 ul {
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 li img {
@@ -43,7 +43,7 @@ nav img {
 .menu {
   float: right;
   top: 0;
-  margin-top: -40px !important;
+  margin-top: 0px !important;
 }
 
 main {
@@ -51,7 +51,7 @@ main {
 }
 
 .changelog {
-  margin-left: 400px !important;
+  margin-left: 500px !important;
 }
 
 .lists {
@@ -64,13 +64,16 @@ main {
 }
 
 .download {
-  margin-right: -200px !important;
+  margin-right: -250px !important;
 }
 
 h2 {
-  margin-left: 80px;
+  margin-left: 150px;
 }
 
+.x1024 {
+  margin-left: 250px !important;
+}
 
 }
 
