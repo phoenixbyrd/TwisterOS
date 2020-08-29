@@ -32,6 +32,10 @@ ul {
   margin-left: 200px;
 }
 
+.faq-small {
+  margin-left: -20px !important;
+}
+
 li img {
   width: 15% !important;
 }
@@ -82,6 +86,7 @@ h2 {
 body, html {
 	background-color:  #2D2C8A;
 	color:  antiquewhite;
+
 }
 
 nav {
