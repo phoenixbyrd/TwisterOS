@@ -28,6 +28,13 @@ ul#horizontal-list {
   margin-bottom:  -25px !important;
 }
 
+.cpi {
+  display: inline;
+  position: relative;
+  top: 10px;
+  width: 25% !important;
+}
+
 ul {
   margin-left: 200px;
 }
