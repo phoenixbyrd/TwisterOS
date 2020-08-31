@@ -1,3 +1,24 @@
+Version 1.7 patch notes:
+- Added ThemeTwister GUI
+- Updated Twister OS Onboarding app with support for light/dark themes
+- Updated Notification Center app with improved theme support
+- Updated Spotlight app with improved theme support
+- Added Notification Center icons for Raspbian X/Nighthawk themes
+- Added Kodi
+- Added community wallpaper images
+- Updated README
+
+Version 1.6 patch notes:
+- Added custom Twister OS Neofetch theme
+- Added Notification Center app
+- Added Twister OS Onboarding app
+- Added Spotlight app
+- Added Twister OS Patcher
+- Fixed an issue where certain app icons/text would display incorrectly in Lightpad
+- Added Raspbian X Nighthawk-styled Twister OS wallpaper
+- Removed PlayOnLinux
+- Updated README
+
 Version 1.5.2 patch notes:
 - Yet more Wine x86 fixes
 - Added Twister OS version identifier script

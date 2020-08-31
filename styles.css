@@ -349,6 +349,15 @@ h4 a:hover {
   opacity: 1;
 }
 
+.code {
+  background-color: darkslategrey;
+  opacity: 1.7;
+  width: 350px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /* download.html */
 
 button {
@@ -387,7 +396,7 @@ button:hover {
 }
 
 .release {
-  margin-top: -5px;
+  margin-top: -15px;
   float: left;
 }
 
@@ -414,6 +423,7 @@ button:hover {
   color:antiquewhite;
   padding:20px;
   border-radius: 5px;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .close {
