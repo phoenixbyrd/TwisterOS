@@ -98,6 +98,23 @@ if [ "$VERSIONCURRENT" = "Twister OS version 1.5.2" ]; then
 	unzip *.zip
 	rm *.zip
     clear
+    echo "Additional updates are available. Once this update finishes, and your computer restarts, please run this update utility again."
+    echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
+    sleep 10
+    chmod +x *patchinstall.sh
+    ./*patchinstall.sh
+fi
+
+VERSIONCURRENT=$(twistver)
+
+if [ "$VERSIONCURRENT" = "Twister OS version 1.6" ]; then
+    read -p "You appear to be running Twister OS version 1.6. Is this correct? Press [Enter] if yes, or [CTRL+C] if no. This version has a new feature, twistver, run twistver in terminal to check your version if you are unsure."
+       	echo 'Downloading 1.7.0 Patch...'
+	wget https://twisteros.com/Patches/TwisterOSv1-7Patch.zip
+	echo 'Extracting .zip...'
+	unzip *.zip
+	rm *.zip
+    clear
     echo "Installing updates in 10 seconds. System will automatically restart after applying the patch."
     sleep 10
     chmod +x *patchinstall.sh
