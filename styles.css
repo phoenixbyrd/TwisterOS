@@ -351,11 +351,12 @@ h4 a:hover {
 
 .code {
   background-color: darkslategrey;
-  opacity: 1.7;
+  opacity: 1;
   width: 350px;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
+  color: lime;
 }
 
 /* download.html */
