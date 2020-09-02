@@ -350,13 +350,13 @@ h4 a:hover {
 }
 
 .code {
-  background-color: darkslategrey;
-  opacity: 1;
+  background-color: #332929;
+  opacity: .8;
   width: 350px;
   text-align: center;
   padding: 5px;
   border-radius: 5px;
-  color: lime;
+  color: antiquewhite;
 }
 
 /* download.html */
