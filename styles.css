@@ -263,22 +263,28 @@ footer a {
   background:url('images/raspbianxp.png');
    background-size:cover;
 }
+
 .item-4{
-  background:url('images/raspbianx.png');
+  background:url('images/raspbian7.png');
    background-size:cover;
 }
 
 .item-5{
-  background:url('images/nighthawk.png');
+  background:url('images/raspbianx.png');
    background-size:cover;
 }
 
 .item-6{
-  background:url('images/iraspbian.png');
+  background:url('images/nighthawk.png');
    background-size:cover;
 }
 
 .item-7{
+  background:url('images/iraspbian.png');
+   background-size:cover;
+}
+
+.item-8{
   background:url('images/iraspbian-dark.png');
    background-size:cover;
 }
