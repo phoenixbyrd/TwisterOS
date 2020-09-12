@@ -317,8 +317,12 @@ footer a {
     z-index: 7;
     opacity: 1;
   }
-    #item-7:target ~ .item-7, #item-1:target ~ .item-1 {
+    #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
     z-index: 8;
+    opacity: 1;
+  }
+      #item-8:target ~ .item-8, #item-1:target ~ .item-1 {
+    z-index: 9;
     opacity: 1;
   }
 }
