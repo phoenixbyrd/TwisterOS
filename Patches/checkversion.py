@@ -80,6 +80,6 @@ def update():
 			if rs.twistver == "Twister OS version 1.8.0":
 				answer = msb.askyesno(title="TwistPatch", message='You appear to be running Twister OS version 1.8.0\nIs this correct?')
 				if answer == True:
-					msb.showinfo(title="TwistPatch", message='Downloading 1.9.0 Patch in the background...\nPress OK to begin downloading.')
-					wget.download('https://twisteros.com/Patches/TwisterOSv1-9Patch.zip', out='/home/pi/patcher/src/patch.zip')
+					msb.showinfo(title="TwistPatch", message='Downloading 1.8.1 Patch in the background...\nPress OK to begin downloading.')
+					wget.download('https://twisteros.com/Patches/TwisterOSv1-8-1Patch.zip', out='/home/pi/patcher/src/patch.zip')
 					other()
