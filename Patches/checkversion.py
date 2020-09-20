@@ -12,7 +12,7 @@ def other():
 	os.system('xfce4-terminal -e ./*patchinstall.sh')
 
 def update():
-	if os.path.exists('/usr/bin/twistver') == False:
+	if os.path.exists('/usr/local/bin/twistver') == False:
 		if os.path.exists('/usr/bin/xscreensaver') == False:
 			answer = msb.askyesno(title="TwistPatch", message='You appear to be running Twister OS version 1.0\nIs this correct?')
 			if answer == True:
