@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/913306d3d3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" href="favicon.png">
+	<title>Twister OS</title>
+</head>
+<body>
+	<nav class="nav_background">
+		<div class="logo"><img src="images/TwisterOSLogo-Large-New3.png"></div>
+		<div class="menu">
+			<a href="index.html">HOME</a>
+			<a href="downloads.html">DOWNLOAD</a>
+			<a href="about.html">ABOUT</a>
+			<a href="faq.html">FAQ</a>
+		</div>
+	</nav>
+	<br><br>
+	<main style="margin-top: 85px; width: 70%;">
+		<div style="margin-left: 100px;">
+
+			<img src="images/TwisterUILogo-Large.png" width="50%" style="margin-left: 250px; margin-bottom: 50px;">
+
+			<div class="downloadsUI">
+				<div class="downloadsMain">
+					<a href="https://archive.org/download/twister-uiv-1-0-1-install/TwisterUIv1-0-1Install.run"><button>DOWNLOAD</button></a>
+				</div>
+
+				<div class="downloadsTorrent">
+					<a href="https://archive.org/download/twister-uiv-1-0-1-install/twister-uiv-1-0-1-install_archive.torrent"><button>TORRENT</button></a>
+				</div>
+			</div>
+
+			<p style="margin-left: 490px;font-weight: bold;">To install Twister UI:</p><br><br>
+			<ol>
+				<li>Download and install the 64-bit version of either <a href="https://linuxmint.com/download.php">Linux Mint Xfce</a> or <a href="https://xubuntu.org/download">Xubuntu</a></li>
+				<br>
+				<li>Download and run the Twister UI installer</li>
+				<br>
+				<li>When using Linux Mint Xfce, you will need to make changes to the following settings after the Twister UI installation has been completed:
+					<br>
+					<ul>
+						<br>
+						<li>In “Application Menu -> Settings -> Desktop,” under the “Icons” tab, uncheck “Use custom font size”</li>
+						<br>
+						<li>In “Application Menu -> Settings -> Window Manager Tweaks,” under the “Compositor” tab, uncheck “Show shadows under dock windows”</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+	</main>
+	<footer><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+			$('.btn').click(function(){
+			  $('.popup').hide();
+			  $('#' + $(this).attr('data-popup')).show();
+			});
+	</script>
+	<script type="text/javascript">
+		$('.close').click(function(){
+			  $('.popup').hide();
+			});
+	</script>
+</body>
+</html>

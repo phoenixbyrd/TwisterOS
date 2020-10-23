@@ -88,6 +88,18 @@ h2 {
 
 }
 
+@media only screen and (max-width: 640px) {
+  .carousel-wrapper {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    margin-left: 25px !important;
+  }
+}
+
 /*************************************************/
 
 body, html {
@@ -108,7 +120,7 @@ a {
 	text-decoration:  none;
 }
 
-a:hover {
+nav a:hover {
 	opacity:  0.8;
 }
 
@@ -446,4 +458,54 @@ button:hover {
   padding: 5px;
   border-radius: 5px;
   margin: auto;
+}
+
+.downloads {
+  overflow: hidden;
+  margin-left: 100px;
+  margin-top: 300px;
+  margin-bottom: 350px;
+}
+
+.TwisterOS {
+  border-style: solid;
+  border-color: #8789d9;
+  padding: 20px;
+  width: 40%;
+  float: left;
+  margin-right: 50px;
+}
+
+.TwisterUI {
+  border-style: solid;
+  border-color: #8789d9;
+  padding: 20px;
+  width: 40%;
+  overflow: hidden;
+}
+
+.TwisterOS p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.TwisterUI p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.downloadsUI {
+  margin-left: 30%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.downloadsMain {
+  float: left;
+}
+
+.downloadsTorrent {
+  margin-left: 300px;
 }
