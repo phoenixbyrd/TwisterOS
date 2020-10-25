@@ -507,5 +507,23 @@ button:hover {
 }
 
 .downloadsTorrent {
-  margin-left: 300px;
+  margin-left: 200px;
+}
+
+.downloadsPatch {
+  float: inherit;
+}
+
+.DownloadsUI {
+  margin-left: 150px;
+}
+
+.DownloadsUI ul {
+  float: right;
+  list-style-type: none;
+}
+
+.DownloadsUI li {
+  display: inline-block;
+  margin-left: 100px;
 }
