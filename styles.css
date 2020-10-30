@@ -135,7 +135,7 @@ footer a {
   .code {
     background-color: #332929;
     opacity: .8;
-    width: 350px;
+    width: auto;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
@@ -151,7 +151,6 @@ footer a {
     font-weight: bold;
     color: #2D2C8A;
     margin-right: 20px;
-    margin-top: -50px;
     cursor: pointer;
   }
   
@@ -186,8 +185,6 @@ footer a {
     margin-top: -15px;
   }
 
- 
-
   button:hover {
     opacity: 0.8;
   }
@@ -221,4 +218,9 @@ footer a {
   .resize {
     width: 30%;
     margin-top: 50px;
+  }
+
+  .here:hover {
+    opacity: 0.8;
+    cursor: pointer;
   }
