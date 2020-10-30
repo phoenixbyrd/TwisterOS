@@ -29,8 +29,9 @@
         <h4 >
             <a href="#">What is the password?</a>
         </h4>
-            <p>raspberry</p>
-            <p>Please change your password by opening terminal and entering passwd</p> 
+            <p>The default password is raspberry</p>
+            <p>Please change your password by opening terminal and entering <span class="code">passwd</span></p> 
+            <p>Please also change your root password. <span class="code">sudo passwd</span></p>
 
         <h4>
             <a href="#">Will This Run On My Pi 3B+</a>
@@ -80,10 +81,16 @@
                     <p>We are aware of this issue and are looking for a workaround. If you are experiencing issues with bluetooth audio then it is currently advised to leave audio settings alone for the time being.</p>
 
                 <h4>
-                    <a href="#">Your website is broken.</a>
+                    <a href="#">How do I reset my theme?</a>
                 </h4>
-                    <p>This site is up on GitHub so feel free to point out anything and everything that you find wrong.</p>
-                    <p><a href="https://github.com/phoenixbyrd/TwisterOS/issues" target="_blank">github.com/phoenixbyrd/TwisterOS/issues</a></p>
+                    <p>Open terminal and enter <span class="code">/usr/share/ThemeSwitcher/Backup/./restore-original-config.sh</span></p>
+                    <p>This will reset your theme back to default settings.</p>
+
+                <h4>
+                    <a href="#">Some icons on my panel/taskbar are missing!</a>
+                </h4>
+                    <p>Open terminal and enter <span class="code">./.panel-restart</span></p>
+                    <p>This will refresh your panel/taskbar and should show missing items again. If this does not help then please request further help on discord.</p>
 
                 <h4>
                     <a href="#">Why does retropie ask me to log in?</a>
