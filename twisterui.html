@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<script src="https://kit.fontawesome.com/913306d3d3.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="icon" href="favicon.png">
-	<title>Twister OS</title>
-</head>
-<body>
-	<nav class="nav_background">
-		<div class="logo"><img src="images/TwisterOSLogo-Large-New3.png"></div>
-		<div class="menu">
-			<a href="index.html">HOME</a>
-			<a href="downloads.html">DOWNLOAD</a>
-			<a href="about.html">ABOUT</a>
-			<a href="faq.html">FAQ</a>
-			<a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a>
-		</div>
-	</nav>
-	<br><br>
-	<main style="margin-top: 85px; width: 70%;">
-		<div style="margin-left: 100px;">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="carousel.css">
+        <link rel="icon" href="favicon.png">
+        <title>Twister OS</title>
+    </head>
 
-			<img src="images/TwisterUILogo-Large.png" width="50%" style="margin-left: 250px; margin-bottom: 75px;">
-				<p style="margin-bottom: 50px; font-weight: bold; font-size: 20px; text-align: center; margin-right: 150px;">CURRENT RELEASE: <span style="margin-left: 100px;">1.0.3</span></p>
-				<ul class="DownloadsUI">
-					<li><a href="https://archive.org/download/twister-uiv-1-0-3-install/TwisterUIv1-0-3Install.run"><button>DOWNLOAD</button></a></li>
-					<li><a href="https://archive.org/download/twister-uiv-1-0-3-install/twister-uiv-1-0-3-install_archive.torrent"><button>TORRENT</button></a></li>
-					
-				</ul>
-		</div>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="images/TwisterOSLogo-Large-New3.png" style="width: 400px;">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="download.html">DOWNLOADS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
+                </ul>
+            </nav>
+        </div>
 
-			<p style="width: 60%; text-align: center; margin-left: 250px; margin-top: 75px;">Twister UI is a user interface add-on for Linux Mint and Xubuntu. It includes themes, applications, and configurations to match the user experience found in Twister OS on the Raspberry Pi.</p>
+		<img class="center resize" src="images/TwisterUILogo-Large.png">
+
+			<div class="center" style="width: 60% !important; margin-top: 100px;">
+				<div class="current-release">
+					<h1 style="width: 100%;">Current Release</h1>
+					<h3>Twister UI 1.0.3</h3>
+				</div>
+				<div class="current-links">
+				  <a href="https://archive.org/download/twister-uiv-1-0-3-install/TwisterUIv1-0-3Install.run"><button>DOWNLOAD</button></a>
+				  <a href="https://archive.org/download/twister-uiv-1-0-3-install/twister-uiv-1-0-3-install_archive.torrent"><button>TORRENT</button></a>
+				</div>
+				<br><br>
+			</div>
+
+			<div class="center">
+			<p style="width: 60%; text-align: center; margin-left: 175px; margin-top: 50px;">Twister UI is a user interface add-on for Linux Mint and Xubuntu. It includes themes, applications, and configurations to match the user experience found in Twister OS on the Raspberry Pi.</p>
 			<br>
-			<p style="margin-left: 600px;font-weight: bold;">To install Twister UI:</p><br><br>
-			<ol style="margin-left: 150px;">
+			<p style="text-align: center; font-weight: bold;">To install Twister UI:</p><br><br>
+			<ol class="center" style="width: 90%;">
 				<li>Download and install the 64-bit version of either <a href="https://linuxmint.com/download.php">Linux Mint Xfce</a> or <a href="https://xubuntu.org/download">Xubuntu</a></li>
 				<br>
 				<li>Download and run the Twister UI installer</li>
@@ -52,64 +59,59 @@
 
 		<p style="margin-top: 75px; margin-bottom: 50px; font-weight: bold; font-size: 20px; text-align: center;">PATCHES</p>
 
-		<div class="lists">
-			<div class="release">
-				<p>Version 1.0.2 to 1.0.3</p>
-			</div>
-			<div class="changelog">
-				<div class="popup" id="popup2">
-						  <p>Version 1.0.3 patch notes:</p>
-								<ul align=left>
-								 	<li>Moved Twister UI wallpaper to more standard location</li>
-									<li>Fixed an issue where login sound would not play correctly on certain hardware</li>
-									<li>Updated calculator icon for Raspbian X/Nighthawk themes</li>
-									<li>Added support for additional display types in ThemeTwister to correctly change wallpaper</li>
-								</ul>
-						  <p class="close">close</p>
-					  </div>
-					  <p class="btn" data-popup="popup2">Changelog</p>
-			</div>
-			<div class="download">
-				<a href="Patches/TwisterUIv1-0-3Patch.run"><button>DOWNLOAD</button></a>
-			</div>
-		</div>
-		<br><br>
+		<div class="center" style="width: 50%;">
+		<ul class="PatchLink">
+			<li>Version 1.0.3</li>
+			<li>
+				<div class="ChangelogLink">
+					<div class="popup" id="popup103">
+						<p class="center">Version 1.0.3 patch notes:</p><br>
+						Moved Twister UI wallpaper to more standard location<br>
+						Fixed an issue where login sound would not play correctly on certain hardware<br>
+						Updated calculator icon for Raspbian X/Nighthawk themes<br>
+						Added support for additional display types in ThemeTwister to correctly change wallpaper<br><br>
+						<p class="close">close</p>
+					</div>
+					<p class="btn" data-popup="popup103">Changelog</p>
+				</div>
+			</li>
+			<li><a href="Patches/TwisterUIv1-0-3Patch.run"><button>DOWNLOAD</button></a></li>
+		</ul>
 
-		<div class="releases">
-			<div class="lists">
-			<div class="release">
-				<p>Version 1.0 to 1.0.2</p>
-			</div>
-			<div class="changelog">
-				<div class="popup" id="popup1">
-						  <p>Version 1.0.2 patch notes:</p>
-								<ul align=left>
-								 	<li>Fixed an issue where the Calendar and Contacts apps would not launch from Plank</li>
-									<li>Removed non-functional Dynamic Wallpaper shortcut</li>
-								</ul>
-						  <p class="close">close</p>
-					  </div>
-					  <p class="btn" data-popup="popup1">Changelog</p>
-			</div>
-			<div class="download">
-				<a href="Patches/TwisterUIv1-0-2Patch.run""><button>DOWNLOAD</button></a>
-			</div>
-		</div>
-		<br><br>
+		<br>
 
-	</main>
-	<footer><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script>
-			$('.btn').click(function(){
-			  $('.popup').hide();
-			  $('#' + $(this).attr('data-popup')).show();
-			});
-	</script>
-	<script type="text/javascript">
-		$('.close').click(function(){
-			  $('.popup').hide();
-			});
-	</script>
-</body>
+		<ul class="PatchLink">
+			<li>Version 1.0.2</li>
+			<li>
+				<div class="ChangelogLink">
+					<div class="popup" id="popup102">
+						<p class="center">Version 1.0.2 patch notes:</p><br>
+						Fixed an issue where the Calendar and Contacts apps would not launch from Plank<br>
+						Removed non-functional Dynamic Wallpaper shortcut<br><br>
+						<p class="close">close</p>
+					</div>
+					<p class="btn" data-popup="popup102">Changelog</p>
+				</div>
+			</li>
+			<li><a href="Patches/TwisterUIv1-0-2Patch.run"><button>DOWNLOAD</button></a></li>
+		</ul>
+
+		<br>
+
+		</div>
+
+        <footer><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+                $('.btn').click(function(){
+                $('.popup').hide();
+                $('#' + $(this).attr('data-popup')).show();
+                });
+        </script>
+        <script type="text/javascript">
+            $('.close').click(function(){
+                $('.popup').hide();
+                });
+        </script>
+    </body>
 </html>

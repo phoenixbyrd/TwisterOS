@@ -1,96 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<script src="https://kit.fontawesome.com/913306d3d3.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="icon" href="favicon.png">
-	<title>Twister OS</title>
-</head>
-<body>
-	<nav class="nav_background">
-		<div class="logo"><img src="images/TwisterOSLogo-Large-New3.png"></div>
-		<div class="menu">
-			<a href="index.html">HOME</a>
-			<a href="downloads.html">DOWNLOAD</a>
-			<a href="about.html">ABOUT</a>
-            <a href="faq.html">FAQ</a>
-            <a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a>
-		</div>
-	</nav>
-	<br>
-	<main class="x1024" style="margin-top: 100px; width: 60%;">
-		
-                <div class="faqHeader" style="text-align: center; margin-bottom: 100px;">Frequently Asked Questions</div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="carousel.css">
+        <link rel="icon" href="favicon.png">
+        <title>Twister OS</title>
+    </head>
 
-                        <h4 >
-                            <a href="#">What is the password?</a>
-                        </h4>
-                            <p>raspberry</p>
-                            <p>Please change your password by opening terminal and entering passwd</p> 
-   
-                        <h4>
-                            <a href="#">Will This Run On My Pi 3B+</a>
-                        </h4>
-                            <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and built around the Pi4 and you may experience issues installing on the 3B+.</p>
-                        <h4>
-                            <a href="#">Is Twister OS a 64-bit OS?</a>
-                        </h4>
-                            <p>Twister OS is a 32-bit OS.</p>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="images/TwisterOSLogo-Large-New3.png" style="width: 400px;">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="download.html">DOWNLOADS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
+                </ul>
+            </nav>
+        </div>
 
-                        <h4 >
-                            <a href="#">How do I patch Twister OS?</a>
-                        </h4>
-                            <ul class="faq-small">
-                                <li>Download the patch you need</li>
-                                <li>Open File Manager and navigate to Downloads</li>
-                                <li>Right click on the patch zip file and choose extract here</li>
-                                <li>Open the patch folder that was just created</li>
-                                <li>Now right click a blank spot inside the folder and choose open terminal here</li>
-                                <li>Once terminal opens type ./ followed by the .sh file name inside the current directory</li>
-                                <li>Quick trick, you can type the first character and hit the tab key to autocomplete the filename.</li>
-                                <li>Hit the ENTER key to begin the patch process</li>
-                                <li>When upgrading please patch in order. Patch 1.0 to 1.1 to 1.2 to 1.3 etc.</li>
-                            </ul>
+        <div class="center" style="margin-bottom: 100px;">
 
-                            <h4>
-                                <a href="#">Where is Play on Linux?</a>
-                            </h4>
-                                <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall with sudo apt install playonlinux && sudo apt remove wine You need to remove wine because playonlinux will install the arm version which will conflict with x86 version of wine.</p>
-                            
-                                <h4>
-                                    <a href="#">Where can I download wine?</a>
-                                </h4>
-                                    <p>Download Wine <a style="font-weight: normal;" href="https://twisteros.com/wine.tgz">Here</a></p>
-                                    <p>To use, extract wine.tgz and run the wine binary from wine/bin</p>
-                                    <p>For example, if extracted to home directory you would run this in terminal</p>
-                                    <p class="code">~/wine/bin/wine path/to/your/game.exe</p>
+        <div class="faqHeader" style="text-align: center; margin-bottom: 100px; margin-top: 100px;">Frequently Asked Questions</div>
 
-                                <h4>
-                                    <a href="#">Why is Steam not starting for me?</a>
-                                </h4>
-                                    <p>If Steam doesn't start for you, please update Box86 from the "Games" menu and try again. Please also note that Steam is experimental, and may have issues from time-to-time</p>
-                       
-                                <h4>
-                                    <a href="#">Bluetooth audio is not working!</a>
-                                 </h4>
-                                    <p>We are aware of this issue and are looking for a workaround. If you are experiencing issues with bluetooth audio then it is currently advised to leave audio settings alone for the time being.</p>
+        <h4 >
+            <a href="#">What is the password?</a>
+        </h4>
+            <p>raspberry</p>
+            <p>Please change your password by opening terminal and entering passwd</p> 
 
-                                <h4>
-                                    <a href="#">Your website is broken.</a>
-                                </h4>
-                                    <p>This site is up on GitHub so feel free to point out anything and everything that you find wrong.</p>
-                                    <p><a href="https://github.com/phoenixbyrd/TwisterOS/issues" target="_blank">github.com/phoenixbyrd/TwisterOS/issues</a></p>
+        <h4>
+            <a href="#">Will This Run On My Pi 3B+</a>
+        </h4>
+            <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and built around the Pi4 and you may experience issues installing on the 3B+.</p>
+        <h4>
+            <a href="#">Is Twister OS a 64-bit OS?</a>
+        </h4>
+            <p>Twister OS is a 32-bit OS.</p>
 
-                                <h4>
-                                    <a href="#">Why does retropie ask me to log in?</a>
-                                </h4>
-                                    <p>You must have disabled auto-login
-                                    If that's the case, you'll just need to hit "enter" when taken to the console prompt. It'll tell you "invalid login" or something to that effect
-                                    Then, when prompted, enter "pi" as the username, and "raspberry" as the password (or whatever you've changed the pi account password to)
-                                    Press Ctrl+Alt+F7 to return to the desktop, and then you'll be able to launch RetroPie by just double-clicking on the icon</p>
-    
-                                
-	</main>
-	<footer><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
-</body>
+        <h4 >
+            <a href="#">How do I patch Twister OS?</a>
+        </h4>
+            <ul class="faq-small">
+                <li>Download the patch you need</li>
+                <li>Open File Manager and navigate to Downloads</li>
+                <li>Right click on the patch zip file and choose extract here</li>
+                <li>Open the patch folder that was just created</li>
+                <li>Now right click a blank spot inside the folder and choose open terminal here</li>
+                <li>Once terminal opens type ./ followed by the .sh file name inside the current directory</li>
+                <li>Quick trick, you can type the first character and hit the tab key to autocomplete the filename.</li>
+                <li>Hit the ENTER key to begin the patch process</li>
+                <li>When upgrading please patch in order. Patch 1.0 to 1.1 to 1.2 to 1.3 etc.</li>
+            </ul>
+
+            <h4>
+                <a href="#">Where is Play on Linux?</a>
+            </h4>
+                <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall with sudo apt install playonlinux && sudo apt remove wine You need to remove wine because playonlinux will install the arm version which will conflict with x86 version of wine.</p>
+            
+                <h4>
+                    <a href="#">Where can I download wine?</a>
+                </h4>
+                    <p>Download Wine <a style="font-weight: normal;" href="https://twisteros.com/wine.tgz">Here</a></p>
+                    <p>To use, extract wine.tgz and run the wine binary from wine/bin</p>
+                    <p>For example, if extracted to home directory you would run this in terminal</p>
+                    <p class="code">~/wine/bin/wine path/to/your/game.exe</p>
+
+                <h4>
+                    <a href="#">Why is Steam not starting for me?</a>
+                </h4>
+                    <p>If Steam doesn't start for you, please update Box86 from the "Games" menu and try again. Please also note that Steam is experimental, and may have issues from time-to-time</p>
+       
+                <h4>
+                    <a href="#">Bluetooth audio is not working!</a>
+                 </h4>
+                    <p>We are aware of this issue and are looking for a workaround. If you are experiencing issues with bluetooth audio then it is currently advised to leave audio settings alone for the time being.</p>
+
+                <h4>
+                    <a href="#">Your website is broken.</a>
+                </h4>
+                    <p>This site is up on GitHub so feel free to point out anything and everything that you find wrong.</p>
+                    <p><a href="https://github.com/phoenixbyrd/TwisterOS/issues" target="_blank">github.com/phoenixbyrd/TwisterOS/issues</a></p>
+
+                <h4>
+                    <a href="#">Why does retropie ask me to log in?</a>
+                </h4>
+                    <p>You must have disabled auto-login
+                    If that's the case, you'll just need to hit "enter" when taken to the console prompt. It'll tell you "invalid login" or something to that effect
+                    Then, when prompted, enter "pi" as the username, and "raspberry" as the password (or whatever you've changed the pi account password to)
+                    Press Ctrl+Alt+F7 to return to the desktop, and then you'll be able to launch RetroPie by just double-clicking on the icon</p>
+
+                </div>
+
+        <footer><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
+    </body>
 </html>

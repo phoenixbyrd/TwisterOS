@@ -1,199 +1,74 @@
-@media screen and (max-width: 1500px) {
-  .menu {
-  float: right;
-  top: 0;
-  margin-top: -50px !important;
-}
-
-ul#horizontal-list {
-  list-style: none;
-  padding-top: 20px;
-  padding-left: 120px !important;
-  margin-bottom: -0px;
-  }
-
-  .carousel-wrapper{
-  height:350px !important;
-  position:relative;
-  width:600px !important;
-  margin:0 auto;
-  margin-top: 20px !important;
-}
-
-.HowDoYouPi {
-  display: block;
-  width: 30% !important;  
-  margin: auto;
-  margin-top: 10px !important;
-  margin-bottom:  -25px !important;
-}
-
-.cpi {
-  display: inline;
-  position: relative;
-  top: 10px;
-  width: 25% !important;
-}
-
-ul {
-  margin-left: 200px;
-}
-
-.faq-small {
-  margin-left: -20px !important;
-}
-
-li img {
-  width: 15% !important;
-}
-
-nav img {
-  width: 20% !important;
-}
-
-.menu {
-  float: right;
-  top: 0;
-  margin-top: 0px !important;
-}
-
-main {
-  margin-left: 80px !important;
-}
-
-.changelog {
-  margin-left: 500px !important;
-}
-
-.lists {
-  width: 100% !important; 
-  margin: auto;
-}
-
-.mobile {
-  width: 100% !important;
-}
-
-.download {
-  margin-right: -250px !important;
-}
-
-h2 {
-  margin-left: 150px;
-}
-
-.x1024 {
-  margin-left: 250px !important;
-}
-
-}
-
-@media only screen and (max-width: 640px) {
-  .carousel-wrapper {
-    max-width: 400px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  main {
-    margin-left: 25px !important;
-  }
-}
-
-/*************************************************/
-
 body, html {
 	background-color:  #2D2C8A;
 	color:  antiquewhite;
-  font-family: sans-serif;
-
+    font-family: sans-serif;
 }
 
 nav {
-	position: relative;
-	top: 0;
-	width: 100%
+    width: 100%;
+    margin: auto;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .centerUI {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 a {
-	color:  #FACF46;
+    color:  #FACF46;
 	text-decoration:  none;
 }
 
-nav a:hover {
-	opacity:  0.8;
-}
-
-nav a {
-	font-weight: bold;
-	font-size: 20px;
-	margin-right: 20px;
-}
-
 nav img {
-	width: 40%;
-	margin-left: 5px;
+    margin-right: 48%;
+    margin-left: 1%;
 }
 
-.logo {
-	float: left;
+nav ul {
+    list-style: none;
+    display: inline-block;
 }
 
-.menu {
-	float: right;
-  top: 0;
-	margin-top: 10px;
+nav li {
+    float: left;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.nav_background {
-	background-color:  #2D2C8A;
-	margin-top: 10px;
+nav li:hover {
+    opacity: 0.8;
 }
 
-.desktop {
-    width: 55%; 
-    margin-top: 90px; 
-    line-height: 1.8;
+.links {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
-.HowDoYouPi {
-	display: block;
-	width: 40%;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom:  -30px;
+.links li {
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-
-ul#horizontal-list {
-	list-style: none;
-	padding-top: 20px;
-	padding-left: 190px;
-  margin-bottom: -0px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-		margin-right: 50px;
-	}
-
-main {
-  z-index: 1;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
-	margin-bottom: 100px; /* Change this is content doesn't show on bottom */
-}
 
 footer {
 	position:  relative;
 	bottom:  0;
 	margin:  auto;
-	width:  99%;
+	width:  100%;
 	text-align:  center;
 	background-color:  #2D2C8A;
 }
@@ -203,208 +78,85 @@ footer a {
 	font-size:  18px;
 }
 
-/*IMAGE SLIDER*/
-
-.carousel-wrapper{
-  height:450px;
-  position:relative;
-  width:800px;
-  margin:0 auto;
-  margin-top: 75px;
-}
-.carousel-item{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  padding:25px 50px;
-  opacity:0;
-  transition: all 0.5s ease-in-out;
-  border-radius: 10px;
-}
-.arrow{
-  border: solid #FACF46;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
-}
-
-.arrow-prev{
-  left:-30px;
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%) rotate(135deg);
-}
- 
-.arrow-next{
-    right:-30px;
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%) rotate(-45deg);
-  }
-
-.light{
-  color:white;
-}
-
-@media (max-width: 480px) {
-      .arrow, .light .arrow {
-        background-size: 10px;
-        background-position: 10px 50%;
-      }
-    }
-}
-
-/*Select every element*/
-[id^="item"] {
-    display: none;
-  }
-
-.item-1 {
-    z-index: 2;
-    opacity: 1;
-  background:url('images/twisteros.png');
-  background-size:cover;
-  }
-.item-2{
-  background:url('images/raspbian95.png');
-   background-size:cover;
-}
-.item-3{
-  background:url('images/raspbianxp.png');
-   background-size:cover;
-}
-
-.item-4{
-  background:url('images/raspbian7.png');
-   background-size:cover;
-}
-
-.item-5{
-  background:url('images/raspbianx.png');
-   background-size:cover;
-}
-
-.item-6{
-  background:url('images/nighthawk.png');
-   background-size:cover;
-}
-
-.item-7{
-  background:url('images/iraspbian.png');
-   background-size:cover;
-}
-
-.item-8{
-  background:url('images/iraspbian-dark.png');
-   background-size:cover;
-}
-
-*:target ~ .item-1 {
-    opacity: 0;
-  }
-
-#item-1:target ~ .item-1 {
-    opacity: 1;
-  }
-
-#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
-    z-index: 3;
-    opacity: 1;
-  }
-  #item-3:target ~ .item-3, #item-4:target ~ .item-4 {
-    z-index: 4;
-    opacity: 1;
-  }
-    #item-4:target ~ .item-4, #item-5:target ~ .item-5 {
-    z-index: 5;
-    opacity: 1;
-  }
-    #item-5:target ~ .item-5, #item-6:target ~ .item-6 {
-    z-index: 6;
-    opacity: 1;
-  }
-    #item-6:target ~ .item-6, #item-7:target ~ .item-7 {
-    z-index: 7;
-    opacity: 1;
-  }
-    #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
-    z-index: 8;
-    opacity: 1;
-  }
-      #item-8:target ~ .item-8, #item-1:target ~ .item-1 {
-    z-index: 9;
-    opacity: 1;
-  }
-}
-
-/* about.html */
-
 .about {
-    font-family: Arial, Verdana;
-    font-weight: 600;
-    color: antiquewhite;
-    text-transform: uppercase;
-    display: block;
-    width: 100%;
-}
-
-main p {
+    line-height: 1.8em;
     text-align: justify;
+    margin-bottom: 50px;
 }
 
-/* faq.html */
+.downloads {
+    overflow: hidden;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    
+  }
 
-.faqHeader {
-    font-size: 27px;
-    margin: 20px;
-}
+  .DownloadsUI {
+    
+    list-style: none;
+    margin-bottom: 50px;
+  }
 
-h4 a {
-  color: #FACF46;
-  font-size: 25px;
-  cursor: default;
-}
+  .DownloadsUI li {
+    float: left;
+  
+    margin-bottom: 50px;
+  }
+  
+  .TwisterOS {
+    border-style: solid;
+    border-color: #8789d9;
+    padding: 20px;
+    width: 40%;
+    float: left;
+    margin-right: 200px;
+  }
+  
+  .TwisterUI {
+    border-style: solid;
+    border-color: #8789d9;
+    padding: 20px;
+    width: 40%;
+    overflow: hidden;
+  }
+  
+  .TwisterOS p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .TwisterUI p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-h4 a:hover {
-  opacity: 1;
-}
+  .code {
+    background-color: #332929;
+    opacity: .8;
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: antiquewhite;
+  }
 
-.code {
-  background-color: #332929;
-  opacity: .8;
-  width: 350px;
-  text-align: center;
-  padding: 5px;
-  border-radius: 5px;
-  color: antiquewhite;
-}
-
-/* download.html */
-
-button {
-  border-radius: 5px;
-  background-color: #FACF46;
-  border-style: none;
-  padding: 10px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #2D2C8A;
-  margin-right: 20px;
-  margin-top: -50px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
+  button {
+    border-radius: 5px;
+    background-color: #FACF46;
+    border-style: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2D2C8A;
+    margin-right: 20px;
+    margin-top: -50px;
+    cursor: pointer;
+  }
+  
 .current-release {
-  width: 60%;
-}
-
-.releases {
-  margin-bottom: 25px;
+  width: 25%;
 }
 
 .current-links {
@@ -413,117 +165,60 @@ button:hover {
   margin-top: -50px;
 }
 
-.lists {
-  width: 65%; 
-  margin: auto;
-}
+  .PatchLink {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin-left: 50px;
+  }
+  
+  .PatchLink li {
+    float: left;
+    margin-left: 75px;
+    margin-right: 100px;
+    margin-top: 10px;
+  }
 
-.release {
-  margin-top: -15px;
-  float: left;
-}
+  .ChangelogLink {
+    color:  #FACF46;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: -15px;
+  }
 
-.changelog {
-  margin-left: 400px;
-  color:  #FACF46;
-  cursor: pointer;
-  font-weight: bold;
-}
+ 
 
-.download {
-  margin-top: -40px;
-  float: right;
-}
+  button:hover {
+    opacity: 0.8;
+  }
 
-.popup {
-  z-index: 9;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  display:none;
-  background:darkslategrey;
-  color:antiquewhite;
-  padding:20px;
-  border-radius: 5px;
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
-}
+  .popup {
+    z-index: 9;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:none;
+    background:darkslategrey;
+    color:antiquewhite;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    line-height: 1.8em;
+  }
+  
+  .close {
+    color:  darkslategrey;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FACF46;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+  }
 
-.close {
-  color:  darkslategrey;
-  font-weight: bold;
-  text-align: center;
-  background-color: #FACF46;
-  width: 100px;
-  padding: 5px;
-  border-radius: 5px;
-  margin: auto;
-}
-
-.downloads {
-  overflow: hidden;
-  margin-left: 100px;
-  margin-top: 300px;
-  margin-bottom: 350px;
-}
-
-.TwisterOS {
-  border-style: solid;
-  border-color: #8789d9;
-  padding: 20px;
-  width: 40%;
-  float: left;
-  margin-right: 50px;
-}
-
-.TwisterUI {
-  border-style: solid;
-  border-color: #8789d9;
-  padding: 20px;
-  width: 40%;
-  overflow: hidden;
-}
-
-.TwisterOS p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.TwisterUI p {
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.downloadsUI {
-  margin-left: 30%;
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
-
-.downloadsMain {
-  float: left;
-}
-
-.downloadsTorrent {
-  margin-left: 200px;
-}
-
-.downloadsPatch {
-  float: inherit;
-}
-
-.DownloadsUI {
-  margin-left: 150px;
-}
-
-.DownloadsUI ul {
-  float: right;
-  list-style-type: none;
-}
-
-.DownloadsUI li {
-  display: inline-block;
-  margin-left: 175px;
-}
+  .resize {
+    width: 30%;
+    margin-top: 50px;
+  }
