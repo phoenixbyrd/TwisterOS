@@ -84,53 +84,7 @@ footer a {
     margin-bottom: 50px;
 }
 
-.downloads {
-    overflow: hidden;
-    margin-top: 200px;
-    margin-bottom: 250px;
-    
-  }
 
-  .DownloadsUI {
-    
-    list-style: none;
-    margin-bottom: 50px;
-  }
-
-  .DownloadsUI li {
-    float: left;
-  
-    margin-bottom: 50px;
-  }
-  
-  .TwisterOS {
-    border-style: solid;
-    border-color: #8789d9;
-    padding: 20px;
-    width: 40%;
-    float: left;
-    margin-right: 200px;
-  }
-  
-  .TwisterUI {
-    border-style: solid;
-    border-color: #8789d9;
-    padding: 20px;
-    width: 40%;
-    overflow: hidden;
-  }
-  
-  .TwisterOS p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
-  .TwisterUI p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-  }
 
   .code {
     background-color: #332929;
@@ -223,4 +177,63 @@ footer a {
   .here:hover {
     opacity: 0.8;
     cursor: pointer;
+  }
+
+  .downloads {
+    overflow: hidden;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    
+  }
+
+  .DownloadsUI {
+    
+    list-style: none;
+    margin-bottom: 50px;
+  }
+
+  .DownloadsUI li {
+    float: left;
+  
+    margin-bottom: 50px;
+  }
+  
+.downloadTest {
+  margin: 300px 200px 325px 300px;
+}
+
+  .TwisterOS {
+    border-style: solid;
+    border-color: #8789d9;
+    padding: 20px;
+    display: inline;
+    float: left;
+    margin: auto;
+    margin-right: 50px;
+    overflow: hidden;
+    width: 40%;
+    list-style: none;
+  }
+  
+  .TwisterUI {
+    border-style: solid;
+    border-color: #8789d9;
+    padding: 22px;
+    margin: auto;
+    margin-left: 50px;
+    overflow: hidden;
+    width: 40%;
+    list-style: none;
+  }
+  
+  .TwisterOS p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .TwisterUI p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
   }
