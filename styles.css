@@ -110,6 +110,7 @@ footer a {
   
 .current-release {
   width: 25%;
+  margin-left: 75px;
 }
 
 .current-links {
@@ -198,8 +199,8 @@ footer a {
     margin-bottom: 50px;
   }
   
-.downloadTest {
-  margin: 300px 200px 325px 300px;
+.DownloadPOS {
+  margin: 250px 200px 375px 300px;
 }
 
   .TwisterOS {
@@ -236,4 +237,12 @@ footer a {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+  }
+
+  .TwisterOS p:hover {
+    opacity: 0.8;
+  }
+
+  .TwisterUI p:hover {
+    opacity: 0.8;
   }
