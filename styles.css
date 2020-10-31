@@ -81,7 +81,9 @@ footer a {
 .about {
     line-height: 1.8em;
     text-align: justify;
+    margin-top: 75px;
     margin-bottom: 50px;
+    width: 60%;
 }
 
 
@@ -200,7 +202,7 @@ footer a {
   }
   
 .DownloadPOS {
-  margin: 250px 200px 375px 300px;
+  margin: 250px 200px 390px 300px;
 }
 
   .TwisterOS {
