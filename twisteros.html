@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link rel="stylesheet" type="text/css" href="carousel.css">
-        <link rel="icon" href="favicon.png">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <link rel="stylesheet" href="./style.css" />
         <title>Twister OS</title>
     </head>
-
     <body>
-        <div class="container">
-            <nav>
-                <img src="images/TwisterOSLogo-Large-New3.png" style="width: 400px;">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="download.html">DOWNLOADS</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-					<li><a href="faq.html">FAQ</a></li>
-					<li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
-                </ul>
-            </nav>
-        </div>
+        <main class="downloads">
+                <div class="nav">
+                <nav>
+                    <img src="./images/TwisterOSLogo-Large-New3.png" />
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="download.html">DOWNLOADS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
+                    </ul>
+                </nav>
+                </div>
 
-		<img class="center resize" src="images/TwisterOSLogo-Large-New3.png">
+                <div></div>
+                <div>
+                    <img class="center resize" src="images/TwisterOSLogo-Large-New3.png">
 	
 		<div class="center" style="width: 60% !important; margin-top: 100px;">
 			<div class="current-release">
@@ -41,7 +43,7 @@
             <div style="width: 60%; margin: auto;" class="center">
                 <p class="center" style="line-height: 1.5em; width: 80%;">To determine which version of Twister OS you're currently using, check the README file on the Desktop. For version 1.5.2 and newer, simply open a terminal and type <span class="code">twistver</span></p>
                 <p style="text-align: center; text-decoration: underline;">Please patch in order, do not skip patches.</p>
-                <h4 class="center">To download Twister OS updater copy the following into terminal.</h4>
+                <h4 style="text-align: center;">To download Twister OS updater copy the following into terminal.</h4>
                 <span class="code center" style="width: 60%;">wget https://raw.githubusercontent.com/FlameKat53/Twister-OS-Patcher/master/install.sh && chmod +x ./install.sh && ./install.sh && rm install.sh</span>
             </div>
 			<br><br>
@@ -343,8 +345,11 @@
 
 			<br>
 		</div>
+                </div>
+                <div></div>
 
-        <footer><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
+            <footer style="margin-top: 50px;"><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
+        </main>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>
                 $('.btn').click(function(){

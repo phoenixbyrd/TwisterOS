@@ -1,0 +1,347 @@
+/** All Pages **/
+
+body, html {
+    background-color:  #2D2C8A;
+	color:  antiquewhite;
+    font-family: sans-serif;
+}
+
+.nav {
+    grid-area: nav;
+    top: 0;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav img {
+    width: 25vw; 
+}
+
+nav ul {
+    list-style: none;
+    float: right;  
+}
+
+nav li {
+    display: inline; 
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FACF46;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+nav li:hover {
+    opacity: 0.8;
+}
+
+a {
+    color:  #FACF46;
+    text-decoration:  none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.code {
+    background-color: #332929;
+    opacity: .9;
+    width: auto;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+    border-radius: 5px;
+    background-color: #FACF46;
+    border-style: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2D2C8A;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    grid-area: footer;
+    position:  relative;
+	bottom:  0;
+    margin:  auto;
+	width:  100%;
+	text-align:  center;
+}
+
+footer a {
+	font-weight:  bold;
+	font-size:  18px;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+/** Index Page **/
+
+.index {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav"
+    ". carousel ."
+    ". howpi ."
+    ". advert ."
+    "footer footer footer";
+}
+
+.howpi img {
+    width: 40vw; 
+}
+
+.advert {
+    color: #FACF46;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/** Download Page **/
+
+.download {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "left right"
+    "footer footer";
+}
+
+.left {
+    grid-area: left;
+    text-align: center;
+}
+
+.right {
+    grid-area: right;
+    text-align: center; 
+}
+
+.twister {
+  color: #FACF46;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.twister img {
+    width: 25vw;
+}
+
+.twister p {
+    cursor: pointer;
+}
+
+.twister p:hover {
+    opacity: 0.8;
+}
+
+.box {
+    border-style: solid;
+    border-color: #8789d9;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.extrapad {
+    padding: 22px !important;
+}
+
+/** Twister OS Download Page **/
+
+.twisteros {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "left right"
+    "footer footer";
+}
+
+.current-release {
+    width: 25%;
+    margin-left: 75px;
+  }
+  
+  .current-links {
+    float: right;
+    margin-right: 50px;
+    margin-top: -50px;
+  }
+  
+    .PatchLink {
+      list-style: none;
+      display: inline-block;
+      width: 100%;
+      margin-left: 50px;
+    }
+    
+    .PatchLink li {
+      float: left;
+      margin-left: 50px;
+      margin-right: 125px;
+      margin-top: 10px;
+    }
+  
+    .ChangelogLink {
+      color:  #FACF46;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn {
+      margin-top: -2px;
+    }
+  
+    .resize {
+        width: 30%;
+        margin-top: 50px;
+      }
+  
+    .popup {
+      z-index: 9;
+      position: fixed;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+      display:none;
+      background:darkslategrey;
+      color:antiquewhite;
+      padding:20px;
+      border-radius: 5px;
+      box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+      line-height: 1.8em;
+    }
+    
+    .close {
+      color:  darkslategrey;
+      font-weight: bold;
+      text-align: center;
+      background-color: #FACF46;
+      width: 100px;
+      padding: 5px;
+      border-radius: 5px;
+      margin: auto;
+    }
+  
+
+/** Twister UI Download Page **/
+
+.twisterui {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "left right"
+    "footer footer";
+}
+
+/** About Page **/
+
+.about {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "blurb blurb"
+    "footer footer";
+}
+
+.blurb {
+    width: 60%;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+ul li {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sites {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/** FAQ Page **/
+
+.faq {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "questions questions"
+    "footer footer";
+}
+
+.faqheader {
+    text-align: center; 
+    margin-bottom: 75px; 
+    margin-top: 50px; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.questions {
+    width: 60%;
+    text-align: justify;
+}
+
+h3 {
+    color: #FACF46;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
