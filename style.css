@@ -341,6 +341,10 @@ h3 {
     font-weight: bold;
 }
 
+.here:hover {
+    opacity: 0.8;
+}
+
 
 
 
