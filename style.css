@@ -231,6 +231,10 @@ footer a:hover {
         width: 30%;
         margin-top: 50px;
       }
+
+    .version {
+        text-align: center;
+    }
   
     .popup {
       z-index: 9;
