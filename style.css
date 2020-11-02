@@ -247,7 +247,7 @@ footer a:hover {
       color:antiquewhite;
       padding:20px;
       border-radius: 5px;
-      box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
       line-height: 1.8em;
     }
     

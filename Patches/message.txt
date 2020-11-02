@@ -1,8 +1,61 @@
+Version 1.8.5 patch notes:
+- Updated CommanderPi to version 0.7.2
+- Updated Discord web app to newer Electron version
+- Added option to restore Box86 to latest stable release
+- Added PiBright app to adjust display brightness
+- Updated Chromium Media Edition icon
+- Improved winetricks compatibility with Lutris + Box86
+- Updated Twister OS Patcher
+- Added Pi-Apps application
+- Added Vdesktop application
+- Added MPV Media Player
+- Updated README
+
+Thanks to Jack47, SpacingBat3, kreal, FlameKat53, and BotSpot for their contributions to this release
+
+Version 1.8.4 patch notes:
+
+
+Upgraded Discord web app to Nativefier version
+Minor fixes to iRaspbian & iRaspbian Dark themes
+Removed unnecessary/redundant application menu shortcuts
+Updated Twister OS/Patcher logo graphics
+Updated CommanderPi to version 0.7
+Updated README
+Thanks to SpacingBat3 for his work on the Nativefier Discord app
+
+Version 1.8.3 patch notes:
+
+
+Improvements to iRaspbian Dark theme
+Added Lutris game manager application and optimizations
+Updated README
+
 Version 1.8.2 patch notes:
 - Updated Onboarding app to fix a permissions issue with Raspberry Pi Configuration utility
 - Additional icon updates for Raspbian X/Nighthawk themes
 - Upgraded Twister OS Patcher to GUI version
 - Added support for encrypted external drives
+
+Version 1.8.1 patch notes:
+
+
+Added updated icons for Raspbian X/Nighthawk themes
+Additional icon and theme improvements/fixes
+Updated Discord web app to persist user login following a reboot
+Updated CommanderPi to version 0.5
+
+Version 1.8.0 patch notes:
+
+
+Added Raspbian 7 theme
+Made numerous theme improvements
+Improved RetroPie performance
+Updated Spotlight app
+Updated ThemeTwister GUI app
+Added QJoyPad
+Added JSTest-GTK
+Updated README
 
 Version 1.7 patch notes:
 - Added ThemeTwister GUI
