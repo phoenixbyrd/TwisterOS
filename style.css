@@ -342,6 +342,8 @@ ul li {
 
 .questions h3 {
     color: #8789d9;
+    font-size: 24px;
+    width: auto;
 }
 
 .here:hover {
