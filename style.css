@@ -21,6 +21,7 @@ body, html {
 nav ul {
     list-style: none;
     float: right;  
+    margin-top: 25px;
 }
 
 nav li {
@@ -30,7 +31,6 @@ nav li {
     font-size: 20px;
     color: #FACF46;
     cursor: pointer;
-    margin-top: 50px;
 }
 
 nav li:hover {
