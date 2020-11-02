@@ -239,7 +239,7 @@ footer a:hover {
       left:50%;
       transform:translate(-50%, -50%);
       display:none;
-      background:darkslategrey;
+      background:#332929;
       color:antiquewhite;
       padding:20px;
       border-radius: 5px;
