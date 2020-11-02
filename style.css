@@ -64,6 +64,10 @@ a {
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+h3 {
+    font-weight: bold;
+}
+
 button {
     border-radius: 5px;
     background-color: #FACF46;
@@ -336,9 +340,8 @@ ul li {
     text-align: justify;
 }
 
-h3 {
-    color: #FACF46;
-    font-weight: bold;
+.questions h3 {
+    color: #8789d9;
 }
 
 .here:hover {
