@@ -36,7 +36,7 @@
                                 <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and built around the Pi4 and you may experience issues installing on the 3B+.</p>
                             
                             <h3>Is Twister OS a 64-bit OS?</h3>
-                                <p>Twister OS is a 32-bit OS.</p>
+                                <p>Twister OS is a currently a 32-bit OS. A 64-bit version is planned, though it depends on when the Raspberry Pi Foundation releases their 64-bit version.</p>
 
                             <h3>How do I patch Twister OS?</h3>
                                 <ol style="list-style: none;">
@@ -52,7 +52,10 @@
                                 </ol>
 
                             <h3>Is there an update tool so I don't have to manually update?</h3>
-                                <p>As of version 1.6 Twister OS Patcher has been included, you can find it in System -> Settings.</p>
+                                <p>As of version 1.6 Twister OS Patcher has been included, you can find it in System -> Settings -> Twister OS Patcher.</p>
+                            
+                              <h3>Why can't my pi read the data off a external device??</h3>
+                                <p>Your drive could be formatted with fat32 or another file system that Linux cannot read. You can backup the data on the device, and reformat it with System -> GParted to another file system like exfat.</p>
 
                             <h3>Where is Play on Linux?</h3>
                                 <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall with sudo apt install playonlinux && sudo apt remove wine You need to remove wine because playonlinux will install the arm version which will conflict with x86 version of wine.</p>
