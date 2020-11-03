@@ -85,6 +85,11 @@
                                 If that's the case, you'll just need to hit "enter" when taken to the console prompt. It'll tell you "invalid login" or something to that effect
                                 Then, when prompted, enter "pi" as the username, and "raspberry" as the password (or whatever you've changed the pi account password to)
                                 Press Ctrl+Alt+F7 to return to the desktop, and then you'll be able to launch RetroPie by just double-clicking on the icon</p>
+
+                            <h3>Chromium is asking me to update, how do I do that?</h3>
+                                <p>While Chromium is an older version there is no update available for it at this time. To disable the update notification open terminal and copy this into it:</p>
+                                <p><span class="code">sudo touch /etc/chromium-browser/customizations/01-disable-update-check;echo CHROMIUM_FLAGS=\"\$\{CHROMIUM_FLAGS\} --check-for-update-interval=31536000\" | sudo tee /etc/chromium-browser/customizations/01-disable-update-check
+                                </span></p>
                         </div>
                     </div>
                 </div>
