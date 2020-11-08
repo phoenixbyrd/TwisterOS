@@ -230,7 +230,7 @@ footer a:hover {
     .btn {
       margin-top: -2px;
     }
-  
+ 
     .resize {
         width: 30%;
         margin-top: 50px;
@@ -256,7 +256,7 @@ footer a:hover {
     }
     
     .close {
-      color:  darkslategrey;
+      color:  #2D2C8A;
       font-weight: bold;
       text-align: center;
       background-color: #FACF46;
@@ -266,6 +266,9 @@ footer a:hover {
       margin: auto;
     }
   
+    .close:hover {
+        opacity: 0.8;
+    }
 
 /** Twister UI Download Page **/
 

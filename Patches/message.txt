@@ -1,3 +1,15 @@
+Version 1.9.0 patch notes:
+- Updated mesa/vulkan driver
+- Updated Wine to use new mesa/vulkan driver
+- Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
+- Updated Chromimum and Chromium Media Edition to v84
+- Updated Chromium Media Edition icon
+- Updated README
+
+NOTE: If you have manually either held back Chromium updates, or downgraded to Chromium v78, you will need to revert those changes prior to installing this patch.
+
+Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
+
 Version 1.8.5 patch notes:
 - Updated CommanderPi to version 0.7.2
 - Updated Discord web app to newer Electron version
