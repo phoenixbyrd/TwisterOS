@@ -283,6 +283,10 @@ footer a:hover {
     "footer footer";
 }
 
+.installui a:hover {
+    opacity: 0.8;
+}
+
 /** About Page **/
 
 .about {
