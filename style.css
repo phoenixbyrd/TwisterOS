@@ -26,7 +26,7 @@ nav ul {
 
 nav li {
     display: inline; 
-    margin-right: 20px;
+    margin-right: 10px;
     font-weight: bold;
     font-size: 20px;
     color: #FACF46;
@@ -358,10 +358,58 @@ ul li {
 }
 
 
+/** Image Gallery **/
+
+.gallery-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 
 
-
-
-
-
-
+div.gallery {
+    
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
