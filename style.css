@@ -373,6 +373,10 @@ div.gallery {
     margin-left: 100px;
     margin-top: 100px;
   }
+
+div.galleryuser {
+    margin-bottom: 100px;
+}
   
   div.gallery img {
     width: 100%;
