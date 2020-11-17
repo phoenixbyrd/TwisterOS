@@ -1,3 +1,21 @@
+Version 1.9.1 patch notes:
+
+
+- Updated mesa/vulkan driver
+- Updated Wine to use new mesa/vulkan driver
+- Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
+- Updated Chromimum and Chromium Media Edition to v84
+- Updated Chromium Media Edition icon
+- Updated README
+
+NOTE: If you have manually either held back Chromium updates, or downgraded to Chromium v78, you will need to revert those changes prior to installing this patch.
+
+NOTE: Patch 1.9.1 is also 1.9.0 Patch (basically the same patch) but fixes a potential issue with the mesa updates preventing some windows games from loading. If you are on 1.8.5 you will be updated to 1.9.1. If you are on 1.9 you will be updated to 1.9.1.
+
+Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
+
+
+
 Version 1.9.0 patch notes:
 - Updated mesa/vulkan driver
 - Updated Wine to use new mesa/vulkan driver
