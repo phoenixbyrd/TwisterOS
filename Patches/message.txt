@@ -1,6 +1,4 @@
 Version 1.9.1 patch notes:
-
-
 - Updated mesa/vulkan driver
 - Updated Wine to use new mesa/vulkan driver
 - Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
@@ -44,8 +42,6 @@ Version 1.8.5 patch notes:
 Thanks to Jack47, SpacingBat3, kreal, FlameKat53, and BotSpot for their contributions to this release
 
 Version 1.8.4 patch notes:
-
-
 Upgraded Discord web app to Nativefier version
 Minor fixes to iRaspbian & iRaspbian Dark themes
 Removed unnecessary/redundant application menu shortcuts
@@ -55,8 +51,6 @@ Updated README
 Thanks to SpacingBat3 for his work on the Nativefier Discord app
 
 Version 1.8.3 patch notes:
-
-
 Improvements to iRaspbian Dark theme
 Added Lutris game manager application and optimizations
 Updated README
@@ -68,16 +62,12 @@ Version 1.8.2 patch notes:
 - Added support for encrypted external drives
 
 Version 1.8.1 patch notes:
-
-
 Added updated icons for Raspbian X/Nighthawk themes
 Additional icon and theme improvements/fixes
 Updated Discord web app to persist user login following a reboot
 Updated CommanderPi to version 0.5
 
 Version 1.8.0 patch notes:
-
-
 Added Raspbian 7 theme
 Made numerous theme improvements
 Improved RetroPie performance
