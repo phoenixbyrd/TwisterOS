@@ -12,8 +12,6 @@ NOTE: Patch 1.9.1 is also 1.9.0 Patch (basically the same patch) but fixes a pot
 
 Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
 
-
-
 Version 1.9.0 patch notes:
 - Updated mesa/vulkan driver
 - Updated Wine to use new mesa/vulkan driver
