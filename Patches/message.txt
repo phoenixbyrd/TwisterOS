@@ -1,4 +1,5 @@
 Version 1.9.1 patch notes:
+- Realeased 11/15/2020
 - Updated mesa/vulkan driver
 - Updated Wine to use new mesa/vulkan driver
 - Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
@@ -13,6 +14,7 @@ NOTE: Patch 1.9.1 is also 1.9.0 Patch (basically the same patch) but fixes a pot
 Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
 
 Version 1.9.0 patch notes:
+- Realeased 11/08/2020
 - Updated mesa/vulkan driver
 - Updated Wine to use new mesa/vulkan driver
 - Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
@@ -25,6 +27,7 @@ NOTE: If you have manually either held back Chromium updates, or downgraded to C
 Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
 
 Version 1.8.5 patch notes:
+- Realeased 11/02/2020
 - Updated CommanderPi to version 0.7.2
 - Updated Discord web app to newer Electron version
 - Added option to restore Box86 to latest stable release
@@ -40,6 +43,7 @@ Version 1.8.5 patch notes:
 Thanks to Jack47, SpacingBat3, kreal, FlameKat53, and BotSpot for their contributions to this release
 
 Version 1.8.4 patch notes:
+- Realeased 10/07/2020
 Upgraded Discord web app to Nativefier version
 Minor fixes to iRaspbian & iRaspbian Dark themes
 Removed unnecessary/redundant application menu shortcuts
@@ -49,23 +53,27 @@ Updated README
 Thanks to SpacingBat3 for his work on the Nativefier Discord app
 
 Version 1.8.3 patch notes:
+- Realeased 09/25/2020
 Improvements to iRaspbian Dark theme
 Added Lutris game manager application and optimizations
 Updated README
 
 Version 1.8.2 patch notes:
+- Realeased 09/21/2020
 - Updated Onboarding app to fix a permissions issue with Raspberry Pi Configuration utility
 - Additional icon updates for Raspbian X/Nighthawk themes
 - Upgraded Twister OS Patcher to GUI version
 - Added support for encrypted external drives
 
 Version 1.8.1 patch notes:
+- Realeased 09/15/2020
 Added updated icons for Raspbian X/Nighthawk themes
 Additional icon and theme improvements/fixes
 Updated Discord web app to persist user login following a reboot
 Updated CommanderPi to version 0.5
 
 Version 1.8.0 patch notes:
+- Realeased 09/10/2020
 Added Raspbian 7 theme
 Made numerous theme improvements
 Improved RetroPie performance
@@ -76,6 +84,7 @@ Added JSTest-GTK
 Updated README
 
 Version 1.7 patch notes:
+- Realeased 08/30/2020
 - Added ThemeTwister GUI
 - Updated Twister OS Onboarding app with support for light/dark themes
 - Updated Notification Center app with improved theme support
@@ -86,6 +95,7 @@ Version 1.7 patch notes:
 - Updated README
 
 Version 1.6 patch notes:
+- Realeased 08/22/2020
 - Added custom Twister OS Neofetch theme
 - Added Notification Center app
 - Added Twister OS Onboarding app
@@ -97,10 +107,16 @@ Version 1.6 patch notes:
 - Updated README
 
 Version 1.5.2 patch notes:
+- Realeased 08/10/2020
 - Yet more Wine x86 fixes
 - Added Twister OS version identifier script
 
+Version 1.5.1 patch notes:
+- Realeased 08/09/2020
+- Additional Wine x86 fixes
+
 Version 1.5 patch notes:
+- Realeased 08/07/2020
 - Added Raspbian XP theme
 - Added new default Twister OS theme
 - Fixed an issue where DynamicWallpaper would not display correct wallpaper on boot
@@ -109,6 +125,7 @@ Version 1.5 patch notes:
 - Updated README
 
 Version 1.4.1 patch notes:
+- Realeased 08/01/2020
 - Improved ThemeTwister to support additional themes
 - Added Raspbian 95 theme
 - Added iRaspbian Dark theme
@@ -127,6 +144,7 @@ Version 1.4.1 patch notes:
 - Updated README
 
 Version 1.3 patch notes:
+- Realeased 06/29/2020
 - Modified login screen themes to accommodate long user names
 - Fixed a font issue on the iRaspbian login screen theme
 - Added Discord web "app" for Twister OS support
@@ -138,6 +156,7 @@ Version 1.3 patch notes:
 - Added Neofetch application and associated icon/shortcut to quickly view system information
 
 Version 1.2 patch notes:
+- Realeased 06/19/2020
 - Fixed an issue where the "Contacts" app would not appear in the application menu
 - Replaced the login screen for the Nighthawk theme with a new one that can scale to different display resolutions
 - Updated the login screen for the iRaspbian theme
