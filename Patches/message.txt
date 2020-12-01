@@ -1,3 +1,14 @@
+Version 1.9.2 patch notes:
+- Upgraded Twister OS Patcher to YAD version
+- Added support for exFAT-formatted drives
+- Added Twister OS Diagnostics app
+- Fixed an issue affecting certain Wine games with latest Mesa driver update
+- Added application menu shortcut for Winetricks
+- Improved panel tray icon refreshing
+- Updated README
+
+Thanks to Botspot for his Twister OS Patcher application, to pale for his Twister OS Diagnostics script, and to @phoenixbyrd  for his tray icon refresh method discovery
+
 Version 1.9.1 patch notes:
 - Realeased 11/15/2020
 - Updated mesa/vulkan driver
