@@ -68,19 +68,13 @@
                                 <p>If Steam doesn't start for you, please update Box86 from the "Games" menu and try again. Please also note that Steam is experimental, and may have issues from time-to-time</p>
                 
                             <h3>Bluetooth audio is not working!</h3>
-                                <p>We are aware of this issue and are looking for a workaround. If you are experiencing issues with bluetooth audio then it is currently advised to leave audio settings alone for the time being.</p>
-                                <p>Please try the following</p>
-                                <p>
-                                    Connect and pair the bluetooth speaker, also mark it as Trust<br><br>
-
-                                    Run in terminal<br><br>
-                                    <span class="code">sudo killall bluealsa</span> <br><br>
-                                    <span class="code">pulseaudio --start</span><br><br>
-
-                                    Reconnect the speaker via Bluetooth devices<br><br>
-
-                                    Now you will be able to see and select it in the volume selection
-                                </p>
+                                <p>enter the following commands in sequence in terminal:</p>
+                                <p>sudo apt update</p>
+                                <p>sudo apt full-upgrade</p>
+                                <p>(Answer "y" to all prompts)</p>
+                                <p>sudo apt purge bluealsa</p>
+                                <p>sudo apt autoremove</p>
+                                <p>sudo reboot</p>
 
                             <h3>How do I reset my theme?</h3>
                                 <p>Open terminal and enter</p> <span class="code">/usr/share/ThemeSwitcher/Backup/./restore-original-config.sh</span>
