@@ -1,3 +1,8 @@
+Version 1.9.3 patch notes:
+- Updated Mesa driver to 20.3 final, Vulkan conformant version
+- Updated Twister OS Patcher
+- Updated Twister OS Diagnostics
+
 Version 1.9.2 patch notes:
 - Upgraded Twister OS Patcher to YAD version
 - Added support for exFAT-formatted drives
