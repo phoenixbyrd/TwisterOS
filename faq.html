@@ -25,7 +25,7 @@
             </div>
 
             <div></div>
-                <div>
+                <div style="text-align: justify;">
                     <div class="faqheader">Frequently Asked Questions</div>
                         <div class="questions center">
                             <h3>What is the password?</h3>
@@ -40,15 +40,14 @@
                                 <p>Twister OS is a 32-bit OS.</p>
 
                             <h3>How do I patch Twister OS?</h3>
-                                <ol style="list-style: none;">
+                                <ol style="list-style: none; line-height: 2em;">
+                                    <li>Ideally from version 1.5.2 and up you would use the Twister OS Patcher application included. If you prefer to manually patch, follow these directions.</li>
+                                    <li>NOTE: If Twister OS Patcher fails, or you feel may not have updated your system properly please report the occurance on Discord. You can reinitiate Twister OS Patcher by editing /usr/local/bin/twistver to read the version previous from the one you are attempting to patch up to.</li>
                                     <li>Download the patch you need</li>
-                                    <li>Open File Manager and navigate to Downloads</li>
-                                    <li>Right click on the patch zip file and choose extract here</li>
-                                    <li>Open the patch folder that was just created</li>
-                                    <li>Now right click a blank spot inside the folder and choose open terminal here</li>
-                                    <li>Once terminal opens type ./ followed by the .sh file name inside the current directory</li>
+                                    <li>Now open terminal and navigate to downloads folder <span class="code">cd ~/Downloads</span></li>
+                                    <li>Once you are in ~/Downloads enter <span class="code">chmod +x *Patch.run</span></li>
+                                    <li>Now start the Patch process with <span class="code">./*Patch.run</span> </li>
                                     <li>Quick trick, you can type the first character and hit the tab key to autocomplete the filename.</li>
-                                    <li>Hit the ENTER key to begin the patch process</li>
                                     <li>When upgrading please patch in order. Patch 1.0 to 1.1 to 1.2 to 1.3 etc.</li>
                                 </ol>
 
