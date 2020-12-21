@@ -1,3 +1,7 @@
+Version 1.9.4 patch notes:
+- Fixed an issue preventing Twister OS Patcher from self-updating on some systems
+- Updated failsafe stable version of box86 to 0.1.8
+
 Version 1.9.3 patch notes:
 - Updated Mesa driver to 20.3 final, Vulkan conformant version
 - Updated Twister OS Patcher
