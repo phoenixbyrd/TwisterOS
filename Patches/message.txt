@@ -1,3 +1,14 @@
+Version 1.9.6 patch notes:
+- Added "About Twister OS" app
+- Added Disk Usage Analyzer app
+- Added Twister OS Web Apps Launcher app
+- Updated Twister OS Diagnostics
+- Removed PulseAudio OSS wrapper due to incompatibility with new PulseAudio profile
+- Added support for EXE file icons and double-clicking to launch with Wine
+- Updated README, moved to universal location
+
+Thanks to Juan Lozano for his "About Twister OS" app, and to phoenixbyrd for his Twister OS Web Apps Launcher
+
 Version 1.9.5 patch notes:
 - Made optimization improvements to ThemeTwister
 - Moved icon and sound files to universal locations
