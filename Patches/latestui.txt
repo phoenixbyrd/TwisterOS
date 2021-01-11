@@ -1,3 +1,5 @@
+Twister UI version 1.0.6
+Twister UI version 1.0.5
 Twister UI version 1.0.4
 Twister UI version 1.0.3
 Twister UI version 1.0.2

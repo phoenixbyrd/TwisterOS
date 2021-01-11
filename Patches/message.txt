@@ -1,3 +1,7 @@
+Version 1.9.7 patch notes:
+- Updated Twister OS Web Apps Launcher to fix an issue with Netflix
+- Changed Steam to launch in small mode by default
+
 Version 1.9.6 patch notes:
 - Added "About Twister OS" app
 - Added Disk Usage Analyzer app
