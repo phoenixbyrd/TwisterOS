@@ -179,6 +179,14 @@ footer a:hover {
     margin-right: 50px;
 }
 
+.boxian {
+    border-style: solid;
+    border-color: #8789d9;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .extrapad {
     padding: 22px !important;
 }
