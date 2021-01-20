@@ -33,8 +33,8 @@
                                 <p>Please change your password by opening terminal and entering <span class="code">passwd</span></p> 
                                 <p>Please also change your root password. <span class="code">sudo -i</span> and then run <span class="code">passwd</span></p>
 
-                            <h3>Will This Run On My Pi 3B+</h3>
-                                <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and built around the Pi4 and you may experience issues installing on the 3B+.</p>
+                            <h3>Will this run on my Pi 3B+? </h3>
+                                <p>While Twister OS will install on the 3B+, it is not recommended. Twister OS was designed and built around the Pi4 and you may experience issues installing on the 3B+.</p>
                             
                             <h3>Is Twister OS a 64-bit OS?</h3>
                                 <p>Twister OS is a 32-bit OS.</p>
@@ -42,7 +42,7 @@
                             <h3>How do I patch Twister OS?</h3>
                                 <ol style="list-style: none; line-height: 2em;">
                                     <li>Ideally from version 1.5.2 and up you would use the Twister OS Patcher application included. If you prefer to manually patch, follow these directions.</li>
-                                    <li>NOTE: If Twister OS Patcher fails, or you feel may not have updated your system properly please report the occurance on Discord. You can reinitiate Twister OS Patcher by editing /usr/local/bin/twistver to read the version previous from the one you are attempting to patch up to.</li>
+                                    <li>NOTE: If Twister OS Patcher fails, or you feel may not have updated your system properly, please report the occurence on Discord. You can reinitiate Twister OS Patcher by editing /usr/local/bin/twistver to read the version previous from the one you are attempting to patch up to.</li>
                                     <li>Download the patch you need</li>
                                     <li>Now open terminal and navigate to downloads folder <span class="code">cd ~/Downloads</span></li>
                                     <li>Once you are in ~/Downloads enter <span class="code">chmod +x *Patch.run</span></li>
@@ -52,10 +52,10 @@
                                 </ol>
 
                             <h3>Is there an update tool so I don't have to manually update?</h3>
-                                <p>As of version 1.6 Twister OS Patcher has been included, you can find it in System -> Settings.</p>
+                                <p>As of version 1.6, Twister OS Patcher has been included, you can find it in System -> Settings.</p>
 
                             <h3>Where is Play on Linux?</h3>
-                                <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall with sudo apt install playonlinux && sudo apt remove wine You need to remove wine because playonlinux will install the arm version which will conflict with x86 version of wine.</p>
+                                <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall the software with sudo apt install playonlinux && sudo apt remove wine You need to remove wine because playonlinux will install the ARM version which will conflict with the x86 version of wine.</p>
                             
                             <h3>Where can I download wine?</h3>
                                 <p>Download Wine <a class="here" href="https://twisteros.com/wine.tgz">HERE</a></p>
@@ -83,7 +83,7 @@
                                 <p>Twister OS themes are hardcoded to the user pi and will not work under other user profiles.</p>
 
                             <h3>Some icons on my panel/taskbar are missing!</h3>
-                                <p>Open terminal and enter <span class="code">./.panel-restart</span></p>
+                                <p>Open the terminal and enter <span class="code">./.panel-restart</span></p>
                                 <p>This will refresh your panel/taskbar and should show missing items again. If this does not help then please request further help on discord.</p>
 
                             <h3>Why does retropie ask me to log in?</h3>
@@ -93,7 +93,7 @@
                                 Press Ctrl+Alt+F7 to return to the desktop, and then you'll be able to launch RetroPie by just double-clicking on the icon</p>
 
                             <h3>Chromium is asking me to update, how do I do that?</h3>
-                                <p>While Chromium is an older version there is no update available for it at this time. To disable the update notification open terminal and copy this into it:</p>
+                                <p>While Chromium is an older version, there is no update available for it at this time. To disable the update notification open the terminal and copy this into it:</p>
                                 <p><span class="code">sudo touch /etc/chromium-browser/customizations/01-disable-update-check;echo CHROMIUM_FLAGS=\"\$\{CHROMIUM_FLAGS\} --check-for-update-interval=31536000\" | sudo tee /etc/chromium-browser/customizations/01-disable-update-check
                                 </span></p>
 
@@ -105,7 +105,7 @@
                 </div>
             <div></div>
 
-            <footer style="margin-top: 50px;"><p>Twister OS 2020 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
+            <footer style="margin-top: 50px;"><p>Twister OS 2021 | <a href="https://discord.gg/Fh8sjmu" target="_blank">Join our Discord!</a></p></footer>
         </main>
     </body>
 </html>

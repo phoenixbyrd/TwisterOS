@@ -1,211 +1,211 @@
 Version 1.9.7 patch notes:
-- Updated Twister OS Web Apps Launcher to fix an issue with Netflix
-- Changed Steam to launch in small mode by default
+- Updated Twister OS Web Apps Launcher to fix an issue with Netflix.
+- Changed Steam to launch in small mode by default.
 
 Version 1.9.6 patch notes:
-- Added "About Twister OS" app
-- Added Disk Usage Analyzer app
-- Added Twister OS Web Apps Launcher app
-- Updated Twister OS Diagnostics
-- Removed PulseAudio OSS wrapper due to incompatibility with new PulseAudio profile
-- Added support for EXE file icons and double-clicking to launch with Wine
-- Updated README, moved to universal location
+- Added "About Twister OS" app.
+- Added Disk Usage Analyzer app.
+- Added Twister OS Web Apps Launcher app.
+- Updated Twister OS Diagnostics.
+- Removed PulseAudio OSS wrapper due to incompatibility with new PulseAudio profile.
+- Added support for EXE file icons and double-clicking to launch with Wine.
+- Updated README, moved to universal location.
 
-Thanks to Juan Lozano for his "About Twister OS" app, and to phoenixbyrd for his Twister OS Web Apps Launcher
+Thanks to Juan Lozano for his "About Twister OS" app, and to phoenixbyrd for his Twister OS Web Apps Launcher.
 
 Version 1.9.5 patch notes:
-- Made optimization improvements to ThemeTwister
-- Moved icon and sound files to universal locations
-- Updated Twister OS graphics
+- Made optimization improvements to ThemeTwister.
+- Moved icon and sound files to universal locations.
+- Updated Twister OS graphics.
 
 Version 1.9.4 patch notes:
-- Fixed an issue preventing Twister OS Patcher from self-updating on some systems
-- Updated failsafe stable version of box86 to 0.1.8
+- Fixed an issue preventing Twister OS Patcher from self-updating on some systems.
+- Updated failsafe stable version of box86 to 0.1.8.
 
 Version 1.9.3 patch notes:
-- Updated Mesa driver to 20.3 final, Vulkan conformant version
-- Updated Twister OS Patcher
-- Updated Twister OS Diagnostics
+- Updated Mesa driver to 20.3 final, Vulkan conformant version.
+- Updated Twister OS Patcher.
+- Updated Twister OS Diagnostics.
 
 Version 1.9.2 patch notes:
-- Upgraded Twister OS Patcher to YAD version
-- Added support for exFAT-formatted drives
-- Added Twister OS Diagnostics app
-- Fixed an issue affecting certain Wine games with latest Mesa driver update
-- Added application menu shortcut for Winetricks
-- Improved panel tray icon refreshing
-- Updated README
+- Upgraded Twister OS Patcher to YAD version.
+- Added support for exFAT-formatted drives.
+- Added Twister OS Diagnostics app.
+- Fixed an issue affecting certain Wine games with latest Mesa driver update.
+- Added application menu shortcut for Winetricks.
+- Improved panel tray icon refreshing.
+- Updated README.
 
-Thanks to Botspot for his Twister OS Patcher application, to pale for his Twister OS Diagnostics script, and to @phoenixbyrd  for his tray icon refresh method discovery
+Thanks to Botspot for his Twister OS Patcher application, to pale for his Twister OS Diagnostics script, and to @phoenixbyrd  for his tray icon refresh method discovery.
 
 Version 1.9.1 patch notes:
-- Realeased 11/15/2020
-- Updated mesa/vulkan driver
-- Updated Wine to use new mesa/vulkan driver
-- Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
-- Updated Chromimum and Chromium Media Edition to v84
-- Updated Chromium Media Edition icon
-- Updated README
+- Released 11/15/2020.
+- Updated Mesa/Vulkan driver.
+- Updated Wine to use the new Mesa/Vulkan driver.
+- Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available.
+- Updated Chromimum and Chromium Media Edition to v84.
+- Updated Chromium Media Edition icon.
+- Updated README.
 
 NOTE: If you have manually either held back Chromium updates, or downgraded to Chromium v78, you will need to revert those changes prior to installing this patch.
 
 NOTE: Patch 1.9.1 is also 1.9.0 Patch (basically the same patch) but fixes a potential issue with the mesa updates preventing some windows games from loading. If you are on 1.8.5 you will be updated to 1.9.1. If you are on 1.9 you will be updated to 1.9.1.
 
-Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
+Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution.
 
 Version 1.9.0 patch notes:
 - Realeased 11/08/2020
-- Updated mesa/vulkan driver
-- Updated Wine to use new mesa/vulkan driver
-- Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available
-- Updated Chromimum and Chromium Media Edition to v84
-- Updated Chromium Media Edition icon
-- Updated README
+- Updated Mesa/Vulkan driver.
+- Updated Wine to use new Mesa/Vulkan driver.
+- Reverted Discord web app to Nativefier version until non-tray icon variant of Electron app is available.
+- Updated Chromimum and Chromium Media Edition to v84.
+- Updated Chromium Media Edition icon.
+- Updated README.
 
 NOTE: If you have manually either held back Chromium updates, or downgraded to Chromium v78, you will need to revert those changes prior to installing this patch.
 
-Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution
+Thanks to Jose Cerrejon for his mesa/vulkan driver update script, and to Botspot for his Chromium v84 Media Edition solution.
 
 Version 1.8.5 patch notes:
-- Realeased 11/02/2020
-- Updated CommanderPi to version 0.7.2
-- Updated Discord web app to newer Electron version
-- Added option to restore Box86 to latest stable release
-- Added PiBright app to adjust display brightness
-- Updated Chromium Media Edition icon
-- Improved winetricks compatibility with Lutris + Box86
-- Updated Twister OS Patcher
-- Added Pi-Apps application
-- Added Vdesktop application
-- Added MPV Media Player
-- Updated README
+- Released 11/02/2020.
+- Updated CommanderPi to version 0.7.2.
+- Updated Discord web app to newer Electron version.
+- Added option to restore Box86 to latest stable release.
+- Added PiBright app to adjust display brightness.
+- Updated Chromium Media Edition icon.
+- Improved winetricks compatibility with Lutris + Box86.
+- Updated Twister OS Patcher.
+- Added Pi-Apps application.
+- Added Vdesktop application.
+- Added MPV Media Player.
+- Updated README.
 
 Thanks to Jack47, SpacingBat3, kreal, FlameKat53, and BotSpot for their contributions to this release
 
 Version 1.8.4 patch notes:
-- Realeased 10/07/2020
-Upgraded Discord web app to Nativefier version
-Minor fixes to iRaspbian & iRaspbian Dark themes
-Removed unnecessary/redundant application menu shortcuts
-Updated Twister OS/Patcher logo graphics
-Updated CommanderPi to version 0.7
-Updated README
-Thanks to SpacingBat3 for his work on the Nativefier Discord app
+- Released 10/07/2020.
+Upgraded Discord web app to Nativefier version.
+Minor fixes to iRaspbian & iRaspbian Dark themes.
+Removed unnecessary/redundant application menu shortcuts.
+Updated Twister OS/Patcher logo graphics.
+Updated CommanderPi to version 0.7.
+Updated README.
+Thanks to SpacingBat3 for his work on the Nativefier Discord app.
 
 Version 1.8.3 patch notes:
-- Realeased 09/25/2020
-Improvements to iRaspbian Dark theme
-Added Lutris game manager application and optimizations
-Updated README
+- Released 09/25/2020.
+Improvements to iRaspbian Dark theme.
+Added Lutris game manager application and optimizations.
+Updated README.
 
 Version 1.8.2 patch notes:
-- Realeased 09/21/2020
-- Updated Onboarding app to fix a permissions issue with Raspberry Pi Configuration utility
-- Additional icon updates for Raspbian X/Nighthawk themes
-- Upgraded Twister OS Patcher to GUI version
-- Added support for encrypted external drives
+- Released 09/21/2020.
+- Updated Onboarding app to fix a permissions issue with Raspberry Pi Configuration utility.
+- Additional icon updates for Raspbian X/Nighthawk themes.
+- Upgraded Twister OS Patcher to GUI version.
+- Added support for encrypted external drives.
 
 Version 1.8.1 patch notes:
-- Realeased 09/15/2020
-Added updated icons for Raspbian X/Nighthawk themes
-Additional icon and theme improvements/fixes
-Updated Discord web app to persist user login following a reboot
-Updated CommanderPi to version 0.5
+- Released 09/15/2020.
+Added updated icons for Raspbian X/Nighthawk themes.
+Additional icon and theme improvements/fixes.
+Updated Discord web app to persist user login following a reboot.
+Updated CommanderPi to version 0.5.
 
 Version 1.8.0 patch notes:
-- Realeased 09/10/2020
-Added Raspbian 7 theme
-Made numerous theme improvements
-Improved RetroPie performance
-Updated Spotlight app
-Updated ThemeTwister GUI app
-Added QJoyPad
-Added JSTest-GTK
-Updated README
+- Released 09/10/2020.
+Added Raspbian 7 theme.
+Made numerous theme improvements.
+Improved RetroPie performance.
+Updated Spotlight app.
+Updated ThemeTwister GUI app.
+Added QJoyPad.
+Added JSTest-GTK.
+Updated README.
 
 Version 1.7 patch notes:
-- Realeased 08/30/2020
-- Added ThemeTwister GUI
-- Updated Twister OS Onboarding app with support for light/dark themes
-- Updated Notification Center app with improved theme support
-- Updated Spotlight app with improved theme support
-- Added Notification Center icons for Raspbian X/Nighthawk themes
-- Added Kodi
-- Added community wallpaper images
-- Updated README
+- Released 08/30/2020.
+- Added ThemeTwister GUI.
+- Updated Twister OS Onboarding app with support for light/dark themes.
+- Updated Notification Center app with improved theme support.
+- Updated Spotlight app with improved theme support.
+- Added Notification Center icons for Raspbian X/Nighthawk themes.
+- Added Kodi.
+- Added community wallpaper images.
+- Updated README.
 
 Version 1.6 patch notes:
-- Realeased 08/22/2020
-- Added custom Twister OS Neofetch theme
-- Added Notification Center app
-- Added Twister OS Onboarding app
-- Added Spotlight app
-- Added Twister OS Patcher
-- Fixed an issue where certain app icons/text would display incorrectly in Lightpad
-- Added Raspbian X Nighthawk-styled Twister OS wallpaper
-- Removed PlayOnLinux
-- Updated README
+- Released 08/22/2020.
+- Added custom Twister OS Neofetch theme.
+- Added Notification Center app.
+- Added Twister OS Onboarding app.
+- Added Spotlight app.
+- Added Twister OS Patcher.
+- Fixed an issue where certain app icons/text would display incorrectly in Lightpad.
+- Added Raspbian X Nighthawk-styled Twister OS wallpaper.
+- Removed PlayOnLinux.
+- Updated README.
 
 Version 1.5.2 patch notes:
-- Realeased 08/10/2020
-- Yet more Wine x86 fixes
-- Added Twister OS version identifier script
+- Released 08/10/2020.
+- Yet more Wine x86 fixes.
+- Added Twister OS version identifier script.
 
 Version 1.5.1 patch notes:
-- Realeased 08/09/2020
-- Additional Wine x86 fixes
+- Released 08/09/2020.
+- Additional Wine x86 fixes.
 
 Version 1.5 patch notes:
-- Realeased 08/07/2020
-- Added Raspbian XP theme
-- Added new default Twister OS theme
-- Fixed an issue where DynamicWallpaper would not display correct wallpaper on boot
-- Improved Wine x86 compatibility
-- Added PlayOnLinux
-- Updated README
+- Released 08/07/2020.
+- Added Raspbian XP theme.
+- Added new default Twister OS theme.
+- Fixed an issue where DynamicWallpaper would not display correct wallpaper on boot.
+- Improved Wine x86 compatibility.
+- Added PlayOnLinux.
+- Updated README.
 
 Version 1.4.1 patch notes:
-- Realeased 08/01/2020
-- Improved ThemeTwister to support additional themes
-- Added Raspbian 95 theme
-- Added iRaspbian Dark theme
-- Made improvements to Raspbian X/Nighthawk themes, added Raspbian X (light) theme to ThemeTwister
-- Made improvements to Discord web "app"
-- Fixed Steam menu shortcut
-- Upgraded LightPad to current version
-- Improved Kodi support
-- Added DynamicWallpaper application
-- Upgraded CommanderPi to current version
-- Added support and binaries for Wine x86 (beta)
-- Added "SkiFree" Windows game
-- Added Audacious music player app with WinAmp theme
-- Added updated Mesa and Vulkan driver (beta)
-- Added PiKISS application
-- Updated README
+- Released 08/01/2020.
+- Improved ThemeTwister to support additional themes.
+- Added Raspbian 95 theme.
+- Added iRaspbian Dark theme.
+- Made improvements to Raspbian X/Nighthawk themes, added Raspbian X (light) theme to ThemeTwister.
+- Made improvements to Discord web "app".
+- Fixed Steam menu shortcut.
+- Upgraded LightPad to current version.
+- Improved Kodi support.
+- Added DynamicWallpaper application.
+- Upgraded CommanderPi to current version.
+- Added support and binaries for Wine x86 (beta).
+- Added "SkiFree" Windows game.
+- Added Audacious music player app with WinAmp theme.
+- Added updated Mesa and Vulkan driver (beta).
+- Added PiKISS application.
+- Updated README.
 
 Version 1.3 patch notes:
-- Realeased 06/29/2020
-- Modified login screen themes to accommodate long user names
-- Fixed a font issue on the iRaspbian login screen theme
-- Added Discord web "app" for Twister OS support
-- Updated application icons for Box86
-- Updated README
-- Fixed "libc.so.6" error message when launching Steam and added support for certain Valve games
-- Added an "Exit Steam" app to close Steam if it is still running after exiting the program
-- Replaced Gimpshop Reloaded with PhotoGIMP v.2020
-- Added Neofetch application and associated icon/shortcut to quickly view system information
+- Released 06/29/2020.
+- Modified login screen themes to accommodate long user names.
+- Fixed a font issue on the iRaspbian login screen theme.
+- Added Discord web "app" for Twister OS support.
+- Updated application icons for Box86.
+- Updated README.
+- Fixed "libc.so.6" error message when launching Steam and added support for certain Valve games.
+- Added an "Exit Steam" app to close Steam if it is still running after exiting the program.
+- Replaced Gimpshop Reloaded with PhotoGIMP v.2020.
+- Added Neofetch application and associated icon/shortcut to quickly view system information.
 
 Version 1.2 patch notes:
-- Realeased 06/19/2020
-- Fixed an issue where the "Contacts" app would not appear in the application menu
-- Replaced the login screen for the Nighthawk theme with a new one that can scale to different display resolutions
-- Updated the login screen for the iRaspbian theme
-- Replaced the Slingscold application launcher with LightPad, which fixes an issue with launching terminal-based apps
-- Updated the README
+- Released 06/19/2020
+- Fixed an issue where the "Contacts" app would not appear in the application menu.
+- Replaced the login screen for the Nighthawk theme with a new one that can scale to different display resolutions.
+- Updated the login screen for the iRaspbian theme.
+- Replaced the Slingscold application launcher with LightPad, which fixes an issue with launching terminal-based apps.
+- Updated the README.
 
 Version 1.1 patch notes:
-- Fixed an issue where certain application icons would change or become hidden after Raspberry Pi OS updates
-- Updated Commander Pi to version 0.4.1
-- Fixed an issue where the display would not reinitialize after screen blanking was invoked
-- Made minor improvements to the default theme restoration mechanism
-- Fixed an issue where the bluetooth icon would occasionally not appear in the system tray upon boot
+- Fixed an issue where certain application icons would change or become hidden after Raspberry Pi OS updates.
+- Updated Commander Pi to version 0.4.1.
+- Fixed an issue where the display would not reinitialize after screen blanking was invoked.
+- Made minor improvements to the default theme restoration mechanism.
+- Fixed an issue where the bluetooth icon would occasionally not appear in the system tray upon boot.
