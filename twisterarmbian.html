@@ -31,11 +31,11 @@
 		<div class="center" style="width: 60% !important; margin-top: 100px;">
 			<div class="current-release">
 				<h1>Current Release</h1>
-				<h3>Twister OS Armbian 1.0 BETA 3</h3>
+				<h3>Twister OS Armbian 1.0.0</h3>
 			</div>
 			<div class="current-links">
-		      <a href="https://archive.org/download/twister-osarmbian-v-1-0-beta-3.img/TwisterOSArmbianV1-0-beta3.img.xz"><button>DOWNLOAD</button></a>
-		      <a href="https://archive.org/download/twister-osarmbian-v-1-0-beta-3.img/twister-osarmbian-v-1-0-beta-3.img_archive.torrent"><button>TORRENT</button></a>
+		      <a href="https://archive.org/download/twister-osarmbian-v-1-0-0.img/TwisterOSArmbianV1-0-0.img.xz"><button>DOWNLOAD</button></a>
+		      <a href="https://archive.org/download/twister-osarmbian-v-1-0-0.img/twister-osarmbian-v-1-0-0.img_archive.torrent"><button>TORRENT</button></a>
             </div>
             <div class="center" style="text-align: center;">
                 Default Password: asdasd<br><br>
@@ -43,13 +43,60 @@
             </div>
             
 		</div>
+        
+        <div class="center" style="text-align: justify; width:75%; line-height: 1.8em;">
+            <h2>Twister OS Armbian</h2>
 
-        <p class="center" style="text-align: justify; width:50%; line-height: 1.8em;">This build of TwisterOS Armbian target RK3399 devices supported by Armbian. the only required step after flashing the sd card it's to rename the DTB label 
-            inside /boot/armbianEnv.txt to your device DTB (you can find the DTB files on /boot/dtb/rockchip/ folder). after first boot, you should change the default 
-            password for user and root with passwd and sudo passwd respectively. Also, remember to resize your sd card/emmc manually from gnome disks to fill your 
-            entire disk space. This is a beta and we understand it's not as stable as we would like due current problems Armbian have with xfce4 Desktop Environment. 
-            We rely on Armbian and what those devs can do to make it more stable. We expect some feedback and contributions from other devs to help as to improve this 
-            build that target newcomers on ARM Linux.</p>
+            Twister OS Armbian is a fully featured, fast and lightweight desktop OS based upon Armbian Focal 20.04.1 LTS (aarch64) for Rockchip RK3399-based SBCs that is designed to work "out-of-the-box."<br><br>
+            
+            
+            <h4>Requirements:</h4>
+            
+            - A RK3399-based SBC/development board with 4 GB of RAM and a 16 GB of microSD/eMMC storage is strongly recommended.
+              (It is currently best supported on Rock Pi 4B, Rock Pi 4C, and RockPro64 boards)<br><br>
+            
+            
+            <h4>Some of Twister OS Armbian's features and specifications include:</h4>
+            
+            - 5.9.14 Kernel<br>
+            - XFCE desktop environment with Xfwm4 window manager<br>
+            - Latest Panfrost GPU drivers with desktop hardware acceleration<br>
+            - OpenGL 3.1 is also supported with fully updated Mesa 21.1.0<br>
+            - Kodi and MPV media players with built-in hardware acceleration support<br>
+            - Installer for Chromium Media Edition via a Docker container for watching streaming services like 
+              Netflix, Amazon Prime, Disney+, Apple TV+, Hulu, Spotify, and others. (optional)<br>
+            - ThemeTwister application to completely change the appearance of your OS. Choose from a variety of themes ranging from modern to nostalgic (a reboot is required when switching themes).<br>
+            - Includes a number of retro gaming emulators -- PPSSPP, DOSBOX-X, Mednaffe, Mesen, Mupen64Plus, PCSX ReARMed,
+              Retroarch (Tested functional, but not included), Redream, ScummVM, and many more...<br>
+            - BOX86 with latest updates included for running x86-based software.<br>
+            - uSD and eMMC booting supported. (RK3399 - NanoPi-M4 requires re-seat of HDMI cable on power on due to firmware limitations, and supports MicroSD at this time)<br>
+            - A number of useful, carefully curated apps are included, such as: Steam, Lutris, Discord, My Android, 
+              Wine Desktop, USBImager, LibreOffice suite, Transmission, Gimp, MELD, VLC Player, Audacious, etc.<br>
+            - A sample of games are also included for your enjoyment.<br>
+            - Overclocking and hardware profile support out-of-the-box.<br>
+            
+            
+            <h4>Known issues:</h4>
+
+            - Bluetooth audio is not working<br>
+            - Kodi repository is missing and needs to be installed manually 
+              (sudo apt install kodi-repository-kodi)<br>
+            - Docker Container requires performing some extra steps to fix a no-HDMI audio issue. 
+              (Fixed via pavucontrol, and selecting proper output device)<br>
+            - No hardware acceleration for video playback<br>
+            
+            
+            <h4>General Instructions:</h4>
+            
+            - Download RK3399 image from twisteros.com<br>
+            - Prepare your storage media for flashing<br>
+            - Flash image with Balena-Etcher or USBImager<br>
+            - Edit /boot/armbianEnV.txt file and select correct DTB file that matches your RK3399 board
+              (Default DTB is RK3399-RockPi4B) | Case sensitive! | Example: rockchip/rk3399-rock-pi-4c.dtb<br>
+            - After first boot, resize EXT4 partition using GParted or Disks utility (included)<br>
+            - Default password is: asdasd<br>
+            
+        </div>
 
         <a class="center" href="https://discord.gg/XberkpNnRe" style="text-align: center;">Twister OS Armbian Discord Server</a>
 
