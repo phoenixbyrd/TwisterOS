@@ -1,3 +1,10 @@
+Version 1.9.8 patch notes:
+- Updated Twister OS Web Apps Launcher
+- Fixed an issue where the splash screen would occasionally be replaced by apt updates
+- Updated DynamicWallpaper
+- Re-applies Mesa driver upgrade to v20.3.0 if apt downgrade to v19.3.2 has occurred
+- Created icon cache for Twister OS icon themes to improve menu performance
+
 Version 1.9.7 patch notes:
 - Updated Twister OS Web Apps Launcher to fix an issue with Netflix
 - Changed Steam to launch in small mode by default
