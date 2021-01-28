@@ -1,0 +1,14 @@
+{
+    "os_list": [
+        {
+            "url": "https://archive.org/download/twister-osv-1-9-7.img/TwisterOSv1-9-7.img.xz",
+            "extract_size": 10782200320,
+            "extract_sha256": "145824e6a9c7e7df165f130ea80f6b20a4ac16931343b23310263cbe7628f5b9",
+            "image_download_size": 3235968112,
+            "description": "Raspberry Pi OS with a twist.",
+            "icon": "https://raw.githubusercontent.com/mobilegmYT/TwisterOS-imager/master/twister_40x40.png",
+            "name": "TwisterOS (v1.9.7)",
+            "release_date": "2021-01-11"
+        }
+    ]
+}
