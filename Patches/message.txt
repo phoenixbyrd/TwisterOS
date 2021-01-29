@@ -1,3 +1,6 @@
+Version 1.9.9 patch notes:
+- Fixed a Twister OS Web Apps Launcher update bug
+
 Version 1.9.8 patch notes:
 - Updated Twister OS Web Apps Launcher
 - Fixed an issue where the splash screen would occasionally be replaced by apt updates
