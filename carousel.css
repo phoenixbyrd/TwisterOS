@@ -58,40 +58,57 @@
   .item-1 {
       z-index: 2;
       opacity: 1;
-    background:url('images/twisteros.png');
+    background:url('images/NewSlideShowImages/TwisterOS.png');
     background-size:cover;
     }
-  .item-2{
-    background:url('images/raspbian95.png');
-     background-size:cover;
-  }
+
+    .item-2 {
+    background:url('images/NewSlideShowImages/TwisterOS-Dark.png');
+    background-size:cover;
+    }    
+
   .item-3{
-    background:url('images/raspbianxp.png');
+    background:url('images/NewSlideShowImages/Twister95.png');
      background-size:cover;
   }
-  
+
   .item-4{
-    background:url('images/raspbian7.png');
+    background:url('images/NewSlideShowImages/TwisterXP.png');
      background-size:cover;
   }
   
   .item-5{
-    background:url('images/raspbianx.png');
+    background:url('images/NewSlideShowImages/Twister7.png');
      background-size:cover;
   }
   
   .item-6{
-    background:url('images/nighthawk.png');
+    background:url('images/NewSlideShowImages/Twister10.png');
      background-size:cover;
   }
   
   .item-7{
-    background:url('images/iraspbian.png');
+    background:url('images/NewSlideShowImages/Twister10-Dark.png');
      background-size:cover;
   }
   
   .item-8{
-    background:url('images/iraspbian-dark.png');
+    background:url('images/NewSlideShowImages/iTwister.png');
+     background-size:cover;
+  }
+  
+  .item-9{
+    background:url('images/NewSlideShowImages/iTwister-Dark.png');
+     background-size:cover;
+  }
+
+  .item-10{
+    background:url('images/NewSlideShowImages/iTwisterSur.png');
+     background-size:cover;
+  }
+
+  .item-11{
+    background:url('images/NewSlideShowImages/iTwisterSur-Dark.png');
      background-size:cover;
   }
   
@@ -104,32 +121,46 @@
     }
   
   #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
-      z-index: 3;
+      z-index: 2;
       opacity: 1;
     }
     #item-3:target ~ .item-3, #item-4:target ~ .item-4 {
-      z-index: 4;
+      z-index: 3;
       opacity: 1;
     }
       #item-4:target ~ .item-4, #item-5:target ~ .item-5 {
-      z-index: 5;
+      z-index: 4;
       opacity: 1;
     }
       #item-5:target ~ .item-5, #item-6:target ~ .item-6 {
-      z-index: 6;
+      z-index: 5;
       opacity: 1;
     }
       #item-6:target ~ .item-6, #item-7:target ~ .item-7 {
-      z-index: 7;
+      z-index: 6;
       opacity: 1;
     }
       #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
+      z-index: 7;
+      opacity: 1;
+    }
+        #item-8:target ~ .item-8, #item-9:target ~ .item-9 {
       z-index: 8;
       opacity: 1;
     }
-        #item-8:target ~ .item-8, #item-1:target ~ .item-1 {
+
+    #item-9:target ~ .item-9, #item-10:target ~ .item-10 {
       z-index: 9;
       opacity: 1;
     }
+    
+    #item-10:target ~ .item-10, #item-11:target ~ .item-11 {
+      z-index: 10;
+      opacity: 1;
+    }
   
-  
+    #item-11:target ~ .item-11, #item-1:target ~ .item-1 {
+      z-index: 11;
+      opacity: 1;
+    }
+

@@ -1,3 +1,25 @@
+Version 2.0.0 patch notes:
+- Added Twister OS Dark theme
+- Added iTwister Sur and iTwister Sur Dark themes
+- Updated Discord app
+- Added Raspberry Pi Imager, removed balenaEtcher
+- Added Conky desktop system monitor to Twister OS theme
+- Added Flameshot screenshot app
+- Added AppImageLauncher
+- Updated/improved Twister OS theme icons
+- Updated Twister 10 cursor theme
+- Implemented preloading of Application Menu to improve performance
+- Added theme support for WhiskerMenu in Twister OS theme
+- Added Twister 10 theme wallpaper
+- Updated Winetricks
+- Updated ThemeTwister app
+- Updated Twister OS Onboarding app
+- Updated Spotlight app
+- Updated NotificationCenter app
+- Updated README
+
+Please note: By design, this update will not overwrite an existing Conky configuration. If you currently use Conky, but would like to install the Conky theme provided by Twister OS, please delete ~/.conkyrc before patching.
+
 Version 1.9.9 patch notes:
 - Fixed a Twister OS Web Apps Launcher update bug
 
