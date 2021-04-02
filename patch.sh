@@ -1,19 +1,27 @@
 #!/bin/bash
+# Cloning the Updated neofetch script from https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch to /tmp/neofetch
+wget -q https://raw.githubusercontent.com/Jai-JAP/neofetch/patch-1/neofetch -O /tmp/neofetch
 
-# NEOFETCH TWISTER PATCHER
-echo 'This patch will change the ASCII of neofetch.'
-sleep 5
+# Make neofetch script executable
+chmod +x /tmp/neofetch
 
-# Back default neofetch config
-echo 'Backing-up config...'
-sudo mv ${HOME}/.config/neofetch/config.conf ${HOME}/.config/neofetch/config.conf.bak
+# Moving the neofetch script to /usr/bin
+sudo mv /tmp/neofetch /usr/bin/neofetch
+echo "neofetch script patched for native Twister OS support." 
 
-# Download the config and ASCII
-echo 'Downloading configs...'
-curl -sL -o ${HOME}/.config/neofetch/config.conf https://gitlab.com/Natsurii/twisteros-neofetch/-/raw/master/config.conf
-curl -sL -o ${HOME}/.config/neofetch/twister.txt https://gitlab.com/Natsurii/twisteros-neofetch/-/raw/master/twister.txt
+# Removing all old neofetch configs
+sudo rm -rf ~/.config/neofetch/*
 
-echo 'DONE PATCHING!'
-sleep 5
-clear
-neofetch
+# Installing dependencies required to improve .neofetch script
+sudo apt install wmctrl
+
+# Updating the .neofetch script in home directory
+if [[ -x ~/.neofetch ]] ; then
+  if [[ -z "$(cat ~/.neofetch | grep wmctrl)" ]] ; then
+    sed -i 's/neofetch/wmctrl -i -r $WINDOWID -b add,maximized_vert,maximized_horz\nneofetch/g' ~/.neofetch 
+    echo ".neofetch launch script patched successfully."
+  elif [[ -n "$(cat ~/.neofetch | grep wmctrl)" ]] ; then
+    echo ".neofetch launch script already patched." 
+  fi
+else echo ".neofetch launch script does not exist."
+fi
