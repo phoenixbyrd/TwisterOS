@@ -1,0 +1,9 @@
+Version 2.0.1 patch notes:
+- Added a proper software store
+- Added Twister OS Armbian Patcher app
+- Added Vivaldi and Gnome Software to iTwister themes dock
+- Fixed a bug in DynamicWallpaper
+- Updated Twister 10 theme icons
+- Updated Discord icon and shortcut
+- Updated Twister OS graphics
+- Updated README
