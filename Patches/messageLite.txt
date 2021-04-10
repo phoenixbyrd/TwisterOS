@@ -1,2 +1,11 @@
 Version 2.0.1 patch notes:
-- TEST
+- Added context menu support in Thunar for mounting ISO files and extracting archives
+- Added Xfce screenshot utility
+- Removed mandatory keyring in Chromium
+- Fixed an issue where some apps would not utilize the global menu
+- Added Twister OS Lite Patcher
+- Updated Twister 95 & Twister XP login and splash screens
+- Updated Twister 10 theme icons
+- Updated README
+
+Note: After applying this update, the next time you open Chromium you will be prompted for a keyring password. If you leave this blank, the password prompt will no longer appear.

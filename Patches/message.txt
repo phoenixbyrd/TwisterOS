@@ -1,3 +1,17 @@
+Version 2.0.1 patch notes:
+- Transitioned to Twister OS Lite base image (full image only)
+- Removed Chromium Media Edition, added native Widevine support
+- Removed Midnight Commander
+- Relocated/consolidated Steam components
+- Improved Steam-Box86 compatibility
+- Cleaned up menu shortcuts
+- Updated Discord app
+- Updated Box86
+- Updated Twister 95 & Twister XP login and splash screens
+- Updated Twister 10 theme icons
+- Updated Pi-Apps Box86 uninstall script
+- Updated README
+
 Version 2.0.0 patch notes:
 - Added Twister OS Dark theme
 - Added iTwister Sur and iTwister Sur Dark themes
