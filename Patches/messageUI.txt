@@ -1,3 +1,8 @@
+Version 2.0.1 patch notes:
+- Updated Twister UI Patcher
+- Added "Restore Twister UI Splash Screen" tool
+- Updated README
+
 Version 2.0.0 patch notes:
 - Added Twister OS Dark theme
 - Added iTwister Sur and iTwister Sur Dark themes
