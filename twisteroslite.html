@@ -1,76 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-		<link rel="stylesheet" href="./style.css" />
-		<link rel="icon" href="favicon.png">
-        <title>Twister OS</title>
-    </head>
-    <body>
-        <main class="downloads">
-                <div class="nav">
-                <nav>
-                    <img src="./images/WebsiteTitleLogo.png" />
-                    <ul>
-						<li><a href="index.html">HOME</a></li>
-						<li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="download.html">DOWNLOADS</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
-                    </ul>
-                </nav>
-                </div>
 
-                <div></div>
-                <div>
-                    <img class="center resize" src="images/TwisterOSLiteLogo-Large.png">
-	
-		<div class="center" style="width: 60% !important; margin-top: 100px;">
-			<div class="current-release">
-				<h1>Current Release</h1>
-				<h3>Twister OS Lite 2.0.1</h3>
-			</div>
-			<div class="current-links">
-		      <a href="https://github.com/mobilegmYT/TwisterOS/releases/download/2.0.1/TwisterOSLiteV2-0-1.img.xz"><button>DOWNLOAD</button></a>
-			  <a href="https://archive.org/download/twister-oslite-v-2-0-1.img/twister-oslite-v-2-0-1.img_archive.torrent"><button>TORRENT</button></a><br><br>
-			  <a style="margin-left: 100px;" href="https://archive.org/download/twister-oslite-v-2-0-1.img/TwisterOSLiteV2-0-1.img.xz">MIRROR</a>
-			  <p style="margin-left: 85px;">MD5 Checksum:</p>
-			  <p style="margin-left: 10px;">169a988109ed571372abfbd416ba8397</p>
-			  <img style="margin-left: 60px;" src="https://img.shields.io/github/downloads/mobilegmYT/TwisterOS/total.svg?style=for-the-badge&logo=raspberry-pi&color=760589&labelColor=1535e9">
-			  <br>
-            </div>
-			<br><br>
-			<br><br>
-			<br><br>
-			<br><br>
-			<br><br>
-			<p style="text-align: center;">Twister OS Lite provides 11 Twister OS Themes, Box86 and Wine, for everything else install Twister OS Full.</p>
-			<p style="text-align: center; margin-top: 50px; font-size: 20px; margin-bottom: -5px;">Default Password: <span style="font-weight: bold;">raspberry</span></p>
-			<br>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie-edge" />
+	<link rel="stylesheet" href="./carousel.css" />
+	<link rel="stylesheet" href="./dropmic/dist/dropmic.min.css">
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="icon" href="favicon.png">
+	<title>Twister OS</title>
+</head>
 
-			<div><H3 style="text-align: center;">DOWNLOAD RASPBERRY PI IMAGER BELOW</H3></div>
-			<div class="center" style="margin-left: 32%;">
-			<p><a href="https://downloads.raspberrypi.org/imager/imager_1.6_amd64.deb">x86 Ubuntu</a></p>
-			<p><a href="https://downloads.raspberrypi.org/imager/imager_1.6.exe">Windows</a></p>
-			<p><a href="https://downloads.raspberrypi.org/imager/imager_1.6.dmg">Mac OS</a></p>
-			<p style="font-size: 20px; font-weight: bold;">Raspberry Pi OS -- <span class="code">sudo apt install rpi-imager</span></p>
-			</div>
+<body>
+	<main class="downloads">
+		<div class="nav">
+			<nav>
+				<img src="./images/WebsiteTitleLogo.png" />
+				<ul>
+					<li><a href="index.html" id="home_menu">HOME</a></li>
+					<li><a href="gallery.html" id="gallery_menu">GALLERY</a></li>
+					<li><a href="download.html" id="downloads_menu">DOWNLOADS</a></li>
+					<li><a href="about.html" id="about_menu">ABOUT</a></li>
+					<li><a href="faq.html" id="faq_menu">FAQ</a></li>
+
+					<li>
+						<a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7"
+							id="donate_menu">DONATE</a>
+					</li>
+
+					<div class="dropmic" data-dropmic="42" data-dropmic-direction="bottom-right" role="navigation">
+						<button data-dropmic-btn id="lang_menu">LANG</button>
+						<div class="dropmic-menu" aria-hidden="true">
+							<ul class="dropmic-menu__list" role="menu">
+								<li class="dropmic-menu__listItem" role="menuitem">
+									<button class="dropmic-menu__listContent" tabindex="-1">en</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</ul>
+			</nav>
 		</div>
-		
-            <h2 style="text-align: center; margin-top: 75px !important;">Patches</h2>
 
-            
-            <div style="width: 60%; margin: auto;" class="center">
-                <p class="center" style="line-height: 1.5em; width: 80%;">To determine which version of Twister OS you're currently using simply open a terminal and type <span class="code">twistver</span></p>
-                <p style="text-align: center; text-decoration: underline;">Please patch in order, do not skip patches.</p>
+		<div></div>
+		<div>
+			<img class="center resize" src="images/TwisterOSLiteLogo-Large.png">
+
+			<div class="center" style="width: 60% !important; margin-top: 100px;">
+				<div class="current-release">
+					<h1 id="currentRelease">Current Release</h1>
+					<h3>Twister OS Lite 2.0.1</h3>
+				</div>
+				<div class="current-links">
+					<a
+						href="https://github.com/mobilegmYT/TwisterOS/releases/download/2.0.1/TwisterOSLiteV2-0-1.img.xz"><button id="download">DOWNLOAD</button></a>
+					<a
+						href="https://archive.org/download/twister-oslite-v-2-0-1.img/twister-oslite-v-2-0-1.img_archive.torrent"><button id="torrent">TORRENT</button></a><br><br>
+					<a style="margin-left: 100px;"
+						href="https://archive.org/download/twister-oslite-v-2-0-1.img/TwisterOSLiteV2-0-1.img.xz">MIRROR</a>
+					<p style="margin-left: 85px;">MD5 Checksum:</p>
+					<p style="margin-left: 10px;">169a988109ed571372abfbd416ba8397</p>
+					<img style="margin-left: 60px;"
+						src="https://img.shields.io/github/downloads/mobilegmYT/TwisterOS/total.svg?style=for-the-badge&logo=raspberry-pi&color=760589&labelColor=1535e9">
+					<br>
+				</div>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<p id="password_tip" style="text-align: center;">Twister OS Lite provides 11 Twister OS Themes, Box86 and Wine, for everything
+					else install Twister OS Full.</p>
+				<p style="text-align: center; margin-top: 50px; font-size: 20px; margin-bottom: -5px;">Default Password: <span
+						style="font-weight: bold;">raspberry</span></p>
+				<br>
+
+				<div>
+					<H3 id="pi_image_write" style="text-align: center;">DOWNLOAD RASPBERRY PI IMAGER BELOW</H3>
+				</div>
+				<div class="center" style="margin-left: 32%;">
+					<p><a href="https://downloads.raspberrypi.org/imager/imager_1.6_amd64.deb">x86 Ubuntu</a></p>
+					<p><a href="https://downloads.raspberrypi.org/imager/imager_1.6.exe">Windows</a></p>
+					<p><a href="https://downloads.raspberrypi.org/imager/imager_1.6.dmg">Mac OS</a></p>
+					<p style="font-size: 20px; font-weight: bold;">Raspberry Pi OS -- <span class="code">sudo apt install
+							rpi-imager</span></p>
+				</div>
+			</div>
+
+			<h2 id="Patches" style="text-align: center; margin-top: 75px !important;">Patches</h2>
+
+
+			<div id="Patches_text" style="width: 60%; margin: auto;" class="center">
+				<p class="center" style="line-height: 1.5em; width: 80%;">To determine which version of Twister OS you're
+					currently using simply open a terminal and type <span class="code">twistver</span></p>
+				<p style="text-align: center; text-decoration: underline;">Please patch in order, do not skip patches.</p>
 				<h4 style="text-align: center;">To download Twister OS Patcher copy the following into terminal.</h4>
-                <p class="code center" style="width: 60%;">git clone https://github.com/phoenixbyrd/TwistUP-Lite.git && mv /home/pi/TwistUP /home/pi/patcher</p>
-            </div>
+				<p class="code center" style="width: 60%;">git clone https://github.com/phoenixbyrd/TwistUP-Lite.git && mv
+					/home/pi/TwistUP /home/pi/patcher</p>
+			</div>
 			<br><br>
-			
+
 			<div class="center" style="width: 50%;">
 
 				<ul class="PatchLink">
@@ -87,8 +118,9 @@
 								Updated Twister 95 & Twister XP login and splash screens<br>
 								Updated Twister 10 theme icons<br>
 								Updated README<br>
-								
-								Note: After applying this update, the next time you open Chromium you will be prompted for a keyring password. If you leave this blank, the password prompt will no longer appear.<br><br>
+
+								Note: After applying this update, the next time you open Chromium you will be prompted for a keyring
+								password. If you leave this blank, the password prompt will no longer appear.<br><br>
 								<p class="close">close</p>
 							</div>
 							<p class="btn" data-popup="popup201">Changelog</p>
@@ -96,23 +128,31 @@
 					</li>
 					<li><a href="https://twisteros.com/Patches/TwisterOSLiteV2-0-1Patch.run"><button>DOWNLOAD</button></a></li>
 				</ul>
-	
+
 				<br>
 
 			</div>
 
-            <footer style="margin-top: 37px;"><p>Twister OS &copy; 2021 Pi Labs | Join Us On  <a href="https://discord.gg/Fh8sjmu" target="_blank">Discord</a> OR <a href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat" target="_blank">Matrix</a></p></footer>        </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script>
-                $('.btn').click(function(){
-                $('.popup').hide();
-                $('#' + $(this).attr('data-popup')).show();
-                });
-        </script>
-        <script type="text/javascript">
-            $('.close').click(function(){
-                $('.popup').hide();
-                });
-		</script>
-    </body>
+			<footer style="margin-top: 37px;">
+				<p>Twister OS &copy; 2021 Pi Labs | Join Us On <a href="https://discord.gg/Fh8sjmu" target="_blank">Discord</a>
+					OR <a href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat"
+						target="_blank">Matrix</a></p>
+			</footer>
+	</main>
+	<script src="./dropmic/dist/dropmic.min.js"></script>
+	<script src="./jquery-3.6.0.min.js"></script>
+	<script src="./lang.js"></script>
+	<script>
+		$('.btn').click(function () {
+			$('.popup').hide();
+			$('#' + $(this).attr('data-popup')).show();
+		});
+	</script>
+	<script type="text/javascript">
+		$('.close').click(function () {
+			$('.popup').hide();
+		});
+	</script>
+</body>
+
 </html>

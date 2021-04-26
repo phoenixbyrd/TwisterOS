@@ -1,397 +1,436 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-        <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="./carousel.css" />
-        <link rel="icon" href="favicon.png">
-        <title>Twister OS</title>
-    </head>
-    <body>
-        <main class="about">
-            <div class="nav">
-                <nav>
-                    <img src="./images/WebsiteTitleLogo.png" />
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="download.html">DOWNLOADS</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
-                    </ul>
-                </nav>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" href="./carousel.css" />
+    <link rel="stylesheet" href="./dropmic/dist/dropmic.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="favicon.png">
+    <title>Twister OS</title>
+</head>
+
+<body>
+    <main class="about">
+        <div class="nav">
+            <nav>
+                <img src="./images/WebsiteTitleLogo.png" />
+                <ul>
+                    <li><a href="index.html" id="home_menu">HOME</a></li>
+                    <li><a href="gallery.html" id="gallery_menu">GALLERY</a></li>
+                    <li><a href="download.html" id="downloads_menu">DOWNLOADS</a></li>
+                    <li><a href="about.html" id="about_menu">ABOUT</a></li>
+                    <li><a href="faq.html" id="faq_menu">FAQ</a></li>
+
+                    <li>
+                        <a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7"
+                            id="donate_menu">DONATE</a>
+                    </li>
+
+                    <div class="dropmic" data-dropmic="42" data-dropmic-direction="bottom-right" role="navigation">
+                        <button data-dropmic-btn id="lang_menu">LANG</button>
+                        <div class="dropmic-menu" aria-hidden="true">
+                            <ul class="dropmic-menu__list" role="menu">
+                                <li class="dropmic-menu__listItem" role="menuitem">
+                                    <button class="dropmic-menu__listContent" tabindex="-1">en</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <div class="gallery-container">
+
+            <div style="margin-left: 100px;">
+                <h1 style="text-align: center; margin-top: 50px;">What can you do with Twister OS?</h1>
+                <h2 style="text-align: center;">Take a look below!</h2>
             </div>
 
-      
-
-            <div class="gallery-container">
-
-                <div style="margin-left: 100px;">
-                    <h1 style="text-align: center; margin-top: 50px;">What can you do with Twister OS?</h1>
-                    <h2 style="text-align: center;">Take a look below!</h2>
-                </div>
-
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/desktop.png">
                         <img src="./gallery/desktop.jpg" loading="lazy" alt="Desktop" width="300" height="200">
                     </a>
                     <div class="desc">Desktop</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/netflix.png">
                         <img src="./gallery/netflix.jpg" loading="lazy" alt="Netflix" width="300" height="200">
                     </a>
                     <div class="desc">Netflix Web App</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/xfinity-channels.png">
-                        <img src="/gallery/xfinity-channels.jpg" loading="lazy" alt="Xfinity Channels List" width="300" height="200">
+                        <img src="/gallery/xfinity-channels.jpg" loading="lazy" alt="Xfinity Channels List" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Xfinity TV Stream Web App</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/xfinity-show.png">
                         <img src="/gallery/xfinity-show.jpg" loading="lazy" alt="Xfinity Show" width="300" height="200">
                     </a>
                     <div class="desc">Watch Xfinity Shows</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/spotify.png">
                         <img src="/gallery/spotify.jpg" loading="lazy" alt="Spotify" width="300" height="200">
                     </a>
                     <div class="desc">Spotify Web App</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/hulu.png">
                         <img src="/gallery/hulu.jpg" loading="lazy" alt="Hulu" width="300" height="200">
                     </a>
                     <div class="desc">Hulu Web App</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/sublime.png">
-                        <img src="/gallery/sublime.jpg" loading="lazy" alt="Sublime Text Editor 2" width="300" height="200">
+                        <img src="/gallery/sublime.jpg" loading="lazy" alt="Sublime Text Editor 2" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Sublime Text Editor 2</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/vscode.png">
                         <img src="/gallery/vscode.jpg" loading="lazy" alt="vscode" width="300" height="200">
                     </a>
                     <div class="desc">Visual Studio Code</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/steam.png">
                         <img src="./gallery/steam.jpg" loading="lazy" alt="Steam" width="300" height="200">
                     </a>
                     <div class="desc">Steam Small Mode</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/bigscreen.png">
-                        <img src="./gallery/bigscreen.jpg" loading="lazy" alt="Steam Big Picture Mode width="300" height="200">
+                        <img src="./gallery/bigscreen.jpg" loading="lazy" alt="Steam Big Picture Mode width=" 300"
+                            height="200">
                     </a>
                     <div class="desc">Steam Big Picture Mode</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/raspberry.png">
-                        <img src="/gallery/raspberry.jpg" loading="lazy" alt="VDesktop Raspberry Pi OS" width="300" height="200">
+                        <img src="/gallery/raspberry.jpg" loading="lazy" alt="VDesktop Raspberry Pi OS" width="300"
+                            height="200">
                     </a>
                     <div class="desc">VDesktop Raspberry Pi OS</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/android.png">
                         <img src="/gallery/android.jpg" loading="lazy" alt="My Android" width="300" height="200">
                     </a>
                     <div class="desc">My Android</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/java.png">
-                        <img src="/gallery/java.jpg" loading="lazy" alt="Minecraft Java Edition" width="300" height="200">
+                        <img src="/gallery/java.jpg" loading="lazy" alt="Minecraft Java Edition" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Minecraft Java Edition</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/bedrock.png">
-                        <img src="/gallery/bedrock.jpg" loading="lazy" alt="Minecraft Bedrock Edition" width="300" height="200">
+                        <img src="/gallery/bedrock.jpg" loading="lazy" alt="Minecraft Bedrock Edition" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Minecraft Bedrock Edition</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/tetris.png">
                         <img src="/gallery/tetris.jpg" loading="lazy" alt="Multiplayer Tetris" width="300" height="200">
                     </a>
                     <div class="desc">Multiplayer Tetris</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/runescape.png">
                         <img src="/gallery/runescape.jpg" loading="lazy" alt="runescape" width="300" height="200">
                     </a>
                     <div class="desc">Old School Runescape</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/lutris1.png">
                         <img src="/gallery/lutris1.jpg" loading="lazy" alt="Lutris 1" width="300" height="200">
                     </a>
                     <div class="desc">Lutris Library (1)</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/lutris2.png">
                         <img src="/gallery/lutris2.jpg" loading="lazy" alt="Lutris 2" width="300" height="200">
                     </a>
                     <div class="desc">Lutris Library (2)</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/lutris3.png">
                         <img src="/gallery/lutris3.jpg" loading="lazy" alt="Lutris 3" width="300" height="200">
                     </a>
                     <div class="desc">Lutris Library (3)</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/lutris4.png">
                         <img src="/gallery/lutris4.jpg" loading="lazy" alt="Lutris 4" width="300" height="200">
                     </a>
                     <div class="desc">Lutris Library (4)</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/discord.png">
                         <img src="./gallery/discord.jpg" loading="lazy" alt="Discord" width="300" height="200">
                     </a>
                     <div class="desc">Discord Web App</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/zoom.png">
                         <img src="./gallery/zoom.jpg" loading="lazy" alt="Zoom" width="300" height="200">
                     </a>
                     <div class="desc">Zoom</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/mspaint.png">
-                        <img src="/gallery/mspaint.jpg" loading="lazy" alt="Microsoft Paint 95" width="300" height="200">
+                        <img src="/gallery/mspaint.jpg" loading="lazy" alt="Microsoft Paint 95" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Microsoft Paint 95</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/gallery/minesweeper.png">
                         <img src="/gallery/minesweeper.jpg" loading="lazy" alt="Minesweeper" width="300" height="200">
                     </a>
                     <div class="desc">Minesweeper</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="./gallery/chromium.png">
                         <img src="./gallery/chromium.jpg" loading="lazy" alt="Chromium" width="300" height="200">
                     </a>
                     <div class="desc">Chromium</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery ">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery ">
                     <a target="_blank" href="./gallery/firefox.png">
                         <img src="./gallery/firefox.jpg" loading="lazy" alt="Firefox" width="300" height="200">
                     </a>
                     <div class="desc">Firefox</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery ">
+            <div class="responsive">
+                <div class="gallery ">
                     <a target="_blank" href="/gallery/vivaldi.png">
                         <img src="/gallery/vivaldi.jpg" loading="lazy" alt="Vivaldi" width="300" height="200">
                     </a>
                     <div class="desc">Vivaldi</div>
-                    </div>
                 </div>
-                
-                <div class="responsive">
-                    <div class="gallery ">
+            </div>
+
+            <div class="responsive">
+                <div class="gallery ">
                     <a target="_blank" href="/gallery/tor.png">
                         <img src="/gallery/tor.jpg" loading="lazy" alt="Xfinity Show" width="300" height="200">
                     </a>
                     <div class="desc">TOR Browser</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/tinkercad.png">
                         <img src="/user-gallery/tinkercad.jpg" loading="lazy" alt="TinkerCAD" width="300" height="200">
                     </a>
                     <div class="desc">TinkerCAD</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/themestwister.png">
-                        <img src="/user-gallery/themestwister.jpg" loading="lazy" alt="themestwister"  width="300" height="200">
+                        <img src="/user-gallery/themestwister.jpg" loading="lazy" alt="themestwister" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Themetwister</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/paperminecraft.png">
-                        <img src="/user-gallery/paperminecraft.jpg" loading="lazy" alt="Paper Minecraft"  width="300" height="200">
+                        <img src="/user-gallery/paperminecraft.jpg" loading="lazy" alt="Paper Minecraft" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Paper Minecraft</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/dk1yCMG.png">
                         <img src="/user-gallery/dk1yCMG.jpg" loading="lazy" alt="bookshelf" width="300" height="200">
                     </a>
                     <div class="desc">Bookshelf - The MagPi </div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/desktop.png">
                         <img src="/user-gallery/desktop.jpg" loading="lazy" alt="Desktop" width="300" height="200">
                     </a>
                     <div class="desc">Desktop - Nighthawk Theme</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/bedrock.png">
-                        <img src="/user-gallery/bedrock.jpg" loading="lazy" alt="Bedrock Minecraft" width="300" height="200">
+                        <img src="/user-gallery/bedrock.jpg" loading="lazy" alt="Bedrock Minecraft" width="300"
+                            height="200">
                     </a>
                     <div class="desc">Bedrock Minecraft</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/java.png">
                         <img src="/user-gallery/java.jpg" loading="lazy" alt="Java Minecraft" width="300" height="200">
                     </a>
                     <div class="desc">Java Minecraft</div>
-                    </div>
                 </div>
+            </div>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/Screenshot_2020-11-19_08-02-52.png">
-                        <img src="/user-gallery/Screenshot_2020-11-19_08-02-52.jpg" loading="lazy" alt="Pokemon Uranium" width="300" height="200">
+                        <img src="/user-gallery/Screenshot_2020-11-19_08-02-52.jpg" loading="lazy" alt="Pokemon Uranium"
+                            width="300" height="200">
                     </a>
                     <div class="desc">Pokemon Uranium</div>
-                    </div>
                 </div>
+            </div>
 
-                <br><br>
+            <br><br>
 
-                <div class="responsive">
-                    <div class="gallery">
+            <div class="responsive">
+                <div class="gallery">
                     <a target="_blank" href="/user-gallery/TurboWarp.png">
                         <img src="/user-gallery/TurboWarp.png" loading="lazy" alt="TurboWarp" width="300" height="200">
                     </a>
                     <div class="desc">TurboWarp</div>
-                    </div>
                 </div>
-
-
-
             </div>
 
-            
-                
 
-            <footer style="margin-top: 37px;"><p>Twister OS &copy; 2021 Pi Labs | Join Us On  <a href="https://discord.gg/Fh8sjmu" target="_blank">Discord</a> OR <a href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat" target="_blank">Matrix</a></p></footer>       </main>
-    </body>
+
+        </div>
+
+        <script src="./dropmic/dist/dropmic.min.js"></script>
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script src="./lang.js"></script>
+
+
+        <footer style="margin-top: 37px;">
+            <p>Twister OS &copy; 2021 Pi Labs | Join Us On <a href="https://discord.gg/Fh8sjmu"
+                    target="_blank">Discord</a> OR <a
+                    href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat"
+                    target="_blank">Matrix</a></p>
+        </footer>
+    </main>
+</body>
+
 </html>

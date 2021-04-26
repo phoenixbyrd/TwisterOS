@@ -78,7 +78,6 @@ button {
     color: #2D2C8A;
     margin-right: 20px;
     cursor: pointer;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
   }
 
 button:hover {
@@ -425,3 +424,11 @@ div.galleryuser {
     display: table;
     clear: both;
   }
+
+.dropmic-menu__listContent {
+    font-size: .8em !important;
+    padding-right: 10px;
+}
+.dropmic-menu {
+    min-width: unset;
+}

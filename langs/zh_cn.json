@@ -1,0 +1,131 @@
+{
+  "menu": {
+    "home_menu": "首页",
+    "gallery_menu": "截图",
+    "downloads_menu": "下载",
+    "about_menu": "关于",
+    "faq_menu": "问答",
+    "lang_menu": "语言",
+    "donate_menu":  "捐赠"
+  },
+  "home": {
+    "advert1": "适用于Raspberry Pi和其他SBC的Twister OS，以及适用于PC的Twister UI",
+    "advert2": "在所有受支持的设备上享受相同的体验。"
+  },
+  "gallery": {
+    "h1": "您可以使用Twister OS做什么？",
+    "h2": "看看下面！"
+  },
+  "download": {
+    "1": "树莓派 4B",
+    "2": "树莓派 4B",
+    "3": "台式机和笔记本电脑",
+    "4": "RK3399 开发板"
+  },
+  "about": {
+    "title": "什么是Twister OS？",
+    "content": "Twister OS的主要目标是为开箱即用的单板计算机（SBC）提供真正的桌面计算体验。 Twister操作系统包含主题，应用程序，工具和优化，可让您充分利用SBC。\n\nTwister OS的一些主要功能包括：\n\n-11个不同的用户界面主题，既现代又怀旧。无论您是Linux，Windows还是Mac用户，在Twister OS上都将感到“宾至如归”。只需单击随附的“ ThemeTwister”应用程序中的按钮，即可轻松更改操作系统的整体外观。\n-Box86，一个内置仿真器，允许在基于ARM CPU的SBC（例如Raspberry Pi）上使用x86（传统PC）应用程序和游戏。\n-Wine，一种Linux应用程序，当与Box86结合使用时，可以在您的SBC上运行x86 Windows软件。\n-CommanderPi，该应用程序提供了一种在SBC上执行高级配置任务（如超频）的简便方法。\n-Chromium Media Edition，用于在SBC上流传输受DRM保护的（Netflix，Hulu，Disney +等）视频和音频内容。\n-我的Android（scrcpy），可让您在SBC上镜像基于Android的手机的显示。\n-PiKISS和Pi Apps，这是两个软件商店，可让您轻松安装大量经过专门设计或修改以在Raspberry Pi上运行的应用程序。\n-Lutris，一个强大的Linux游戏平台，可以管理您的游戏库，并提供高级配置工具来在您的SBC上运行各种Linux，Windows和DOS游戏。\n-RetroPie，用于玩自己喜欢的经典游戏机。\n-用于生产力任务的LibreOffice套件。\n-用于音频和视频播放和流传输的各种多媒体应用程序。\n-还有很多很多\n\n试试Twister OS一下，看看自己的所有兴奋之处！\n问题？在我们的Discord服务器上与我们联系，或给我们发送电子邮件！ \n",
+    "footer": "开源❤️ - Pi Labs 项目组"
+  },
+  "faq": {
+    "faqheader": "经常问的问题",
+    "qa": [
+      {
+        "question": "密码是什么？",
+        "answer": "默认密码是树莓派\n请通过打开终端并输入<span class=\"code\">passwd</span>来更改密码\n还请更改您的root密码。 <span class=\"code\">sudo -i</span>然后运行<span class=\"code\">passwd</span>"
+      },
+      {
+        "question": "可以运行在树莓派3B+",
+        "answer": "虽然Twister OS可以安装在3B上，但不建议这样做。 Twister OS是围绕Pi4设计和构建的，在3B上安装时可能会遇到问题。"
+      },
+      {
+        "question": "Twister OS是64位操作系统吗?",
+        "answer": "树莓派镜像是32位系统"
+      },
+      {
+        "question": "如何修补Twister OS",
+        "answer": "理想情况下，从1.5.2版开始，您将使用随附的Twister OS Patcher应用程序。 如果您希望手动打补丁，请按照以下说明进行操作。\n注意：如果Twister OS Patcher失败，或者您感觉未正确更新系统，请在Discord上报告该情况。 您可以通过编辑 /usr/local/bin/twistver 来重新启动 Twister OS Patcher，以从您试图修补的版本中读取以前的版本。\n您需要下载补丁\n现在打开终端并导航到下载文件夹 <span class=\"code\">cd 〜/Downloads</span>\n进入 <span class=\"code\">〜/Downloads</span> 目录后，输入 <span class=\"code\">chmod + x * Patch.run</span>\n现在，使用 <span class=\"code\">./*Patch.run</span> 启动补丁程序。\n"
+      },
+      {
+        "question": "是否有更新工具，所以我不必手动更新？ ",
+        "answer": "从1.6版开始，Twister OS Patcher 已包含在内，您可以在系统->设置中找到它。"
+      },
+      {
+        "question": "是否有更新工具，所以我不必手动更新？ ",
+        "answer": "从1.6版开始，Twister OS Patcher 已包含在内，您可以在系统->设置中找到它。"
+      },
+      {
+        "question": "Play on Linux?",
+        "answer": "由于有太多抱怨说 playonlinux 不能使用它，因此将其删除。您可以使用<span class=\"code\">sudo apt install playonlinux && sudo apt remove wine</span>重新安装。您需要删除wine，因为playonlinux将安装arm版本，该版本将与wine的x86版本冲突。"
+      },
+      {
+        "question": "如何下载wine",
+        "answer": "下载链接: <a href=\"https://twisteros.com/wine.tgz\">WINE</a>"
+      },
+      {
+        "question": "为什么Steam无法启动？",
+        "answer": "如果Steam没有为您启动，请从\"games\"菜单中更新box86，然后重试。另请注意，Steam是实验性的，可能会不时出现问题"
+      },
+      {
+        "question": "蓝牙无法工作？",
+        "answer": "尝试运行下面代码: \nsudo apt update\n\nsudo apt full-upgrade\n\n(Answer \"y\" to all prompts)\n\nsudo apt purge bluealsa\n\nsudo apt autoremove\n\nsudo reboot"
+      },
+      {
+        "question": "如何重置主题？",
+        "answer": "在终端中运行:  <span class=\"code\">/usr/share/ThemeSwitcher/Backup/./restore-original-config.sh</span>"
+      },
+      {
+        "question": "我创建了一个新用户，但不会显示主题！",
+        "answer": "Twister OS主题在其他用户配置文件下不起作用。"
+      },
+      {
+        "question": "面板/任务栏上的某些图标丢失了！",
+        "answer": "终端运行: <span class=\"code\">./.panel-restart</span> \n 这将刷新您的面板/任务栏，并应再次显示缺少的项目。如果这样做无济于事，请到discord寻求帮助"
+      },
+      {
+        "question": "为什么 retropie 要求我登录？",
+        "answer": "您必须禁用自动登录。如果是这种情况，则只需在进入控制台提示符时单击 “ENTER” 即可。它会告诉您 “invalid login” 或类似的信息，然后，在出现提示时，输入“ pi” 作为用户名，并输入“raspberry”作为密码（或将pi帐户密码更改为的任何密码）按Ctrl Alt F7返回桌面，然后只需双击图标即可启动RetroPie"
+      },
+      {
+        "question": "Chromium 要求我进行更新，该怎么做？",
+        "answer": "尽管Chromium是较旧的版本，但目前尚无可用的更新。要禁用更新通知，在终端中运行:\n <span class=\"code\">sudo touch /etc/chromium-browser/customizations/01-disable-update-check;echo CHROMIUM_FLAGS=\"${CHROMIUM_FLAGS} --check-for-update-interval=31536000\" | sudo tee /etc/chromium-browser/customizations/01-disable-update-check </span>"
+      },
+      {
+        "question": "Mesa降级为19.3.2！",
+        "answer": "请下载并运行以下文件以再次更新Mesa. <a href=\"https://twisteros.com/Mesa-v20-3-RPi4.run\">Mesa 20.3</a>\n如果仍然遇到问题，请尝试使用 <a href=\"https://twisteros.com/Mesa-v20-2-RPi4.run\">Mesa 20.2</a>\n在终端运行: <span class=\"code\">cd ~/Downloads && chmod +x Mesa-v20-*.run && ./Mesa-v20-*.run</span>"
+      }
+    ]
+  },
+  "twisteros": {
+    "currentRelease": "当前版本",
+    "download": "下载",
+    "torrent": "磁力链",
+    "password_tip": "默认密码: raspberry",
+    "pi_image_write": "镜像刻录工具",
+    "Patches": "补丁",
+    "Patches_text": "要确定当前使用的Twister OS版本，请检查桌面上的README文件。对于1.5.2及更高版本，只需打开一个终端并键入twistver\nTwister OS Patcher已包含在1.6版补丁中\n\n要下载Twister OS Patcher，请将以下内容复制到终端中: \n <span class=\"code\">git clone https://github.com/phoenixbyrd/TwistUP-OS.git && mv /home/pi/TwistUP /home/pi/patcher</span>"
+  },
+  "twisteroslite": {
+    "currentRelease": "当前版本",
+    "download": "下载",
+    "torrent": "磁力链",
+    "password_tip": "默认密码: raspberry",
+    "pi_image_write": "镜像刻录工具",
+    "Patches": "补丁",
+    "Patches_text": "要确定当前使用的Twister OS版本，请检查桌面上的README文件。对于1.5.2及更高版本，只需打开一个终端并键入twistver\nTwister OS Patcher已包含在1.6版补丁中\n\n要下载Twister OS Patcher，请将以下内容复制到终端中: \n <span class=\"code\">git clone https://github.com/phoenixbyrd/TwistUP-OS.git && mv /home/pi/TwistUP /home/pi/patcher</span>"
+  },
+  "twisterui": {
+    "currentRelease": "当前版本",
+    "download_btn": "下载",
+    "torrent_btn": "磁力链",
+    "TwisterUI_TIP": "Twister UI是Linux Mint和Xubuntu的用户界面附加组件。它包含主题，应用程序和配置，以匹配Raspberry Pi上Twister OS中的用户体验。",
+    "startInstall": "安装Twister UI之前",
+    "startInstallTip": "建议备份",
+    "startInstallTip1": "不要以root或sudo身份运行。在您的普通用户下安装。以root或sudo身份运行会中断安装过程。",
+    "install1": "下载并安装<a href=\"https://linuxmint.com/download.php\">Linux Mint Xfce</a>或<a href=\"https://xubuntu.org/download\">Xubuntu</a>的32位或64位版本",
+    "install2": "下载并运行Twister UI安装程序",
+    "install3": "使用Linux Mint Xfce时，在Twister UI安装完成后，您需要对以下设置进行更改：\n\n在“应用程序菜单->设置->桌面”的“图标”标签下，取消选中“使用自定义字体大小”\n在“应用程序菜单->设置->窗口管理器调整”的“合成器”选项卡下，取消选中“在停靠窗口下显示阴影”",
+    "Patches": "补丁",
+    "Patches_text": "在终端中运行"
+  }
+}

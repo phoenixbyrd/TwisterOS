@@ -1,68 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-        <link rel="stylesheet" href="./style.css" />
-        <link rel="icon" href="favicon.png">
-        <title>Twister OS</title>
-    </head>
-    <body>
-        <main class="about">
-                <div class="nav">
-                <nav>
-                    <img src="./images/WebsiteTitleLogo.png" />
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="download.html">DOWNLOADS</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
-                    </ul>
-                </nav>
-                </div>
 
-                <div></div>
-                <div class="blurb center">
-                    <h3 class="">What is Twister OS?</h3>
-                    <br>
-                    The main goal of Twister OS is to provide a true desktop computing experience for single board computers (SBCs), right out-of-the-box. Twister OS includes themes, applications, tools, and optimizations to allow you to get the most out of your SBC.<br><br>
-                    
-                    Some of Twister OS's key features are:<br><br>
-                    <div style="line-height: 1.7em;">
-                    - 11 different user interface themes, both modern and nostalgic. Whether you're a Linux, Windows, or Mac user, you'll feel "right at home" on Twister OS. <span style="margin-left: 10px;">Changing the entire look and feel of your OS is as easy as clicking a button in the included "ThemeTwister" app.</span><br>
-                    - Box86, a built-in emulator which allows for the use of x86 (traditional PC) applications and games on ARM CPU-based SBCs, like the Raspberry Pi.<br>
-                    - Wine, a Linux application that, when used in conjunction with Box86, allows for running x86 Windows software on your SBC.<br>
-                    - CommanderPi, an application that provides an easy way to perform advanced configuration tasks, like overclocking, on your SBC.<br>
-                    - Chromium Media Edition, for streaming DRM-protected (Netflix, Hulu, Disney+, etc.) video and audio content on your SBC.<br>
-                    - My Android (scrcpy), which enables you to mirror your Android-based phone's display on your SBC.<br>
-                    - PiKISS and Pi Apps, two software stores which allow you to easily install a number of apps specifically designed or modified to run on the Raspberry Pi.<br>
-                    - Lutris, a powerful gaming platform for Linux which can manage your game library as well as provide advanced configuration tools to run a wide variety of <span style="margin-left: 10px;">Linux, Windows, and DOS games on your SBC.</span><br>
-                    - RetroPie, for playing your favorite classic console games.<br>
-                    - The LibreOffice suite for productivity tasks.<br>
-                    - A variety of multimedia apps for audio and video playback and streaming.<br>
-                    - And much, much, more.<br><br>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" href="./carousel.css" />
+    <link rel="stylesheet" href="./dropmic/dist/dropmic.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="favicon.png">
+    <title>Twister OS</title>
+</head>
+
+<body>
+    <main class="about">
+        <div class="nav">
+            <nav>
+                <img src="./images/WebsiteTitleLogo.png" />
+                <ul>
+                    <li><a href="index.html" id="home_menu">HOME</a></li>
+                    <li><a href="gallery.html" id="gallery_menu">GALLERY</a></li>
+                    <li><a href="download.html" id="downloads_menu">DOWNLOADS</a></li>
+                    <li><a href="about.html" id="about_menu">ABOUT</a></li>
+                    <li><a href="faq.html" id="faq_menu">FAQ</a></li>
+
+                    <li>
+                        <a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7"
+                            id="donate_menu">DONATE</a>
+                    </li>
+
+                    <div class="dropmic" data-dropmic="42" data-dropmic-direction="bottom-right" role="navigation">
+                        <button data-dropmic-btn id="lang_menu">LANG</button>
+                        <div class="dropmic-menu" aria-hidden="true">
+                            <ul class="dropmic-menu__list" role="menu">
+                                <li class="dropmic-menu__listItem" role="menuitem">
+                                    <button class="dropmic-menu__listContent" tabindex="-1">en</button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    Take Twister OS for a spin, and see what all the excitement is about for yourself!<br><br>
-                    
-                    Questions? Reach out to us on our Discord server, or send us an e-mail!<br><br>
-                    
-                    <div align=right style="margin-top: 25px; ">With open-source love, the Pi Labs team</div>
 
-                    <div class="center" style="align-items: center;">
-                        <ul class="sites">
-                            <li><a href="https://www.youtube.com/channel/UCgfQjdc5RceRlTGfuthBs7g"><img src="images/PiLabs.png" width="200px"></a></li>
-                            <li><a href="https://github.com/ptitSeb/box86"><img src="images/Box86Logo.png" width="200px"></a></li>
-                            <li><a href="https://github.com/Jack477/CommanderPi"><img src="images/CPiTitle.png" width="300px"></a></li>
-                        </ul>
-                    </div>
-                  
-                </div>
-                <div></div>
+                </ul>
+            </nav>
+        </div>
 
-                <footer style="margin-top: 37px;"><p>Twister OS &copy; 2021 Pi Labs | Join Us On  <a href="https://discord.gg/Fh8sjmu" target="_blank">Discord</a> OR <a href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat" target="_blank">Matrix</a></p></footer>       
-             </main>
-    </body>
+        <div></div>
+        <div class="blurb center">
+            <h3 class="">What is Twister OS?</h3>
+            <br>
+            The main goal of Twister OS is to provide a true desktop computing experience for single board computers
+            (SBCs), right out-of-the-box. Twister OS includes themes, applications, tools, and optimizations to allow
+            you to get the most out of your SBC.<br><br>
+
+            Some of Twister OS's key features are:<br><br>
+            <div style="line-height: 1.7em;">
+                - 11 different user interface themes, both modern and nostalgic. Whether you're a Linux, Windows, or Mac
+                user, you'll feel "right at home" on Twister OS. <span style="margin-left: 10px;">Changing the entire
+                    look and feel of your OS is as easy as clicking a button in the included "ThemeTwister"
+                    app.</span><br>
+                - Box86, a built-in emulator which allows for the use of x86 (traditional PC) applications and games on
+                ARM CPU-based SBCs, like the Raspberry Pi.<br>
+                - Wine, a Linux application that, when used in conjunction with Box86, allows for running x86 Windows
+                software on your SBC.<br>
+                - CommanderPi, an application that provides an easy way to perform advanced configuration tasks, like
+                overclocking, on your SBC.<br>
+                - Chromium Media Edition, for streaming DRM-protected (Netflix, Hulu, Disney+, etc.) video and audio
+                content on your SBC.<br>
+                - My Android (scrcpy), which enables you to mirror your Android-based phone's display on your SBC.<br>
+                - PiKISS and Pi Apps, two software stores which allow you to easily install a number of apps
+                specifically designed or modified to run on the Raspberry Pi.<br>
+                - Lutris, a powerful gaming platform for Linux which can manage your game library as well as provide
+                advanced configuration tools to run a wide variety of <span style="margin-left: 10px;">Linux, Windows,
+                    and DOS games on your SBC.</span><br>
+                - RetroPie, for playing your favorite classic console games.<br>
+                - The LibreOffice suite for productivity tasks.<br>
+                - A variety of multimedia apps for audio and video playback and streaming.<br>
+                - And much, much, more.<br><br>
+            </div>
+            Take Twister OS for a spin, and see what all the excitement is about for yourself!<br><br>
+
+            Questions? Reach out to us on our Discord server, or send us an e-mail!<br><br>
+
+            <div align=right style="margin-top: 25px; ">With open-source love, the Pi Labs team</div>
+
+            <div class="center" style="align-items: center;">
+                <ul class="sites">
+                    <li><a href="https://www.youtube.com/channel/UCgfQjdc5RceRlTGfuthBs7g"><img src="images/PiLabs.png"
+                                width="200px"></a></li>
+                    <li><a href="https://github.com/ptitSeb/box86"><img src="images/Box86Logo.png" width="200px"></a>
+                    </li>
+                    <li><a href="https://github.com/Jack477/CommanderPi"><img src="images/CPiTitle.png"
+                                width="300px"></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div></div>
+
+        <footer style="margin-top: 37px;">
+            <p>Twister OS &copy; 2021 Pi Labs | Join Us On <a href="https://discord.gg/Fh8sjmu"
+                    target="_blank">Discord</a> OR <a
+                    href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat"
+                    target="_blank">Matrix</a></p>
+        </footer>
+
+        <script src="./dropmic/dist/dropmic.min.js"></script>
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script src="./lang.js"></script>
+
+    </main>
+</body>
+
 </html>
