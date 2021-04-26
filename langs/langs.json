@@ -1,0 +1,9 @@
+{
+  "langs": [
+    {
+      "lang": "zh_cn",
+      "name": "简体中文",
+      "path": "/langs/zh_cn.json"
+    }
+  ]
+}

@@ -1,122 +1,150 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-        <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="./carousel.css" />
-        <link rel="icon" href="favicon.png">
-        <title>Twister OS</title>
-    </head>
-    <body>
-        <main class="index">
-            <div class="nav">
-                <nav>
-                    <img src="./images/WebsiteTitleLogo.png" />
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="gallery.html">GALLERY</a></li>
-                        <li><a href="download.html">DOWNLOADS</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7">DONATE</a></li>
-                    </ul>
-                </nav>
-            </div>
 
-            <div></div>
-            <div class="carousel">
-                <div class="carousel-wrapper">
-                    <span id="item-1"></span>
-                    <span id="item-2"></span>
-                    <span id="item-3"></span>
-                    <span id="item-4"></span>
-                    <span id="item-5"></span>
-                    <span id="item-6"></span>
-                    <span id="item-7"></span>
-                    <span id="item-8"></span>
-                    <span id="item-9"></span>
-                    <span id="item-10"></span>
-                    <span id="item-11"></span>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" href="./carousel.css" />
+    <link rel="stylesheet" href="./dropmic/dist/dropmic.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="favicon.png">
+    <title>Twister OS</title>
+</head>
 
-                    <div class="carousel-item item-1">
+<body>
+    <main class="index">
+        <div class="nav">
+            <nav>
+                <img src="./images/WebsiteTitleLogo.png" />
+                <ul>
+                    <li><a href="index.html" id="home_menu">HOME</a></li>
+                    <li><a href="gallery.html" id="gallery_menu">GALLERY</a></li>
+                    <li><a href="download.html" id="downloads_menu">DOWNLOADS</a></li>
+                    <li><a href="about.html" id="about_menu">ABOUT</a></li>
+                    <li><a href="faq.html" id="faq_menu">FAQ</a></li>
+
+                    <li>
+                        <a href="https://checkout.square.site/merchant/ML5E5KGWRH8ME/checkout/GLDTDH4U5ZXZY5WJCCVEWIK7"
+                            id="donate_menu">DONATE</a>
+                    </li>
+
+                    <div class="dropmic" data-dropmic="42" data-dropmic-direction="bottom-right" role="navigation">
+                        <button data-dropmic-btn id="lang_menu">LANG</button>
+                        <div class="dropmic-menu" aria-hidden="true">
+                            <ul class="dropmic-menu__list" role="menu">
+                                <li class="dropmic-menu__listItem" role="menuitem">
+                                    <button class="dropmic-menu__listContent" tabindex="-1">en</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div></div>
+        <div class="carousel">
+            <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+                <span id="item-4"></span>
+                <span id="item-5"></span>
+                <span id="item-6"></span>
+                <span id="item-7"></span>
+                <span id="item-8"></span>
+                <span id="item-9"></span>
+                <span id="item-10"></span>
+                <span id="item-11"></span>
+
+                <div class="carousel-item item-1">
                     <a class="arrow arrow-prev" href="#item-11"></a>
                     <a class="arrow arrow-next" href="#item-2"></a>
-                    </div>
-                    
-                    <div class="carousel-item item-2">
-                    <a class="arrow arrow-prev" href="#item-1"></a>
-                    <a class="arrow arrow-next" href="#item-3"></a>
-                    </div>
-                    
-                    <div class="carousel-item item-3">
-                    <a class="arrow arrow-prev" href="#item-2"></a>
-                    <a class="arrow arrow-next" href="#item-4"></a>
-                    </div>
-
-                    <div class="carousel-item item-4">
-                    <a class="arrow arrow-prev" href="#item-3"></a>
-                    <a class="arrow arrow-next" href="#item-5"></a>
-                    </div>
-
-                    <div class="carousel-item item-5">
-                    <a class="arrow arrow-prev" href="#item-4"></a>
-                    <a class="arrow arrow-next" href="#item-6"></a>
-                    </div>
-
-                    <div class="carousel-item item-6">
-                    <a class="arrow arrow-prev" href="#item-5"></a>
-                    <a class="arrow arrow-next" href="#item-7"></a>
-                    </div>
-
-                    <div class="carousel-item item-7">
-                    <a class="arrow arrow-prev" href="#item-6"></a>
-                    <a class="arrow arrow-next" href="#item-8"></a>
-                    </div>
-
-                    <div class="carousel-item item-8">
-                    <a class="arrow arrow-prev" href="#item-7"></a>
-                    <a class="arrow arrow-next" href="#item-9"></a>
-                    </div>
-
-                    <div class="carousel-item item-9">
-                    <a class="arrow arrow-prev" href="#item-8"></a>
-                    <a class="arrow arrow-next" href="#item-10"></a>
-                    </div>
-
-                    <div class="carousel-item item-10">
-                    <a class="arrow arrow-prev" href="#item-9"></a>
-                    <a class="arrow arrow-next" href="#item-11"></a>
-                    </div>
-
-                    <div class="carousel-item item-11">
-                    <a class="arrow arrow-prev" href="#item-10"></a>
-                    <a class="arrow arrow-next" href="#item-1"></a>
-                    </div>
                 </div>
 
-            </div>
-            <div></div>
+                <div class="carousel-item item-2">
+                    <a class="arrow arrow-prev" href="#item-1"></a>
+                    <a class="arrow arrow-next" href="#item-3"></a>
+                </div>
 
-            <div></div>
-            <div class="howpi">
-                <img class="center" style="margin-bottom: -25px;" src="./images/hdyp-new2.gif" width="800vw" />
-            </div>
-            <div></div>
+                <div class="carousel-item item-3">
+                    <a class="arrow arrow-prev" href="#item-2"></a>
+                    <a class="arrow arrow-next" href="#item-4"></a>
+                </div>
 
-            <div></div>
-            <div class="advert">
-                <p>Twister OS for Raspberry Pi and other SBCs, and Twister UI for PC</p>
-                <p>Enjoy the same experience on all supported devices.</p>
+                <div class="carousel-item item-4">
+                    <a class="arrow arrow-prev" href="#item-3"></a>
+                    <a class="arrow arrow-next" href="#item-5"></a>
+                </div>
+
+                <div class="carousel-item item-5">
+                    <a class="arrow arrow-prev" href="#item-4"></a>
+                    <a class="arrow arrow-next" href="#item-6"></a>
+                </div>
+
+                <div class="carousel-item item-6">
+                    <a class="arrow arrow-prev" href="#item-5"></a>
+                    <a class="arrow arrow-next" href="#item-7"></a>
+                </div>
+
+                <div class="carousel-item item-7">
+                    <a class="arrow arrow-prev" href="#item-6"></a>
+                    <a class="arrow arrow-next" href="#item-8"></a>
+                </div>
+
+                <div class="carousel-item item-8">
+                    <a class="arrow arrow-prev" href="#item-7"></a>
+                    <a class="arrow arrow-next" href="#item-9"></a>
+                </div>
+
+                <div class="carousel-item item-9">
+                    <a class="arrow arrow-prev" href="#item-8"></a>
+                    <a class="arrow arrow-next" href="#item-10"></a>
+                </div>
+
+                <div class="carousel-item item-10">
+                    <a class="arrow arrow-prev" href="#item-9"></a>
+                    <a class="arrow arrow-next" href="#item-11"></a>
+                </div>
+
+                <div class="carousel-item item-11">
+                    <a class="arrow arrow-prev" href="#item-10"></a>
+                    <a class="arrow arrow-next" href="#item-1"></a>
+                </div>
             </div>
-            <div></div>
-            <footer style="margin-top: 37px;"><p>Twister OS &copy; 2021 Pi Labs | Join Us On  <a href="https://discord.gg/Fh8sjmu" target="_blank">Discord</a> OR <a href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat" target="_blank">Matrix</a></p></footer>
-            <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-            <script>
-              window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-              formbutton("create", {action: "https://formspree.io/f/mnqookvp"})
-            </script>
-        </main>
-    </body>
+
+        </div>
+        <div></div>
+
+        <div></div>
+        <div class="howpi">
+            <img class="center" style="margin-bottom: -25px;" src="./images/hdyp-new2.gif" width="800vw" />
+        </div>
+        <div></div>
+
+        <div></div>
+        <div class="advert">
+            <p>Twister OS for Raspberry Pi and other SBCs, and Twister UI for PC</p>
+            <p>Enjoy the same experience on all supported devices.</p>
+        </div>
+        <div></div>
+        <footer style="margin-top: 37px;">
+            <p>Twister OS &copy; 2021 Pi Labs | Join Us On <a href="https://discord.gg/Fh8sjmu"
+                    target="_blank">Discord</a> OR <a
+                    href="https://matrix.to/#/#TwisterOS:matrix.org?via=matrix.org&via=t2bot.io&via=nitro.chat"
+                    target="_blank">Matrix</a></p>
+        </footer>
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script src="./dropmic/dist/dropmic.min.js"></script>
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script src="./lang.js"></script>
+        <script>
+            window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+            formbutton("create", { action: "https://formspree.io/f/mnqookvp" })
+        </script>
+    </main>
+</body>
+
 </html>
