@@ -1,3 +1,14 @@
+Version 2.0.2 patch notes:
+- Installed supporting packages to suppress superficial error messages when running Raspberry Pi Configuration during Onboarding
+- Fixed VNC server support
+- Fixed support for connecting to SMB shares in Thunar
+- Updated Discord app
+- Updated Twister 10 theme icons
+- Added/updated Twister OS wallpaper
+
+Thanks to Botspot, Lightstrike, and phoenixbyrd for their wallpaper submissions
+
+
 Version 2.0.1 patch notes:
 - Transitioned to Twister OS Lite base image (full image only)
 - Removed Chromium Media Edition, added native Widevine support

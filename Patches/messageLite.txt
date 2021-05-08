@@ -1,3 +1,12 @@
+Version 2.0.2 patch notes:
+- Installed supporting packages to suppress superficial error messages when running Raspberry Pi Configuration during Onboarding
+- Fixed VNC server support
+- Fixed support for connecting to SMB shares in Thunar
+- Updated Twister 10 theme icons
+- Added/updated Twister OS wallpaper
+
+Thanks to Botspot, Lightstrike, and phoenixbyrd for their wallpaper submissions
+
 Version 2.0.1 patch notes:
 - Added context menu support in Thunar for mounting ISO files and extracting archives
 - Added Xfce screenshot utility
