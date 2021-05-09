@@ -1,3 +1,11 @@
+Version 2.0.2 patch notes:
+- Switched to Ubuntu repository version of LibreOffice to enable GTK support
+- Updated Discord app
+- Updated Twister 10 theme icons
+- Added/updated Twister OS wallpaper
+
+Thanks to Botspot, Lightstrike, and phoenixbyrd for their wallpaper submissions
+
 Version 2.0.1 patch notes:
 - Added a proper software store
 - Added Twister OS Armbian Patcher app
