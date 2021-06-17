@@ -1,3 +1,4 @@
+Twister OS version 2.0.2
 Twister OS version 2.0.1
 Twister OS version 2.0.0
 Twister OS version 1.9.9

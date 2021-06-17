@@ -1,3 +1,14 @@
+Version 2.0.3 patch notes:
+- Updated Discord app and icon
+- Updated Conky profile to show stats for 6 CPU cores
+- Improved audio quality of startup sounds
+- Added fix to address Box86/Steam GTK error
+- Added rice video plugin to Mupen64Plus
+- Added Twister OS wallpaper
+- Updated ThemeTwister to no longer require reboots when changing themes
+
+Thanks to dangeruss26 for his wallpaper contribution
+
 Version 2.0.2 patch notes:
 - Switched to Ubuntu repository version of LibreOffice to enable GTK support
 - Updated Discord app
