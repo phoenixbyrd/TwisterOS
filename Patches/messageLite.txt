@@ -1,3 +1,10 @@
+Version 2.1.0 patch notes:
+- Added Twister 11 themes
+- Moved Box86 and Wine shortcuts from "Games" to "System" application menu category
+- Updated Discord app (Full edition only)
+
+Thanks to phoenixbyrd for his work on the dock and ThemeTwister GUI apps
+
 Version 2.0.3 patch notes:
 - Updated Discord app and icon (Full edition only)
 - Added fix to address Box86/Steam GTK error (Full edition only)
