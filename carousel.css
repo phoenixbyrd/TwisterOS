@@ -91,23 +91,33 @@
     background:url('images/NewSlideShowImages/Twister10-Dark.png');
      background-size:cover;
   }
-  
+
   .item-8{
+    background:url('images/NewSlideShowImages/Twister11-slideshow.png');
+     background-size:cover;
+  }
+
+  .item-9{
+    background:url('images/NewSlideShowImages/Twister11-Dark-slideshow.png');
+     background-size:cover;
+  }
+  
+  .item-10{
     background:url('images/NewSlideShowImages/iTwister.png');
      background-size:cover;
   }
   
-  .item-9{
+  .item-11{
     background:url('images/NewSlideShowImages/iTwister-Dark.png');
      background-size:cover;
   }
 
-  .item-10{
+  .item-12{
     background:url('images/NewSlideShowImages/iTwisterSur.png');
      background-size:cover;
   }
 
-  .item-11{
+  .item-13{
     background:url('images/NewSlideShowImages/iTwisterSur-Dark.png');
      background-size:cover;
   }
@@ -144,7 +154,7 @@
       z-index: 7;
       opacity: 1;
     }
-        #item-8:target ~ .item-8, #item-9:target ~ .item-9 {
+      #item-8:target ~ .item-8, #item-9:target ~ .item-9 {
       z-index: 8;
       opacity: 1;
     }
@@ -159,7 +169,17 @@
       opacity: 1;
     }
   
-    #item-11:target ~ .item-11, #item-1:target ~ .item-1 {
+    #item-11:target ~ .item-11, #item-1:target ~ .item-12 {
+      z-index: 11;
+      opacity: 1;
+    }
+
+    #item-12:target ~ .item-12, #item-1:target ~ .item-13 {
+      z-index: 11;
+      opacity: 1;
+    }
+
+    #item-13:target ~ .item-13, #item-1:target ~ .item-1 {
       z-index: 11;
       opacity: 1;
     }
