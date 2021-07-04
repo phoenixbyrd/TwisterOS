@@ -169,18 +169,19 @@
       opacity: 1;
     }
   
-    #item-11:target ~ .item-11, #item-1:target ~ .item-12 {
+    #item-11:target ~ .item-11, #item-12:target ~ .item-12 {
       z-index: 11;
       opacity: 1;
     }
 
-    #item-12:target ~ .item-12, #item-1:target ~ .item-13 {
-      z-index: 11;
+    #item-12:target ~ .item-12, #item-13:target ~ .item-13 {
+      z-index: 12;
       opacity: 1;
     }
 
     #item-13:target ~ .item-13, #item-1:target ~ .item-1 {
-      z-index: 11;
+      z-index: 12;
       opacity: 1;
     }
+
 
