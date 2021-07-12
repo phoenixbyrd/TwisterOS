@@ -217,7 +217,7 @@ footer a:hover {
   
     .PatchLink {
       list-style: none;
-      display: inline-block;
+      display: inline;
       width: 100%;
       margin-left: 50px;
     }
@@ -226,7 +226,7 @@ footer a:hover {
       float: left;
       margin-left: 50px;
       margin-right: 125px;
-      margin-top: 10px;
+      margin-top: 20px;
     }
   
     .ChangelogLink {
@@ -236,6 +236,10 @@ footer a:hover {
     }
 
     .btn {
+      margin-top: -2px;
+    }
+
+    .up {
       margin-top: -2px;
     }
  
