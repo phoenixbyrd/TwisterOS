@@ -1,3 +1,12 @@
+Version 2.1.1 patch notes:
+- Added Twister 11 themes
+- Updated ThemeTwister
+- Moved Wine shortcuts from "Games" to "System" application menu category
+- Updated Discord app
+- Updated uninstallation script
+
+Thanks to phoenixbyrd for his work on the dock and ThemeTwister GUI apps
+
 Version 2.0.3 patch notes:
 - Updated Discord app and icon (32-bit version)
 - Improved audio quality of startup sounds
