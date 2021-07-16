@@ -1,0 +1,67 @@
+#This file was created with Wings 3D 2.1.7
+#See http://www.wings3d.com for details 
+#Criterion Renderware export v1.0.
+modelbegin 
+clumpbegin 
+#Object name Cube1_extract2
+clumpbegin 
+LightSampling Vertex 
+Vertex -0.204888 -0.098711 0.204038 
+Vertex -0.204888 0.101289 0.204038 
+Vertex -0.004888 -0.098711 0.204038 
+Vertex -0.004888 0.101289 0.204038 
+Vertex -0.144442 0.178062 0.092964 
+Vertex -0.064098 0.041789 -0.029407 
+Vertex 0.090182 0.164160 -0.064384 
+Vertex 0.009837 0.300432 0.057986 
+Surface 0.580000 0.150000 0.150000
+Color 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Opacity 1.0
+Texture Null
+Quad 2 5 8 4
+Quad 4 8 7 3
+Quad 3 7 6 1
+Quad 1 6 5 2
+Quad 2 4 3 1
+Quad 6 7 8 5
+clumpend 
+#Object name Cube1
+clumpbegin 
+LightSampling Vertex 
+Vertex -0.100000 -0.100000 -0.100000 
+Vertex -0.100000 -0.100000 0.100000 
+Vertex -0.100000 0.100000 -0.100000 
+Vertex -0.100000 0.100000 0.100000 
+Vertex 0.100000 -0.100000 -0.100000 
+Vertex 0.100000 -0.100000 0.100000 
+Vertex 0.100000 0.100000 -0.100000 
+Vertex 0.100000 0.100000 0.100000 
+Vertex 0.144622 0.144622 0.144622 
+Vertex 0.144622 0.144622 -0.144622 
+Vertex 0.144622 -0.144622 0.144622 
+Vertex 0.144622 -0.144622 -0.144622 
+Vertex 0.100000 0.144622 0.144622 
+Vertex 0.100000 0.144622 -0.144622 
+Vertex 0.100000 -0.144622 0.144622 
+Vertex 0.100000 -0.144622 -0.144622 
+Surface 0.580000 0.150000 0.150000
+Color 0.7898538076923077 0.8133333333333334 0.6940444444444445
+Opacity 1.0
+Texture Null
+Quad 8 16 15 7
+Quad 6 14 16 8
+Quad 5 13 14 6
+Quad 7 15 13 5
+Quad 9 11 12 10
+Quad 9 13 15 11
+Quad 12 16 14 10
+Quad 10 14 13 9
+Quad 11 15 16 12
+Quad 2 4 3 1
+Quad 3 7 5 1
+Quad 2 6 8 4
+Quad 1 5 6 2
+Quad 4 8 7 3
+clumpend 
+clumpend 
+modelend 
