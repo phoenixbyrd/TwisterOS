@@ -1,3 +1,10 @@
+Version 2.1.2 patch notes:
+- Numerous Twister 11 theme improvements
+- Updated all themes for compatibility with Linux Mint 20.2 & Xfce 4.16
+- Twister 7 theme improvements
+
+Note: If you have recently upgraded to Linux Mint 20.2, please run the "Restore Twister Theme Config" tool after patching to correct any theme inconsistencies.
+
 Version 2.1.1 patch notes:
 - Added Twister 11 themes
 - Updated ThemeTwister
