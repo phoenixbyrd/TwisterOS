@@ -1,3 +1,9 @@
+Version 2.1.2 patch notes:
+- Numerous Twister 11 theme improvements
+- Updated all themes to be Xfce 4.16-compatible
+- Updated Commander Pi to version 1.0 (Full edition image only)
+- Added xfce4-goodies  (Full edition image only)
+
 Version 2.1.0 patch notes:
 - Added Twister 11 themes
 - Moved Box86 and Wine shortcuts from "Games" to "System" application menu category
