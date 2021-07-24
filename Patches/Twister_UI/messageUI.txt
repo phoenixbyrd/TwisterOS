@@ -1,0 +1,94 @@
+Version 2.1.2 patch notes:
+- Numerous Twister 11 theme improvements
+- Updated all themes for compatibility with Linux Mint 20.2 & Xfce 4.16
+- Twister 7 theme improvements
+
+Note: If you have recently upgraded to Linux Mint 20.2, please run the "Restore Twister Theme Config" tool after patching to correct any theme inconsistencies.
+
+Version 2.1.1 patch notes:
+- Added Twister 11 themes
+- Updated ThemeTwister
+- Moved Wine shortcuts from "Games" to "System" application menu category
+- Updated Discord app
+- Updated uninstallation script
+
+Thanks to phoenixbyrd for his work on the dock and ThemeTwister GUI apps
+
+Version 2.0.3 patch notes:
+- Updated Discord app and icon (32-bit version)
+- Improved audio quality of startup sounds
+- Added Twister OS wallpaper
+- Updated ThemeTwister to no longer require reboots when changing themes
+- Updated uninstallation script
+
+Thanks to dangeruss26 for his wallpaper contribution
+
+Version 2.0.2 patch notes:
+- Updated Twister 10 theme icons
+- Added/updated Twister OS wallpaper
+- Updated Discord app (32-bit version)
+- Updated uninstallation script
+
+Version 2.0.1 patch notes:
+- Updated Twister UI Patcher
+- Added "Restore Twister UI Splash Screen" tool
+- Updated README
+
+Version 2.0.0 patch notes:
+- Added Twister OS Dark theme
+- Added iTwister Sur and iTwister Sur Dark themes
+- Updated Discord app
+- Added Flameshot screenshot app
+- Updated/improved Twister OS theme icons
+- Updated Twister 10 theme icons
+- Updated Twister 10 cursor theme
+- Added theme support for WhiskerMenu in Twister OS theme
+- Added Twister 10 theme wallpaper
+- Various additional theme improvements
+- Updated ThemeTwister app
+- Updated Spotlight app
+- Updated NotificationCenter app
+- Updated README
+
+Version 1.0.6 patch notes:
+
+- Made optimization improvements to ThemeTwister
+- Added support for yet more display types in ThemeTwister to correctly change wallpaper
+- Added support for additional display types in DynamicWallpaper
+- Fixed an issue where the Twister UI startup animation would sometimes not be immediately applied
+
+Version 1.0.5 patch notes:
+
+- Fixed a display resolution issue affecting some older displays
+- Updated DynamicWallpaper to be fully Twister UI-compatible
+- Added PhotoGIMP to dock in iRaspbian themes
+- Added Discord Web App (32-bit version)
+- Added Steam (32-bit version)
+- Updated app menu icon for iRaspbian themes (32-bit version)
+- Fixed PhotoGIMP shortcut issue (32-bit version)
+- Updated uninstallation script
+- Updated README
+
+Thanks to @Jack47 for his work on updating DynamicWallpaper and @kreal for his 32-bit Steam fix
+
+Version 1.0.4 patch notes:
+
+- Added support for yet more display types in ThemeTwister to correctly change wallpaper
+- Added MPV Media Player
+- Added Twister UI Patcher
+- Added uninstall script
+- Updated README
+
+Thanks to FlameKat53 for his work on the Twister UI Patcher
+
+Version 1.0.3 patch notes:
+
+- Moved Twister UI wallpaper to more standard location
+- Fixed an issue where login sound would not play correctly on certain hardware
+- Updated calculator icon for Raspbian X/Nighthawk themes
+- Added support for additional display types in ThemeTwister to correctly change wallpaper
+
+Version 1.0.2 patch notes:
+
+- Fixed an issue where the Calendar and Contacts apps would not launch from Plank
+- Removed non-functional Dynamic Wallpaper shortcut
