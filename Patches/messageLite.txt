@@ -1,0 +1,41 @@
+Version 2.1.2 patch notes:
+- Numerous Twister 11 theme improvements
+- Updated all themes to be Xfce 4.16-compatible
+- Updated Commander Pi to version 1.0 (Full edition image only)
+- Added xfce4-goodies  (Full edition image only)
+
+Version 2.1.0 patch notes:
+- Added Twister 11 themes
+- Moved Box86 and Wine shortcuts from "Games" to "System" application menu category
+- Updated Discord app (Full edition only)
+
+Thanks to phoenixbyrd for his work on the dock and ThemeTwister GUI apps
+
+Version 2.0.3 patch notes:
+- Updated Discord app and icon (Full edition only)
+- Added fix to address Box86/Steam GTK error (Full edition only)
+- Added Twister OS wallpaper
+- Updated ThemeTwister to no longer require reboots when changing themes
+
+Thanks to dangeruss26 for his wallpaper contribution
+
+Version 2.0.2 patch notes:
+- Installed supporting packages to suppress superficial error messages when running Raspberry Pi Configuration during Onboarding
+- Fixed VNC server support
+- Fixed support for connecting to SMB shares in Thunar
+- Updated Twister 10 theme icons
+- Added/updated Twister OS wallpaper
+
+Thanks to Botspot, Lightstrike, and phoenixbyrd for their wallpaper submissions
+
+Version 2.0.1 patch notes:
+- Added context menu support in Thunar for mounting ISO files and extracting archives
+- Added Xfce screenshot utility
+- Removed mandatory keyring in Chromium
+- Fixed an issue where some apps would not utilize the global menu
+- Added Twister OS Lite Patcher
+- Updated Twister 95 & Twister XP login and splash screens
+- Updated Twister 10 theme icons
+- Updated README
+
+Note: After applying this update, the next time you open Chromium you will be prompted for a keyring password. If you leave this blank, the password prompt will no longer appear.
