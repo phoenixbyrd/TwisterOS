@@ -35,6 +35,21 @@
 
                             <h3>Will This Run On My Pi 3B+</h3>
                                 <p>While Twister OS will install on the 3B+ it is not recomended. Twister OS was designed and built around the Pi4 and you may experience issues installing on the 3B+.</p>
+
+				<p>If you are attempting to use Twister OS on a Raspberry Pi 3B/3B+, and are taken directly to the terminal at boot, type sudo nano /boot/config.txt, and modify the last two sections of the file to exactly match the following (note the use of "#" symbols):</p>
+
+				<ol style="list-style: none; line-height: 2em;">
+				<li>[pi4]</li>
+				<li># Enable DRM VC4 V3D driver on top of the dispmanx display stack</li>
+				<li>#dtoverlay=vc4-fkms-v3d</li>
+				<li>#max_framebuffers=2</li><br>
+
+				<li>[all]</li>
+				<li>dtoverlay=vc4-fkms-v3d</li>
+				<li>gpu_mem=128</li><br>
+				</ol>
+
+				<p>Once finished, save the file (Ctrl + O), and then exit nano (Ctrl + X). Then type sudo reboot at the terminal prompt and press Enter. Once your Raspberry Pi 3B/3B+ reboots, Twister OS should start normally.</p>
                             
                             <h3>Is Twister OS a 64-bit OS?</h3>
                                 <p>Twister OS is a 32-bit OS.</p>
