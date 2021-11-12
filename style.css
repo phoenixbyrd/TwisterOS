@@ -216,6 +216,14 @@ footer a:hover {
             margin-right: 50px;
             margin-top: -100px;
         }
+
+        .PatchLinks li {
+            float: left;
+            margin-left: 50px;
+            margin-right: 125px;
+            margin-top: 10px;
+        }
+
     }
 
     @media only screen and (max-width: 1679px) {
@@ -224,15 +232,25 @@ footer a:hover {
             margin-bottom: 50px;
         }
         
-        .current-links {
+        .current-links.ui-downloads-page  {
             display: flex;
             justify-content: center;
         }
 
-        ul.PatchLink {
-            margin: 0 auto;
+
+        .PatchLinks {
+            text-align: center;
+        }
+
+        .PatchLinks ul {
+            display: inline-block;
             margin-bottom: 50px;
         }
+
+        .PatchLinks li {
+            float: left;
+        }
+
 
     }
 
@@ -242,10 +260,18 @@ footer a:hover {
         }
     }
 
+    @media only screen and (max-width: 1000px) {
+
+        .current-release {
+            margin: 0 auto;
+        }
     
+    }
+
+
     @media only screen and (max-width: 600px) {
 
-        .current-links {
+        .current-links.ui-downloads-page {
             display: block;
             margin: 0 auto;
          }
@@ -254,28 +280,44 @@ footer a:hover {
             margin-bottom: 50px
         }
 
-        ul.PatchLink {
+        .PatchLinks ul {
             margin-right: 25%;
         }
 
         button, span.current-link-items {
-            margin-right: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            display: block;
         }
 
     }
 
+
+    @media only screen and (max-width: 450px) {
+        .PatchLinks ul {
+            margin-left: -10%;
+        }
+    }
+
+    @media only screen and (max-width: 450px) {
+        .PatchLinks ul {
+            margin-left: -20%;
+        }
+    }
+
+    .current-links-wrapper {
+        text-align: center;
+    }
+
+    .PatchLinks {
+        text-align: center;
+        display: grid;
+    }
+
     .PatchLink {
       list-style: none;
-      display: inline-block;
       width: 100%;
-      margin-left: 50px;
-    }
-    
-    .PatchLink li {
-      float: left;
-      margin-left: 50px;
-      margin-right: 125px;
-      margin-top: 10px;
     }
   
     .ChangelogLink {
