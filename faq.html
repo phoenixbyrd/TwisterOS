@@ -73,7 +73,7 @@
                                 <p>You can try installing this updated XFWM4 package updating from 4.12 to 4.16. This seems to help with screen tearing in videos, but some issues might still remain.</p> <a href="https://twisteros.com/xfwm4_4.16.99-1_armhf.deb">Download Here</a>
 
                             <h3>Where is Play on Linux?</h3>
-                                <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall with sudo apt install playonlinux && sudo apt remove wine You need to remove wine because playonlinux will install the arm version which will conflict with x86 version of wine.</p>
+                                <p>playonlinux was removed due to too many complaints that not a lot was working with it. You can reinstall with <span class="code">sudo apt install playonlinux && sudo apt remove wine</span> You need to remove wine because playonlinux will install the arm version which will conflict with x86 version of wine.</p>
                             
                             <h3>Where can I download wine?</h3>
                                 <p>Download Wine <a class="here" href="https://twisteros.com/wine.tgz">HERE</a></p>
@@ -91,17 +91,17 @@
                                 <p>Click +Add</p>
                                 <p>Under name type Conky</p>
                                 <p>Under description type conky</p>
-                                <p>Under command add: conky -q -d -p 3</p>
+                                <p>Under command add: <span class="code">conky -q -d -p 3</span></p>
                                 <p>Save and reboot, conky should start at boot.</p>
 
                             <h3>Bluetooth audio is not working!</h3>
                                 <p>enter the following commands in sequence in terminal:</p>
-                                <p>sudo apt update</p>
-                                <p>sudo apt full-upgrade</p>
+                                <p><span class="code">sudo apt update</span></p>
+                                <p><span class="code">sudo apt full-upgrade</span></p>
                                 <p>(Answer "y" to all prompts)</p>
-                                <p>sudo apt purge bluealsa</p>
-                                <p>sudo apt autoremove</p>
-                                <p>sudo reboot</p>
+                                <p><span class="code">sudo apt purge bluealsa</span></p>
+                                <p><span class="code">sudo apt autoremove</span></p>
+                                <p><span class="code">sudo reboot</span></p>
 
                             <h3>How do I reset my theme?</h3>
                                 <p>Open terminal and enter</p> <span class="code">/usr/share/ThemeSwitcher/Backup/./restore-original-config.sh</span>
