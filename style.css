@@ -77,6 +77,7 @@ button {
     font-weight: bold;
     color: #2D2C8A;
     margin-right: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
   }
@@ -208,13 +209,61 @@ footer a:hover {
     width: 25%;
     margin-left: 75px;
   }
-  
-  .current-links {
-    float: right;
-    margin-right: 50px;
-    margin-top: -100px;
-  }
-  
+    
+    @media only screen and (min-width: 1680px) {
+        .current-links {
+            float: right;
+            margin-right: 50px;
+            margin-top: -100px;
+        }
+    }
+
+    @media only screen and (max-width: 1679px) {
+
+        .current-release {
+            margin-bottom: 50px;
+        }
+        
+        .current-links {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul.PatchLink {
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+    }
+
+    @media only screen and (min-width: 1550px) {
+        .PatchLinks {
+            margin-left: 75px;
+        }
+    }
+
+    
+    @media only screen and (max-width: 600px) {
+
+        .current-links {
+            display: block;
+            margin: 0 auto;
+         }
+
+        .PatchLinks {
+            margin-bottom: 50px
+        }
+
+        ul.PatchLink {
+            margin-right: 25%;
+        }
+
+        button, span.current-link-items {
+            margin-right: 0px;
+        }
+
+    }
+
     .PatchLink {
       list-style: none;
       display: inline-block;
@@ -294,6 +343,14 @@ footer a:hover {
 .installui a:hover {
     opacity: 0.8;
 }
+
+
+.current-link-items {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 /** About Page **/
 
