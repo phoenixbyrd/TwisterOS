@@ -1,26 +1,27 @@
+
 {
     "os_list": [
         {
-            "name": "TwisterOS v2.0.2 (RPi 4/400)",
+            "name": "TwisterOS v2.1.2 (RPi 4/400)",
             "description": "32-bit desktop OS with a 11 Twister OS themes, box86, Wine, games and a lot more pre-installed",
-            "url": "https://archive.org/download/twister-osv-2-0-2.img/TwisterOSv2-0-2.img.xz",
+            "url": "https://archive.org/download/twister-osv-2-1-2.img/TwisterOSv2-1-2.img.xz",
             "icon": "https://github.com/Jai-JAP/TwisteRPi-Imager/raw/main/TwisterOS.png",
-            "extract_size": 8995770880,
-            "extract_sha256": "b913f1e021274674e21d012f8a7f0c65222688e9d154c6b1442d697b99aa27ff",
-            "image_download_size": 2974132336,
-            "image_download_sha256": "070e31e9cf60ac3d1d36177a1f3be40e4b1ad796e5e28e461a48c7a0d93878e7",
-            "release_date": "2021-05-21"
+            "extract_size": 8848232960,
+            "extract_sha256": "548d3f10a46f0ac4d5a63540d08a1824db062c71b7bd0b2d3e352930b273379c",
+            "image_download_size": 2733727568,
+            "image_download_sha256": "be1102d877b7437f7c62af3bd36b17e9213ffeb13abbb9bbe5b2c97fb0e60697",
+            "release_date": "2021-06-24"
         },
         {
             "name": "TwisterOS Lite v2.0.2 (RPi 4/400)",
             "description": "32-bit minimal desktop OS with 11 Twister OS themes, box86 and Wine pre-installed",
-            "url": "https://github.com/mobilegmYT/TwisterOS/releases/download/v2.0.2/TwisterOSLiteV2-0-2.img.xz",
+            "url": "https://github.com/mobilegmYT/TwisterOS/releases/download/v2.1.2/TwisterOSLiteV2-1-2.img.xz",
             "icon": "https://github.com/Jai-JAP/TwisteRPi-Imager/raw/main/TwisterOS.png",
-            "extract_size": 5029396992,
-            "extract_sha256": "fd0f035f1ae0633c417ee5bb3ea3cceebf9251fb22b6588524593ee9076e0af7",
-            "image_download_size": 1218555576,
-            "image_download_sha256": "2169a09b37df654319358b9f48a32142416501d6f4ff8c962ff1970a107050ee",
-            "release_date": "2021-05-21"
+            "extract_size": 5137191424,
+            "extract_sha256": "f01e27ce2a392a64cf449fb79e88282d6616d627aeabbb59f163871c997f9392",
+            "image_download_size": 1282517120,
+            "image_download_sha256": "725d1a260895e66d065b8812cfbbd8294069900ac1c6b2b970d46d9c93406185",
+            "release_date": "2021-06-24"
         }
     ]
 }
